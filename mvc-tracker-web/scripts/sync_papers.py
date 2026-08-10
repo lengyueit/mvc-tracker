@@ -69,9 +69,20 @@ def request_text(url: str, timeout: int = 25) -> str:
         return resp.read().decode("utf-8", errors="replace")
 
 
-def slug(text: str) -> str:
+def slug(text: str, max_len: int = 72) -> str:
     text = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
-    return text[:96] or hashlib.sha1(text.encode("utf-8")).hexdigest()[:12]
+    return text[:max_len].strip("-") or "paper"
+
+
+def stable_id(record: dict[str, Any]) -> str:
+    """Build a compact ID that remains unique when long titles share a prefix."""
+    title = record.get("title", "").strip()
+    year = record.get("year") or "paper"
+    fingerprint = paper_key(record)
+    if fingerprint == "title:":
+        fingerprint = norm_title(title)
+    digest = hashlib.sha1(fingerprint.encode("utf-8")).hexdigest()[:10]
+    return f"{year}-{slug(title)}-{digest}"
 
 
 def norm_title(title: str) -> str:
@@ -288,7 +299,7 @@ def choose_team(record: dict[str, Any], groups: list[dict[str, Any]]) -> str:
 
 def complete_record(record: dict[str, Any], groups: list[dict[str, Any]]) -> dict[str, Any]:
     title = record.get("title", "").strip()
-    record["id"] = record.get("id") or f"{record.get('year') or 'paper'}-{slug(title)}"
+    record["id"] = record.get("id") or stable_id(record)
     record["team"] = record.get("team") or choose_team(record, groups)
     record["topic"] = record.get("topic") or infer_topics(title, record.get("abstract", ""))
     record["first_seen"] = record.get("first_seen") or TODAY
@@ -296,6 +307,21 @@ def complete_record(record: dict[str, Any], groups: list[dict[str, Any]]) -> dic
     record["status"] = record.get("status") or "new"
     record["relevance_score"] = record.get("relevance_score") or score_record(record)
     return record
+
+
+def ensure_unique_ids(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    seen: dict[str, int] = {}
+    for record in records:
+        record_id = record.get("id") or stable_id(record)
+        if record_id in seen:
+            record_id = stable_id(record)
+        if record_id in seen:
+            seen[record_id] += 1
+            record_id = f"{record_id}-{seen[record_id]}"
+        else:
+            seen[record_id] = 1
+        record["id"] = record_id
+    return records
 
 
 def merge_records(existing: list[dict[str, Any]], incoming: list[dict[str, Any]], groups: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], int]:
@@ -315,7 +341,7 @@ def merge_records(existing: list[dict[str, Any]], incoming: list[dict[str, Any]]
         else:
             by_key[key] = item
             added += 1
-    result = list(by_key.values())
+    result = ensure_unique_ids(list(by_key.values()))
     result.sort(key=lambda p: (p.get("year") or 0, p.get("first_seen") or ""), reverse=True)
     return result, added
 
