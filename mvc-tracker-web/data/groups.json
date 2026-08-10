@@ -1,0 +1,121 @@
+[
+  {
+    "id": "liu-xinwang",
+    "name": "Xinwang Liu Group",
+    "institution": "National University of Defense Technology",
+    "country": "China",
+    "homepage": "https://xinwangliu.github.io/",
+    "topics": ["MVC", "IMVC", "anchor graph", "multiple kernel clustering", "federated MVC", "continual MVC"],
+    "authors": [
+      {"name": "Xinwang Liu", "semantic_scholar_id": "", "openalex_id": ""}
+    ]
+  },
+  {
+    "id": "zhang-changqing",
+    "name": "Changqing Zhang Group",
+    "institution": "Tianjin University",
+    "country": "China",
+    "homepage": "https://faculty.tju.edu.cn/ZhangChangqing/en/index.htm",
+    "topics": ["multi-view learning", "subspace clustering", "trusted multi-view learning"],
+    "authors": [
+      {"name": "Changqing Zhang", "semantic_scholar_id": "", "openalex_id": ""}
+    ]
+  },
+  {
+    "id": "xlearning-lab",
+    "name": "XLearning Lab",
+    "institution": "Sichuan University",
+    "country": "China",
+    "homepage": "https://pengxi.me/publications/",
+    "topics": ["robust MVC", "contrastive MVC", "noisy correspondence", "incomplete MVC"],
+    "authors": [
+      {"name": "Xi Peng", "semantic_scholar_id": "", "openalex_id": ""},
+      {"name": "Peng Hu", "semantic_scholar_id": "", "openalex_id": ""},
+      {"name": "Dezhong Peng", "semantic_scholar_id": "", "openalex_id": ""}
+    ]
+  },
+  {
+    "id": "nwpu-nie",
+    "name": "Feiping Nie / NWPU Line",
+    "institution": "Northwestern Polytechnical University",
+    "country": "China",
+    "homepage": "https://pure.nwpu.edu.cn/",
+    "topics": ["graph learning", "anchor graph", "large-scale MVC", "multiple kernel clustering"],
+    "authors": [
+      {"name": "Feiping Nie", "semantic_scholar_id": "", "openalex_id": ""},
+      {"name": "Rong Wang", "semantic_scholar_id": "", "openalex_id": ""}
+    ]
+  },
+  {
+    "id": "xidian-gao-wang",
+    "name": "Xidian Multi-view Clustering Line",
+    "institution": "Xidian University",
+    "country": "China",
+    "homepage": "https://qianqian.world/pages/research.html",
+    "topics": ["partial MVC", "deep MVC", "large-scale MVC", "multi-view subspace clustering"],
+    "authors": [
+      {"name": "Quanxue Gao", "semantic_scholar_id": "", "openalex_id": ""},
+      {"name": "Qianqian Wang", "semantic_scholar_id": "", "openalex_id": ""}
+    ]
+  },
+  {
+    "id": "hit-shenzhen-wen",
+    "name": "Jie Wen / HIT-SZ Line",
+    "institution": "Harbin Institute of Technology, Shenzhen",
+    "country": "China",
+    "homepage": "",
+    "topics": ["incomplete MVC", "graph regularization", "cross-modal clustering"],
+    "authors": [
+      {"name": "Jie Wen", "semantic_scholar_id": "", "openalex_id": ""},
+      {"name": "Zheng Zhang", "semantic_scholar_id": "", "openalex_id": ""},
+      {"name": "Yong Xu", "semantic_scholar_id": "", "openalex_id": ""}
+    ]
+  },
+  {
+    "id": "uestc-zhu-ren",
+    "name": "Xiaofeng Zhu / Yazhou Ren Line",
+    "institution": "University of Electronic Science and Technology of China",
+    "country": "China",
+    "homepage": "",
+    "topics": ["contrastive MVC", "deep incomplete MVC", "imputation-free MVC"],
+    "authors": [
+      {"name": "Xiaofeng Zhu", "semantic_scholar_id": "", "openalex_id": ""},
+      {"name": "Yazhou Ren", "semantic_scholar_id": "", "openalex_id": ""},
+      {"name": "Jie Xu", "semantic_scholar_id": "", "openalex_id": ""}
+    ]
+  },
+  {
+    "id": "yong-liu-safe",
+    "name": "Yong Liu Safe MVC Line",
+    "institution": "Renmin University of China / Zhejiang University",
+    "country": "China",
+    "homepage": "",
+    "topics": ["safe MVC", "safe IMVC", "view completion"],
+    "authors": [
+      {"name": "Yong Liu", "semantic_scholar_id": "", "openalex_id": ""},
+      {"name": "Huayi Tang", "semantic_scholar_id": "", "openalex_id": ""}
+    ]
+  },
+  {
+    "id": "songcan-chen",
+    "name": "Songcan Chen Group",
+    "institution": "Nanjing University of Aeronautics and Astronautics",
+    "country": "China",
+    "homepage": "",
+    "topics": ["consensus MVC", "complementarity", "federated MVC", "one-pass IMVC"],
+    "authors": [
+      {"name": "Songcan Chen", "semantic_scholar_id": "", "openalex_id": ""}
+    ]
+  },
+  {
+    "id": "lusi-li",
+    "name": "Lusi Li Group",
+    "institution": "Old Dominion University",
+    "country": "United States",
+    "homepage": "https://sites.google.com/view/lusili/home",
+    "topics": ["deep IMVC", "multi-source learning", "energy-based MVC"],
+    "authors": [
+      {"name": "Lusi Li", "semantic_scholar_id": "", "openalex_id": ""}
+    ]
+  }
+]

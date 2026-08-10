@@ -1,0 +1,44 @@
+name: Daily MVC Tracker Sync
+
+on:
+  schedule:
+    - cron: "10 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: mvc-tracker-pages
+  cancel-in-progress: false
+
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Sync papers
+        working-directory: mvc-tracker-web
+        run: python scripts/sync_papers.py --limit 6
+      - name: Validate data
+        working-directory: mvc-tracker-web
+        run: python scripts/validate_data.py
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update MVC tracker data"
+          file_pattern: "mvc-tracker-web/data/*.json"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: mvc-tracker-web
+      - id: deployment
+        uses: actions/deploy-pages@v4
