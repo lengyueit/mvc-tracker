@@ -361,7 +361,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-10",
+    "last_checked": "2026-08-11",
     "status": "new",
     "relevance_score": 72
   },
@@ -420,7 +420,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-10",
+    "last_checked": "2026-08-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -450,7 +450,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-10",
+    "last_checked": "2026-08-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -478,11 +478,107 @@
     "team": "unknown",
     "topic": [
       "anchor graph",
+      "deep MVC",
+      "robust MVC"
+    ],
+    "first_seen": "2026-08-10",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "ROLL: Robust Noisy Pseudo-label Learning for Multi-View Clustering with Noisy Correspondence",
+    "authors": [
+      "Yuan Sun",
+      "Yongxiang Li",
+      "Zhenwen Ren",
+      "Guiduo Duan",
+      "Dezhong Peng",
+      "Peng Hu"
+    ],
+    "year": 2025,
+    "venue": "Computer Vision and Pattern Recognition",
+    "doi": "10.1109/CVPR52734.2025.02862",
+    "arxiv_id": "",
+    "semantic_scholar_id": "4f52ae593f09755a4eaab032db15a087ee552d21",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/4f52ae593f09755a4eaab032db15a087ee552d21",
+    "code_url": "",
+    "abstract": "Multi-view clustering (MVC) aims to exploit complementary information from diverse views to enhance clustering performance. Since pseudo-labels can provide additional semantic information, many MVC methods have been proposed to guide unsupervised multi-view learning through pseudo-labels. These methods implicitly assume that the predicted pseudo-labels are predicted correctly. However, due to the challenges in training a flawless unsupervised model, this assumption can be easily violated, thereby leading to the Noisy Pseudo-label Problem (NPP). Moreover, these existing approaches typically rely on the assumption of perfect cross-view alignment. In practice, it is frequently compromised due to noise or sensor differences, thereby resulting in the Noisy Correspondence Problem (NCP). Based on the above observations, we reveal and study unsupervised multi-view learning under NPP and NCP. To this end, we propose Robust Noisy Pseudo-label Learning (ROLL) to prevent the overfitting problem caused by both NPP and NCP. Specifically, we first adopt traditional contrastive learning to warm up the model, thereby generating the pseudo-labels in a self-supervised manner. Afterward, we propose noise-tolerance pseudo-label learning to deal with the noise in the predicted pseudo-labels, thereby embracing the robustness against NPP. To further mitigate the overfitting problem, we present robust multi-view contrastive learning to mitigate the negative impact of NCP. Extensive experiments on five multi-view datasets demonstrate the superior clustering performance of our ROLL compared to 11 state-of-the-art methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-roll-robust-noisy-pseudo-label-learning-for-multi-view-clustering-with-n-85abc56bb3",
+    "team": "xlearning-lab",
+    "topic": [
+      "contrastive MVC",
+      "robust MVC"
+    ],
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Robust Multi-View Clustering via Graph-Oriented High-Order Correlations Learning",
+    "authors": [
+      "Wenzhe Liu",
+      "Jiongcheng Zhu",
+      "Huibing Wang",
+      "Yong Zhang"
+    ],
+    "year": 2025,
+    "venue": "IEEE Transactions on Network Science and Engineering",
+    "doi": "10.1109/TNSE.2024.3485646",
+    "arxiv_id": "",
+    "semantic_scholar_id": "93b4e238c59053615e48daa291915d83f8c4cbc0",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/93b4e238c59053615e48daa291915d83f8c4cbc0",
+    "code_url": "",
+    "abstract": "Multi-view clustering aims to partition data into corresponding clusters by leveraging features from various views to reveal the underlying structure of the data fully. However, existing multi-view clustering methods, particularly graph-based techniques, face two main issues: 1) They often construct similarity matrices directly from low-quality and inflexible graphs, resulting in inadequate fusion of multi-view information and impacting clustering performance; 2) Most methods focus only on consensus or pairwise associations between views, neglecting more complex higher-order correlations among multiple views, which limits improvements in clustering performance. To address these issues, we propose a novel multi-view clustering method called Robust Multi-View Clustering via Graph-Oriented High-Order Correlations Learning (GHCL). GHCL first learns latent embeddings for each view and stacks these embeddings into a third-order tensor. Then, Tucker decomposition and regularization constraints are applied to optimize the tensor and error terms, producing high-quality denoised graphs. Additionally, GHCL introduces an adaptive confidence mechanism that integrates the learned similarity matrix and consensus representation into a unified step, enhancing multi-view information fusion and clustering effectiveness. Extensive experiments demonstrate that GHCL significantly outperforms current state-of-the-art techniques on multiple datasets. It effectively integrates multi-view information and captures higher-order correlations between views, improving clustering accuracy and robustness in handling complex data, thereby showcasing its practical value in multi-view data analysis.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-robust-multi-view-clustering-via-graph-oriented-high-order-correlations-739b3b0877",
+    "team": "unknown",
+    "topic": [
       "robust MVC",
       "deep MVC"
     ],
-    "first_seen": "2026-08-10",
-    "last_checked": "2026-08-10",
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "M-band wavelet-based multi-view clustering of cells",
+    "authors": [
+      "Tong Liu",
+      "Zihuan Liu",
+      "Wenke Sun",
+      "Adeethyia Shankar",
+      "Yongzhong Zhao",
+      "Xiaodi Wang"
+    ],
+    "year": 2025,
+    "venue": "PLoS Comput. Biol.",
+    "doi": "10.1371/journal.pcbi.1013060",
+    "arxiv_id": "",
+    "semantic_scholar_id": "9444f7e83889945f58de725efeeaa31359c8320e",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/9444f7e83889945f58de725efeeaa31359c8320e",
+    "code_url": "",
+    "abstract": "Wavelet analysis has been recognized as a widely used and promising tool in the fields of signal processing and data analysis. However, the application of wavelet-based method in single-cell RNA sequencing (scRNA-seq) data is little known. Here, we present M-band wavelet-based scRNA-seq multi-view clustering of cells (WMC). We applied for integration of M-band wavelet analysis and uniform manifold approximation and projection (UMAP) to a panel of single cell sequencing datasets by breaking up the data matrix into an approximation or low resolution component and M–1 detail or high resolution components. Our method is armed with multi-view clustering of cell types, identity, and functional states, enabling missing cell types visualization and new cell types discovery. Distinct to standard scRNA-seq workflow, our wavelet-based approach is a new addition to uncover rare cell types with a fine resolution.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-m-band-wavelet-based-multi-view-clustering-of-cells-430e5aa175",
+    "team": "unknown",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -615,7 +711,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-10",
+    "last_checked": "2026-08-11",
     "status": "new",
     "relevance_score": 64
   },
@@ -1278,6 +1374,108 @@
     "relevance_score": 64
   },
   {
+    "title": "Partial Multi-View Clustering via Self-Supervised Network",
+    "authors": [
+      "Wei Feng",
+      "Guoshuai Sheng",
+      "Qianqian Wang",
+      "Quanxue Gao",
+      "Zhiqiang Tao",
+      "Bo Dong"
+    ],
+    "year": 2024,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/aaai.v38i11.29086",
+    "arxiv_id": "",
+    "semantic_scholar_id": "cc4e5b6ccfd3d3595f632c987be55eba3a119afd",
+    "openalex_id": "",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/29086/30054",
+    "code_url": "",
+    "abstract": "Partial multi-view clustering is a challenging and practical research problem for data analysis in real-world applications, due to the potential data missing issue in different views. However, most existing methods have not fully explored the correlation information among various incomplete views. In addition, these existing clustering methods always ignore discovering discriminative features inside the data itself in this unsupervised task. To tackle these challenges, we propose Partial Multi-View Clustering via Self-Supervised \\textbf{N}etwork (PVC-SSN) in this paper. \nSpecifically, we employ contrastive learning to obtain a more discriminative and consistent subspace representation, which is guided by a self-supervised module. Self-supervised learning can exploit effective cluster information through the data itself to guide the learning process of clustering tasks. Thus, it can pull together embedding features from the same cluster and push apart these from different clusters. Extensive experiments on several benchmark datasets show that the proposed PVC-SCN method outperforms several state-of-the-art clustering methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-partial-multi-view-clustering-via-self-supervised-network-883d9b82bf",
+    "team": "xidian-gao-wang",
+    "topic": [
+      "IMVC",
+      "contrastive MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
+    "title": "Robust Multi-View Clustering With Noisy Correspondence",
+    "authors": [
+      "Yuan Sun",
+      "Yang Qin",
+      "Yongxiang Li",
+      "Dezhong Peng",
+      "Xi Peng",
+      "Peng Hu"
+    ],
+    "year": 2024,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "doi": "10.1109/TKDE.2024.3423307",
+    "arxiv_id": "",
+    "semantic_scholar_id": "e1a016fceca441d0e95a4fde276de10b5f041044",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/e1a016fceca441d0e95a4fde276de10b5f041044",
+    "code_url": "",
+    "abstract": "Deep multi-view clustering leverages deep neural networks to achieve promising performance, but almost all existing methods implicitly assume that all views are aligned correctly. This assumption is unrealistic in many real-world scenarios, where noise, occlusion, or sensor differences can inevitably cause misaligned data. Based on this observation, we reveal and study a practical but understudied problem in multi-view clustering (MVC), i.e., noisy correspondence (NC). Considering this problem, we argue that the main challenge is to prevent the model from overfiting NC. To this end, we propose a novel Robust Multi-view Clustering with Noisy Correspondence (RMCNC) method, which alleviates the influence of the misaligned pairs from multi-view data. To be specific, we first compute a united probability with all positive pairs to learn cross-view alignment consistency, thereby alleviating the adverse impact of the individual false positives. To further mitigate the overfitting problem, we propose a noise-tolerance multi-view contrastive loss that avoids overemphasizing noisy data. Moreover, RMCNC is a unified framework, which can deal with both partially view-aligned and NC problems in multi-view clustering. To the best of our knowledge, it could be the first study on NC in multi-view clustering. The experimental results on eight benchmark datasets indicate our RMCNC achieves competitive performance and robustness.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-robust-multi-view-clustering-with-noisy-correspondence-4f9bcca819",
+    "team": "xlearning-lab",
+    "topic": [
+      "IMVC",
+      "contrastive MVC",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
+    "title": "Learning Common Semantics via Optimal Transport for Contrastive Multi-View Clustering",
+    "authors": [
+      "Qian Zhang",
+      "Lin Zhang",
+      "Ran Song",
+      "Runmin Cong",
+      "Yonghuai Liu",
+      "Wei Zhang"
+    ],
+    "year": 2024,
+    "venue": "IEEE Transactions on Image Processing",
+    "doi": "10.1109/TIP.2024.3436615",
+    "arxiv_id": "",
+    "semantic_scholar_id": "517ecffc5ec31e0102788c00ca2d2c642a5cab09",
+    "openalex_id": "",
+    "pdf_url": "https://research.edgehill.ac.uk/ws/files/93038512/TIP_MVC_Final.pdf",
+    "code_url": "",
+    "abstract": "Multi-view clustering aims to learn discriminative representations from multi-view data. Although existing methods show impressive performance by leveraging contrastive learning to tackle the representation gap between every two views, they share the common limitation of not performing semantic alignment from a global perspective, resulting in the undermining of semantic patterns in multi-view data. This paper presents CSOT, namely Common Semantics via Optimal Transport, to boost contrastive multi-view clustering via semantic learning in a common space that integrates all views. Through optimal transport, the samples in multiple views are mapped to the joint clusters which represent the multi-view semantic patterns in the common space. With the semantic assignment derived from the optimal transport plan, we design a semantic learning module where the soft assignment vector works as a global supervision to enforce the model to learn consistent semantics among all views. Moreover, we propose a semantic-aware re-weighting strategy to treat samples differently according to their semantic significance, which improves the effectiveness of cross-view contrastive representation learning. Extensive experimental results demonstrate that CSOT achieves the state-of-the-art clustering performance.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-learning-common-semantics-via-optimal-transport-for-contrastive-multi-vi-e252b2f823",
+    "team": "unknown",
+    "topic": [
+      "contrastive MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
     "id": "aaai-2024-divide",
     "title": "DIVIDE: Deep Incomplete Multi-view Clustering with Distribution Alignments",
     "authors": [
@@ -1468,6 +1666,39 @@
     "relevance_score": 51
   },
   {
+    "title": "Graph Contrastive Partial Multi-View Clustering",
+    "authors": [
+      "Yiming Wang",
+      "Dongxia Chang",
+      "Zhiqiang Fu",
+      "Jie Wen",
+      "Yao Zhao"
+    ],
+    "year": 2023,
+    "venue": "IEEE transactions on multimedia",
+    "doi": "10.1109/TMM.2022.3210376",
+    "arxiv_id": "",
+    "semantic_scholar_id": "b8e4a437c98160bc7846e843f998d53039e7649f",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/b8e4a437c98160bc7846e843f998d53039e7649f",
+    "code_url": "",
+    "abstract": "With the diversity of information acquisition, data is stored and transmitted in an increasing number of modalities. Nevertheless, it is not unusual for parts of the data to be lost in some views due to unavoidable acquisition, transmission or storage errors. In this paper, we propose an augmentation-free graph contrastive learning framework to solve the problem of partial multi-view clustering. Notably, we suppose that the representations of similar samples (i.e., belonging to the same cluster) should be similar. This is distinct from the general unsupervised contrastive learning that assumes an image and its augmentations share a similar representation. Specifically, relation graphs are constructed using the nearest neighbors to identify existing similar samples, then the constructed inter-instance relation graphs are transferred to the missing views to build graphs on the corresponding missing data. Subsequently, two main components, within-view graph contrastive learning and cross-view graph consistency learning, are devised to maximize the mutual information of different views within a cluster. The proposed approach elevates instance-level contrastive learning and missing data inference to the cluster-level, effectively mitigating the impact of individual missing data on clustering. Experiments on several challenging datasets demonstrate the superiority of our proposed methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2023-graph-contrastive-partial-multi-view-clustering-64b42861a6",
+    "team": "hit-shenzhen-wen",
+    "topic": [
+      "IMVC",
+      "contrastive MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
     "title": "Information Recovery-Driven Deep Incomplete Multiview Clustering Network",
     "authors": [
       "Chengliang Liu",
@@ -1596,6 +1827,40 @@
     "last_checked": "2026-08-10",
     "status": "new",
     "relevance_score": 59
+  },
+  {
+    "title": "Robust Multi-View Clustering With Incomplete Information",
+    "authors": [
+      "Mouxing Yang",
+      "Yunfan Li",
+      "Peng Hu",
+      "Jinfeng Bai",
+      "Jiancheng Lv",
+      "Xi Peng"
+    ],
+    "year": 2022,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "doi": "10.1109/TPAMI.2022.3155499",
+    "arxiv_id": "",
+    "semantic_scholar_id": "43e08ca5d63fb3517d33ae42373ddf8f35758cdf",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/43e08ca5d63fb3517d33ae42373ddf8f35758cdf",
+    "code_url": "",
+    "abstract": "The success of existing multi-view clustering methods heavily relies on the assumption of view consistency and instance completeness, referred to as the complete information. However, these two assumptions would be inevitably violated in data collection and transmission, thus leading to the so-called Partially View-unaligned Problem (PVP) and Partially Sample-missing Problem (PSP). To overcome such incomplete information challenges, we propose a novel method, termed robuSt mUlti-view clusteRing with incomplEte information (SURE), which solves PVP and PSP under a unified framework. In brief, SURE is a novel contrastive learning paradigm which uses the available pairs as positives and randomly chooses some cross-view samples as negatives. To reduce the influence of the false negatives caused by random sampling, SURE is with a noise-robust contrastive loss that theoretically and empirically mitigates or even eliminates the influence of the false negatives. To the best of our knowledge, this could be the first successful attempt that simultaneously handles PVP and PSP using a unified solution. In addition, this could be one of the first studies on the noisy correspondence problem (i.e., the false negatives) which is a novel paradigm of noisy labels. Extensive experiments demonstrate the effectiveness and efficiency of SURE comparing with 10 state-of-the-art approaches on the multi-view clustering task.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2022-robust-multi-view-clustering-with-incomplete-information-deea385562",
+    "team": "xlearning-lab",
+    "topic": [
+      "IMVC",
+      "contrastive MVC",
+      "robust MVC"
+    ],
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 51
   },
   {
     "id": "cvpr-2022-mflvc",
@@ -1778,11 +2043,44 @@
     "id": "2022-appendix-for-deep-safe-multi-view-clustering-reducing-the-risk-of-cluste-830250208e",
     "team": "yong-liu-safe",
     "topic": [
-      "safe MVC",
-      "deep MVC"
+      "deep MVC",
+      "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-10",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
+    "title": "One-pass Multi-view Clustering for Large-scale Data",
+    "authors": [
+      "Jiyuan Liu",
+      "Xinwang Liu",
+      "Yuexiang Yang",
+      "Li Liu",
+      "Siqi Wang",
+      "Weixuan Liang",
+      "Jiangyong Shi"
+    ],
+    "year": 2021,
+    "venue": "IEEE International Conference on Computer Vision",
+    "doi": "10.1109/ICCV48922.2021.01212",
+    "arxiv_id": "",
+    "semantic_scholar_id": "8808f594fe76835d80e7d473b820fc9ea8c791fb",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/8808f594fe76835d80e7d473b820fc9ea8c791fb",
+    "code_url": "",
+    "abstract": "Existing non-negative matrix factorization based multi-view clustering algorithms compute multiple coefficient matrices respect to different data views, and learn a common consensus concurrently. The final partition is always obtained from the consensus with classical clustering techniques, such as k-means. However, the non-negativity constraint prevents from obtaining a more discriminative embedding. Meanwhile, this two-step procedure fails to unify multi-view matrix factorization with partition generation closely, resulting in unpromising performance. Therefore, we propose an one-pass multi-view clustering algorithm by removing the non-negativity constraint and jointly optimize the aforementioned two steps. In this way, the generated partition can guide multi-view matrix factorization to produce more purposive coefficient matrix which, as a feedback, improves the quality of partition. To solve the resultant optimization problem, we design an alternate strategy which is guaranteed to be convergent theoretically. Moreover, the proposed algorithm is free of parameter and of linear complexity, making it practical in applications. In addition, the proposed algorithm is compared with recent advances in literature on benchmarks, demonstrating its effectiveness, superiority and efficiency.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2021-one-pass-multi-view-clustering-for-large-scale-data-42a9e8b96e",
+    "team": "liu-xinwang",
+    "topic": [
+      "safe MVC"
+    ],
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
     "status": "new",
     "relevance_score": 51
   },
@@ -1816,7 +2114,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-10",
+    "last_checked": "2026-08-11",
     "status": "new",
     "relevance_score": 59
   },
@@ -1954,6 +2252,38 @@
     "relevance_score": 51
   },
   {
+    "title": "Generative Partial Multi-View Clustering With Adaptive Fusion and Cycle Consistency",
+    "authors": [
+      "Qianqian Wang",
+      "Zhengming Ding",
+      "Zhiqiang Tao",
+      "Quanxue Gao",
+      "Y. Fu"
+    ],
+    "year": 2020,
+    "venue": "IEEE Transactions on Image Processing",
+    "doi": "10.1109/TIP.2020.3048626",
+    "arxiv_id": "2003.13088",
+    "semantic_scholar_id": "61de94a9d74e9dba4df19ab300f4ea5afb922eb9",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/61de94a9d74e9dba4df19ab300f4ea5afb922eb9",
+    "code_url": "",
+    "abstract": "Nowadays, with the rapid development of data collection sources and feature extraction methods, multi-view data are getting easy to obtain and have received increasing research attention in recent years, among which, multi-view clustering (MVC) forms a mainstream research direction and is widely used in data analysis. However, existing MVC methods mainly assume that each sample appears in all the views, without considering the incomplete view case due to data corruption, sensor failure, equipment malfunction, etc. In this study, we design and build a generative partial multi-view clustering model with adaptive fusion and cycle consistency, named as GP-MVC, to solve the incomplete multi-view problem by explicitly generating the data of missing views. The main idea of GP-MVC lies in two-fold. First, multi-view encoder networks are trained to learn common low-dimensional representations, followed by a clustering layer to capture the shared cluster structure across multiple views. Second, view-specific generative adversarial networks with multi-view cycle consistency are developed to generate the missing data of one view conditioning on the shared representation given by other views. These two steps could be promoted mutually, where the learned common representation facilitates data imputation and the generated data could further explores the view consistency. Moreover, an weighted adaptive fusion scheme is implemented to exploit the complementary information among different views. Experimental results on four benchmark datasets are provided to show the effectiveness of the proposed GP-MVC over the state-of-the-art methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2020-generative-partial-multi-view-clustering-with-adaptive-fusion-and-cycle-00a7fde2a1",
+    "team": "xidian-gao-wang",
+    "topic": [
+      "IMVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 67
+  },
+  {
     "title": "GMC: Graph-Based Multi-View Clustering",
     "authors": [
       "Hao Wang",
@@ -2048,6 +2378,134 @@
     "relevance_score": 67
   },
   {
+    "title": "Anchors Bring Ease: An Embarrassingly Simple Approach to Partial Multi-View Clustering",
+    "authors": [
+      "J. Guo",
+      "Jiahui Ye"
+    ],
+    "year": 2019,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/AAAI.V33I01.3301118",
+    "arxiv_id": "",
+    "semantic_scholar_id": "d2670f81818ceb20994397d38af716a3ca6d9567",
+    "openalex_id": "",
+    "pdf_url": "https://aaai.org/ojs/index.php/AAAI/article/download/3776/3654",
+    "code_url": "",
+    "abstract": "Clustering on multi-view data has attracted much more attention in the past decades. Most previous studies assume that each instance appears in all views, or there is at least one view containing all instances. However, real world data often suffers from missing some instances in each view, leading to the research problem of partial multi-view clustering. To address this issue, this paper proposes a simple yet effective Anchorbased Partial Multi-view Clustering (APMC) method, which utilizes anchors to reconstruct instance-to-instance relationships for clustering. APMC is conceptually simple and easy to implement in practice, besides it has clear intuitions and non-trivial empirical guarantees. Specifically, APMC firstly integrates intra- and inter- view similarities through anchors. Then, spectral clustering is performed on the fused similarities to obtain a unified clustering result. Compared with existing partial multi-view clustering methods, APMC has three notable advantages: 1) it can capture more non-linear relations among instances with the help of kernel-based similarities; 2) it has a much lower time complexity in virtue of a noniterative scheme; 3) it can inherently handle data with negative entries as well as be extended to more than two views. Finally, we extensively evaluate the proposed method on five benchmark datasets. Experimental results demonstrate the superiority of APMC over state-of-the-art approaches.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2019-anchors-bring-ease-an-embarrassingly-simple-approach-to-partial-multi-vi-7cffe4565b",
+    "team": "unknown",
+    "topic": [
+      "IMVC",
+      "anchor graph",
+      "safe MVC"
+    ],
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
+    "title": "COMIC: Multi-view Clustering Without Parameter Selection",
+    "authors": [
+      "Xi Peng",
+      "Zhenyu Huang",
+      "Jiancheng Lv",
+      "Hongyuan Zhu",
+      "Joey Tianyi Zhou"
+    ],
+    "year": 2019,
+    "venue": "International Conference on Machine Learning",
+    "doi": "",
+    "arxiv_id": "",
+    "semantic_scholar_id": "4298ae7e53707a3c8f64b7a0b20242cbdb1b3700",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/4298ae7e53707a3c8f64b7a0b20242cbdb1b3700",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2019-comic-multi-view-clustering-without-parameter-selection-e9838c5f02",
+    "team": "xlearning-lab",
+    "topic": [
+      "MVC"
+    ],
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
+    "title": "Unified Embedding Alignment with Missing Views Inferring for Incomplete Multi-View Clustering",
+    "authors": [
+      "Jie Wen",
+      "Zheng Zhang",
+      "Yong Xu",
+      "Bob Zhang",
+      "Lunke Fei",
+      "Hong Liu"
+    ],
+    "year": 2019,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/AAAI.V33I01.33015393",
+    "arxiv_id": "",
+    "semantic_scholar_id": "ef9af01d3d6ae51b0b59f26099dc8b7df9939484",
+    "openalex_id": "",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/4478/4356",
+    "code_url": "",
+    "abstract": "Multi-view clustering aims to partition data collected from diverse sources based on the assumption that all views are complete. However, such prior assumption is hardly satisfied in many real-world applications, resulting in the incomplete multi-view learning problem. The existing attempts on this problem still have the following limitations: 1) the underlying semantic information of the missing views is commonly ignored; 2) The local structure of data is not well explored; 3) The importance of different views is not effectively evaluated. To address these issues, this paper proposes a Unified Embedding Alignment Framework (UEAF) for robust incomplete multi-view clustering. In particular, a locality-preserved reconstruction term is introduced to infer the missing views such that all views can be naturally aligned. A consensus graph is adaptively learned and embedded via the reverse graph regularization to guarantee the common local structure of multiple views and in turn can further align the incomplete views and inferred views. Moreover, an adaptive weighting strategy is designed to capture the importance of different views. Extensive experimental results show that the proposed method can significantly improve the clustering performance in comparison with some state-of-the-art methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2019-unified-embedding-alignment-with-missing-views-inferring-for-incomplete-958319542c",
+    "team": "hit-shenzhen-wen",
+    "topic": [
+      "IMVC",
+      "safe MVC",
+      "robust MVC"
+    ],
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
+    "title": "Partial Multi-view Clustering via Consistent GAN",
+    "authors": [
+      "Qianqian Wang",
+      "Zhengming Ding",
+      "Zhiqiang Tao",
+      "Quanxue Gao",
+      "Y. Fu"
+    ],
+    "year": 2018,
+    "venue": "Industrial Conference on Data Mining",
+    "doi": "10.1109/ICDM.2018.00174",
+    "arxiv_id": "",
+    "semantic_scholar_id": "e8bcd5c42c816e5b2b1d795bf920da7181792cc9",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/e8bcd5c42c816e5b2b1d795bf920da7181792cc9",
+    "code_url": "",
+    "abstract": "Multi-view clustering, as one of the most important methods to analyze multi-view data, has been widely used in many real-world applications. Most existing multi-view clustering methods perform well on the assumption that each sample appears in all views. Nevertheless, in real-world application, each view may well face the problem of the missing data due to noise, or malfunction. In this paper, a new consistent generative adversarial network is proposed for partial multi-view clustering. We learn a common low-dimensional representation, which can both generate the missing view data and capture a better common structure from partial multi-view data for clustering. Different from the most existing methods, we use the common representation encoded by one view to generate the missing data of the corresponding view by generative adversarial networks, then we use the encoder and clustering networks. This is intuitive and meaningful because encoding common representation and generating the missing data in our model will promote mutually. Experimental results on three different multi-view databases illustrate the superiority of the proposed method.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2018-partial-multi-view-clustering-via-consistent-gan-f7da49687b",
+    "team": "xidian-gao-wang",
+    "topic": [
+      "IMVC",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
     "title": "Multi-View Clustering and Semi-Supervised Classification with Adaptive Neighbours",
     "authors": [
       "F. Nie",
@@ -2104,5 +2562,34 @@
     "last_checked": "2026-08-10",
     "status": "new",
     "relevance_score": 51
+  },
+  {
+    "title": "Partial Multi-View Clustering",
+    "authors": [
+      "Shaoyuan Li",
+      "Yuan Jiang",
+      "Zhi-Hua Zhou"
+    ],
+    "year": 2014,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/aaai.v28i1.8973",
+    "arxiv_id": "",
+    "semantic_scholar_id": "03174fdee0ce3ae01717df8808594d1d55b4fcbc",
+    "openalex_id": "",
+    "pdf_url": "https://doi.org/10.1609/aaai.v28i1.8973",
+    "code_url": "",
+    "abstract": "\n \n Real data are often with multiple modalities or comingfrom multiple channels, while multi-view clusteringprovides a natural formulation for generating clustersfrom such data. Previous studies assumed that each exampleappears in all views, or at least there is one viewcontaining all examples. In real tasks, however, it is oftenthe case that every view suffers from the missing ofsome data and therefore results in many partial examples,i.e., examples with some views missing. In this paper,we present possibly the first study on partial multiviewclustering. Our proposed approach, PVC, worksby establishing a latent subspace where the instancescorresponding to the same example in different viewsare close to each other, and similar instances (belongingto different examples) in the same view should bewell grouped. Experiments on two-view data demonstratethe advantages of our proposed approach.\n \n",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2014-partial-multi-view-clustering-8f2f22bf1f",
+    "team": "unknown",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-08-11",
+    "last_checked": "2026-08-11",
+    "status": "new",
+    "relevance_score": 59
   }
 ]
