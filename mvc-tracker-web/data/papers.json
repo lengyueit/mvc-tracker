@@ -56,7 +56,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 72
   },
@@ -86,7 +86,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -120,7 +120,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -155,7 +155,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -188,7 +188,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -221,7 +221,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -258,7 +258,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -292,7 +292,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -325,7 +325,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -361,7 +361,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 72
   },
@@ -450,7 +450,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -482,9 +482,41 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 56
+  },
+  {
+    "title": "Global Graph Propagation with Hierarchical Information Transfer for Incomplete Contrastive Multi-view Clustering",
+    "authors": [
+      "Guoqing Chao",
+      "Kaixin Xu",
+      "Xijiong Xie",
+      "Yongyong Chen"
+    ],
+    "year": 2025,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.48550/arXiv.2502.19291",
+    "arxiv_id": "2502.19291",
+    "semantic_scholar_id": "1604b4dcf4ed7c404581fcc33fcd5d991558ba9b",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/1604b4dcf4ed7c404581fcc33fcd5d991558ba9b",
+    "code_url": "",
+    "abstract": "Incomplete multi-view clustering has become one of the important research problems due to the extensive missing multi-view data in the real world. Although the existing methods have made great progress, there are still some problems: 1) most methods cannot effectively mine the information hidden in the missing data; 2) most methods typically divide representation learning and clustering into two separate stages, but this may affect the clustering performance as the clustering results directly depend on the learned representation. To address these problems, we propose a novel incomplete multi-view clustering method with hierarchical information transfer. Firstly, we design the view-specific Graph Convolutional Networks (GCN) to obtain the representation encoding the graph structure, which is then fused into the consensus representation. Secondly, considering that one layer of GCN transfers one-order neighbor node information, the global graph propagation with the consensus representation is proposed to handle the missing data and learn deep representation. Finally, we design a weight-sharing pseudo-classifier with contrastive learning to obtain an end-to-end framework that combines view-specific representation learning, global graph propagation with hierarchical information transfer, and contrastive clustering for joint optimization. Extensive experiments conducted on several commonly-used datasets demonstrate the effectiveness and superiority of our method in comparison with other state-of-the-art approaches.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-global-graph-propagation-with-hierarchical-information-transfer-for-inco-251979d4c8",
+    "team": "unknown",
+    "topic": [
+      "IMVC",
+      "contrastive MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-14",
+    "last_checked": "2026-08-14",
+    "status": "new",
+    "relevance_score": 72
   },
   {
     "title": "PGFormer: A Prototype-Graph Transformer for Incomplete Multiview Clustering",
@@ -584,7 +616,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-11",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -780,7 +812,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-11",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -809,7 +841,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -840,7 +872,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -871,7 +903,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -900,7 +932,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -932,7 +964,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -966,7 +998,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -999,7 +1031,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -1032,7 +1064,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -1069,7 +1101,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -1101,7 +1133,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 72
   },
@@ -1136,7 +1168,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -1171,7 +1203,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -1208,7 +1240,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -1245,7 +1277,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -1443,6 +1475,73 @@
     "relevance_score": 64
   },
   {
+    "title": "Graph Regularized and Feature Aware Matrix Factorization for Robust Incomplete Multi-View Clustering",
+    "authors": [
+      "Jie Wen",
+      "Gehui Xu",
+      "Zhanyan Tang",
+      "Wen Wang",
+      "Lunke Fei",
+      "Yong Xu"
+    ],
+    "year": 2024,
+    "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+    "doi": "10.1109/TCSVT.2023.3317877",
+    "arxiv_id": "",
+    "semantic_scholar_id": "bae517adefba09633c8fca5d34f72153c1043b12",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/bae517adefba09633c8fca5d34f72153c1043b12",
+    "code_url": "",
+    "abstract": "In recent years, many incomplete multi-view clustering methods have been proposed to address the challenging and new clustering task on incomplete multi-view data whose part of view representations are not fully collected for some samples. Although extensive experiments have validated the effectiveness of these methods for handling the incomplete learning issue, a common issue exists, i.e., these methods all ignore the discriminative/important difference of discriminative features and noisy features. In this paper, to address the above issue, a new incomplete multi-view clustering model, called Graph Regularized and fEature Aware maTrix Factorization (GreatF), is proposed. Different from the existing methods, we introduce an adaptive feature weighting constraint to the matrix factorization-based multi-view representation learning model. With this weighting constraint, the effect of the discriminative features can be enhanced while the negative effect caused by the redundant and noisy features can be eliminated for the model optimization; thus, the robustness of the model can be enhanced. In addition, in this work, we designed a new graph-embedded consensus representation learning term in which consensus representation learning and structure information preservation are integrated into a joint model with one term. In particular, this term provides a more concise approach to obtain the structured consensus representation from incomplete multi-view data. Experimental results on four well-known datasets demonstrate that GreatF performs better than the state-of-the-art incomplete multi-view clustering methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-graph-regularized-and-feature-aware-matrix-factorization-for-robust-inco-adaccf58e9",
+    "team": "hit-shenzhen-wen",
+    "topic": [
+      "IMVC",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-14",
+    "last_checked": "2026-08-14",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
+    "title": "Diffusion-based Missing-view Generation With the Application on Incomplete Multi-view Clustering",
+    "authors": [
+      "Jie Wen",
+      "Shijie Deng",
+      "Waikeung Wong",
+      "Guoqing Chao",
+      "Chao Huang",
+      "Lunke Fei",
+      "Yong Xu"
+    ],
+    "year": 2024,
+    "venue": "International Conference on Machine Learning",
+    "doi": "",
+    "arxiv_id": "",
+    "semantic_scholar_id": "27a1219b7f8d7316a3401ac600dd7ee6fa105280",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/27a1219b7f8d7316a3401ac600dd7ee6fa105280",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-diffusion-based-missing-view-generation-with-the-application-on-incomple-47a8301cfb",
+    "team": "hit-shenzhen-wen",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-08-14",
+    "last_checked": "2026-08-14",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
     "title": "How to Construct Corresponding Anchors for Incomplete Multiview Clustering",
     "authors": [
       "Shengju Yu",
@@ -1636,11 +1735,11 @@
     "topic": [
       "IMVC",
       "contrastive MVC",
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-11",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 51
   },
@@ -1736,7 +1835,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 51
   },
@@ -1765,7 +1864,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 67
   },
@@ -1799,7 +1898,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 59
   },
@@ -1866,6 +1965,39 @@
     "last_checked": "2026-08-12",
     "status": "new",
     "relevance_score": 51
+  },
+  {
+    "title": "Projective Incomplete Multi-View Clustering",
+    "authors": [
+      "Shijie Deng",
+      "Jie Wen",
+      "Chengliang Liu",
+      "Ke Yan",
+      "Gehui Xu",
+      "Yong Xu"
+    ],
+    "year": 2023,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "doi": "10.1109/TNNLS.2023.3242473",
+    "arxiv_id": "",
+    "semantic_scholar_id": "0a21d26cb2a41ed6ae2885e70dabb21cc073e6cb",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/0a21d26cb2a41ed6ae2885e70dabb21cc073e6cb",
+    "code_url": "",
+    "abstract": "Due to the rapid development of multimedia technology and sensor technology, multi-view clustering (MVC) has become a research hotspot in machine learning, data mining, and other fields and has been developed significantly in the past decades. Compared with single-view clustering, MVC improves clustering performance by exploiting complementary and consistent information among different views. Such methods are all based on the assumption of complete views, which means that all the views of all the samples exist. It limits the application of MVC, because there are always missing views in practical situations. In recent years, many methods have been proposed to solve the incomplete MVC (IMVC) problem and a kind of popular method is based on matrix factorization (MF). However, such methods generally cannot deal with new samples and do not take into account the imbalance of information between different views. To address these two issues, we propose a new IMVC method, in which a novel and simple graph regularized projective consensus representation learning model is formulated for incomplete multi-view data clustering task. Compared with the existing methods, our method not only can obtain a set of projections to handle new samples but also can explore information of multiple views in a balanced way by learning the consensus representation in a unified low-dimensional subspace. In addition, a graph constraint is imposed on the consensus representation to mine the structural information inside the data. Experimental results on four datasets show that our method successfully accomplishes the IMVC task and obtain the best clustering performance most of the time. Our implementation is available at https://github.com/Dshijie/PIMVC.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2023-projective-incomplete-multi-view-clustering-bb59a96217",
+    "team": "hit-shenzhen-wen",
+    "topic": [
+      "IMVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-14",
+    "last_checked": "2026-08-14",
+    "status": "new",
+    "relevance_score": 59
   },
   {
     "title": "Information Recovery-Driven Deep Incomplete Multiview Clustering Network",
@@ -1962,7 +2094,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 75
   },
@@ -1993,7 +2125,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 67
   },
@@ -2025,7 +2157,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 59
   },
@@ -2093,7 +2225,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-11",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 51
   },
@@ -2189,7 +2321,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 59
   },
@@ -2285,6 +2417,39 @@
     "last_checked": "2026-08-11",
     "status": "new",
     "relevance_score": 51
+  },
+  {
+    "title": "Unified Tensor Framework for Incomplete Multi-view Clustering and Missing-view Inferring",
+    "authors": [
+      "Jie Wen",
+      "Zheng Zhang",
+      "Zhao Zhang",
+      "Lei Zhu",
+      "Lunke Fei",
+      "Bob Zhang",
+      "Yong Xu"
+    ],
+    "year": 2021,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/aaai.v35i11.17231",
+    "arxiv_id": "",
+    "semantic_scholar_id": "4e40105fc2b8dba251ed8c6239436e6dd12c3f78",
+    "openalex_id": "",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/17231/17038",
+    "code_url": "",
+    "abstract": "In this paper, we propose a novel method, referred to as incomplete multi-view tensor spectral clustering with missing-view inferring (IMVTSC-MVI) to address the challenging multi-view clustering problem with missing views. Different from the existing methods which commonly focus on exploring the certain information of the available views while ignoring both of the hidden information of the missing views and the intra-view information of data, IMVTSC-MVI seeks to recover the missing views and explore the full information of such recovered views and available views for data clustering. In particular, IMVTSC-MVI incorporates the feature space based missing-view inferring and manifold space based similarity graph learning into a unified framework. In such a way, IMVTSC-MVI allows these two learning tasks to facilitate each other and can well explore the hidden information of the missing views. Moreover, IMVTSC-MVI introduces the low-rank tensor constraint to capture the high-order correlations of multiple views. Experimental results on several datasets demonstrate the effectiveness of IMVTSC-MVI for incomplete multi-view clustering.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2021-unified-tensor-framework-for-incomplete-multi-view-clustering-and-missin-d9681df610",
+    "team": "hit-shenzhen-wen",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-08-14",
+    "last_checked": "2026-08-14",
+    "status": "new",
+    "relevance_score": 59
   },
   {
     "title": "One-pass Multi-view Clustering for Large-scale Data",
@@ -2384,7 +2549,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 59
   },
@@ -2416,7 +2581,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 59
   },
@@ -2576,7 +2741,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 59
   },
@@ -2608,7 +2773,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 67
   },
@@ -2669,7 +2834,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-11",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 51
   },
@@ -2699,11 +2864,11 @@
     "team": "hit-shenzhen-wen",
     "topic": [
       "IMVC",
-      "safe MVC",
-      "robust MVC"
+      "robust MVC",
+      "safe MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-11",
+    "last_checked": "2026-08-14",
     "status": "new",
     "relevance_score": 59
   },
