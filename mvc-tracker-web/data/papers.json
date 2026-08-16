@@ -1,5 +1,39 @@
 [
   {
+    "title": "Deep Incomplete Multi-View Clustering via Hierarchical Imputation and Alignment",
+    "authors": [
+      "Yiming Du",
+      "Ziyu Wang",
+      "Jian Li",
+      "Rui Ning",
+      "Lusi Li"
+    ],
+    "year": 2026,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/aaai.v40i25.39235",
+    "arxiv_id": "2601.09051",
+    "semantic_scholar_id": "8d289f7edbdd2fdd819dbacab0cf0383aebeb26a",
+    "openalex_id": "",
+    "pdf_url": "https://doi.org/10.1609/aaai.v40i25.39235",
+    "code_url": "",
+    "abstract": "Incomplete multi-view clustering (IMVC) aims to discover shared cluster structures from multi-view data with partial observations. The core challenges lie in accurately imputing missing views without introducing bias, while maintaining semantic consistency across views and compactness within clusters. To address these challenges, we propose DIMVC-HIA, a novel deep IMVC framework that integrates hierarchical imputation and alignment with four key components: (1) view-specific autoencoders for latent feature extraction, coupled with a view-shared clustering predictor to produce soft cluster assignments; (2) a hierarchical imputation module that first estimates missing cluster assignments based on cross-view contrastive similarity, and then reconstructs missing features using intra-view, intra-cluster statistics; (3) an energy-based semantic alignment module, which promotes intra-cluster compactness by minimizing energy variance around low-energy cluster anchors; and (4) a contrastive assignment alignment module, which enhances cross-view consistency and encourages confident, well-separated cluster predictions. Experiments on benchmarks demonstrate that our framework achieves superior performance under varying levels of missingness.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2026-deep-incomplete-multi-view-clustering-via-hierarchical-imputation-and-al-34935f50c9",
+    "team": "lusi-li",
+    "topic": [
+      "IMVC",
+      "contrastive MVC",
+      "anchor graph",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-16",
+    "last_checked": "2026-08-16",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
     "id": "mvc-former-context",
     "title": "MVC Tracker seed entry: add daily synchronized papers here",
     "authors": [],
@@ -56,7 +90,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 72
   },
@@ -86,7 +120,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -120,7 +154,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -155,7 +189,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -188,7 +222,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -221,7 +255,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -258,7 +292,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -292,7 +326,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -325,7 +359,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -361,7 +395,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 72
   },
@@ -450,7 +484,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -482,9 +516,42 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 56
+  },
+  {
+    "title": "Energy-based Deep Incomplete Multi-View Clustering",
+    "authors": [
+      "Ziyu Wang",
+      "Yiming Du",
+      "Rui Ning",
+      "Lusi Li"
+    ],
+    "year": 2025,
+    "venue": "ACM Multimedia",
+    "doi": "10.1145/3746027.3755365",
+    "arxiv_id": "",
+    "semantic_scholar_id": "daec095ffbb33f79447dd741249b29c19c76341d",
+    "openalex_id": "",
+    "pdf_url": "https://doi.org/10.1145/3746027.3755365",
+    "code_url": "",
+    "abstract": "Incomplete multi-view clustering (IMVC) deals with real-world scenarios where certain views are partially missing, posing significant challenges to effective clustering. Most existing IMVC approaches face a trade-off: imputation-free methods suffer from information bias and imbalance, while full-imputation methods risk introducing and propagating noise. To overcome these limitations, we propose Energy-Based Deep Incomplete Multi-View Clustering (Energy-DIMC), a novel selective-imputation framework that leverages energy-based models (EBMs) to guide reliable imputations and robust clustering. EBMs assess data compatibility by assigning lower energy to more coherent structures, effectively modeling complex inter-view and inter-sample dependencies. Inspired by EBMs, Energy-DIMC integrates four key components: 1) a view feature projector that learns view-specific features and projects them into a common feature space; 2) an energy-guided selective imputation module that identifies the most reliable source view for each view based on view energies, and performs feature imputation only when cross-view transfer is feasible, avoiding unreliable imputations; 3) an energy-based representation fusion module that aggregates observed and selectively imputed features across views via a view attention mechanism, generating view-coherent representations; 4) an energy-enhanced contrastive alignment module that enforces consistency between view-specific and view-coherent representations using dual-level energy signals to preserve true positives. Extensive experiments demonstrate that Energy-DIMC outperforms state-of-the-art IMVC methods across diverse missing-view scenarios. The code is available at https://github.com/sunway677/EnergyIMVC.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-energy-based-deep-incomplete-multi-view-clustering-506c5c0a57",
+    "team": "lusi-li",
+    "topic": [
+      "IMVC",
+      "contrastive MVC",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-16",
+    "last_checked": "2026-08-16",
+    "status": "new",
+    "relevance_score": 64
   },
   {
     "title": "Global Graph Propagation with Hierarchical Information Transfer for Incomplete Contrastive Multi-view Clustering",
@@ -841,7 +908,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -872,7 +939,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -903,7 +970,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -932,7 +999,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -964,7 +1031,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -998,7 +1065,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -1031,7 +1098,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -1064,7 +1131,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -1101,7 +1168,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -1133,7 +1200,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 72
   },
@@ -1168,7 +1235,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -1203,7 +1270,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -1240,7 +1307,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -1277,7 +1344,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -1473,6 +1540,39 @@
     "last_checked": "2026-08-10",
     "status": "new",
     "relevance_score": 64
+  },
+  {
+    "title": "Deep Incomplete Multi-view Clustering via Multi-level Imputation and Contrastive Alignment",
+    "authors": [
+      "Ziyu Wang",
+      "Yiming Du",
+      "Yao Wang",
+      "Rui Ning",
+      "Lusi Li"
+    ],
+    "year": 2024,
+    "venue": "Neural Networks",
+    "doi": "10.1016/j.neunet.2024.106851",
+    "arxiv_id": "",
+    "semantic_scholar_id": "a59ac8a9c7cceba6e8987b0730d769b8bdab370d",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/a59ac8a9c7cceba6e8987b0730d769b8bdab370d",
+    "code_url": "",
+    "abstract": "Deep incomplete multi-view clustering (DIMVC) aims to enhance clustering performance by capturing consistent information from incomplete multiple views using deep models. Most existing DIMVC methods typically employ imputation-based strategies to handle missing views before clustering. However, they often assume complete data availability across all views, overlook potential low-quality views, and perform imputation at a single data level, leading to challenges in accurately inferring missing data. To address these issues, we propose a novel imputation-based approach called Multi-level Imputation and Contrastive Alignment (MICA) to simultaneously improve imputation quality and boost clustering performance. Specifically, MICA employs an individual deep model for each view, which unifies view feature learning and cluster assignment prediction. It leverages the learned features from available instances to construct an adaptive cross-view graph for reliable view selection. Guided by these reliable views, MICA performs multi-level (feature-level, data-level, and reconstruction-level) imputation to preserve topological structures across levels and ensure accurate missing feature inference. The complete features are then used for discriminative cluster assignment learning. Additionally, an instance- and cluster-level contrastive alignment is conducted on the cluster assignments to further enhance semantic consistency across views. Experimental results show the effectiveness and superior performance of the proposed MICA method.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-deep-incomplete-multi-view-clustering-via-multi-level-imputation-and-con-4a8f529ab0",
+    "team": "lusi-li",
+    "topic": [
+      "IMVC",
+      "contrastive MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-16",
+    "last_checked": "2026-08-16",
+    "status": "new",
+    "relevance_score": 59
   },
   {
     "title": "Graph Regularized and Feature Aware Matrix Factorization for Robust Incomplete Multi-View Clustering",
@@ -1835,7 +1935,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 51
   },
@@ -1864,7 +1964,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 67
   },
@@ -1898,7 +1998,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 59
   },
@@ -1965,6 +2065,74 @@
     "last_checked": "2026-08-12",
     "status": "new",
     "relevance_score": 51
+  },
+  {
+    "title": "Enhanced Tensor Low-Rank and Sparse Representation Recovery for Incomplete Multi-View Clustering",
+    "authors": [
+      "Chao Zhang",
+      "Huaxiong Li",
+      "Wei Lv",
+      "Zizheng Huang",
+      "Yang Gao",
+      "Chunlin Chen"
+    ],
+    "year": 2023,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/aaai.v37i9.26323",
+    "arxiv_id": "",
+    "semantic_scholar_id": "88258d707e898923359fcea017f4f0281a65be57",
+    "openalex_id": "",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/26323/26095",
+    "code_url": "",
+    "abstract": "Incomplete multi-view clustering (IMVC) has attracted remarkable attention due to the emergence of multi-view data with missing views in real applications. Recent methods attempt to recover the missing information to address the IMVC problem. However, they generally cannot fully explore the underlying properties and correlations of data similarities across views. This paper proposes a novel Enhanced Tensor Low-rank and Sparse Representation Recovery (ETLSRR) method, which reformulates the IMVC problem as a joint incomplete similarity graphs learning and complete tensor representation recovery problem. Specifically, ETLSRR learns the intra-view similarity graphs and constructs a 3-way tensor by stacking the graphs to explore the inter-view correlations. To alleviate the negative influence of missing views and data noise, ETLSRR decomposes the tensor into two parts: a sparse tensor and an intrinsic tensor, which models the noise and underlying true data similarities, respectively. Both global low-rank and local structured sparse characteristics of the intrinsic tensor are considered, which enhances the discrimination of similarity matrix. Moreover, instead of using the convex tensor nuclear norm, ETLSRR introduces a generalized non-convex tensor low-rank regularization to alleviate the biased approximation. Experiments on several datasets demonstrate the effectiveness of our method compared with the state-of-the-art methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2023-enhanced-tensor-low-rank-and-sparse-representation-recovery-for-incomple-9ab62fc1a8",
+    "team": "unknown",
+    "topic": [
+      "IMVC",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-16",
+    "last_checked": "2026-08-16",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
+    "title": "Incomplete multi-view clustering network via nonlinear manifold embedding and probability-induced loss",
+    "authors": [
+      "Cheng Huang",
+      "Jinrong Cui",
+      "Yulu Fu",
+      "Dong Huang",
+      "Min Zhao",
+      "Lusi Li"
+    ],
+    "year": 2023,
+    "venue": "Neural Networks",
+    "doi": "10.1016/j.neunet.2023.03.013",
+    "arxiv_id": "",
+    "semantic_scholar_id": "878395caa55018dc5f340da23fcd543a15d5c6e2",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/878395caa55018dc5f340da23fcd543a15d5c6e2",
+    "code_url": "",
+    "abstract": "Incomplete multi-view clustering, which included missing data in different views, is more challenging than multi-view clustering. For the purpose of eliminating the negative influence of incomplete data, researchers have proposed a series of solutions. However, the present incomplete multi-view clustering methods still confront three major issues: (1) The interference of redundant features hinders these methods to learn the most discriminative features. (2) The importance role of local structure is not considered during clustering. (3) These methods fail to utilize data distribution information to guide models update to decrease the effects of outliers and noise. To address above issues, a novel deep clustering network which exerted on incomplete multi-view data was proposed in this paper. We combine multi-view autoencoders with nonlinear manifold embedding method UMAP to extract latent consistent features of incomplete multi-view data. In the clustering method, we introduce Gaussian Mixture Model (GMM) to fit the complex distribution of data and deal with the interference of outliers. In addition, we reasonably utilize the probability distribution information generated by GMM, using probability-induced loss function to integrate feature learning and clustering as a joint framework. In experiments conducted on multiple benchmark datasets, our method captures incomplete multi-view data features effectively and perform excellent.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2023-incomplete-multi-view-clustering-network-via-nonlinear-manifold-embeddin-3230d5a501",
+    "team": "lusi-li",
+    "topic": [
+      "IMVC",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-16",
+    "last_checked": "2026-08-16",
+    "status": "new",
+    "relevance_score": 59
   },
   {
     "title": "Projective Incomplete Multi-View Clustering",
@@ -2094,7 +2262,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 75
   },
@@ -2125,7 +2293,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 67
   },
@@ -2157,7 +2325,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 59
   },
@@ -2194,6 +2362,34 @@
     "last_checked": "2026-08-10",
     "status": "new",
     "relevance_score": 59
+  },
+  {
+    "title": "Bipartite Graph Based Multi-View Clustering",
+    "authors": [
+      "Lusi Li",
+      "Haibo He"
+    ],
+    "year": 2022,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "doi": "10.1109/tkde.2020.3021649",
+    "arxiv_id": "",
+    "semantic_scholar_id": "2d75a8a74e27eaa1c4cdbc56c1a38e315f50e87e",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/2d75a8a74e27eaa1c4cdbc56c1a38e315f50e87e",
+    "code_url": "",
+    "abstract": "For graph-based multi-view clustering, a critical issue is to capture consensus cluster structures via a two-stage learning scheme. Specifically, first learn similarity graph matrices of multiple views and then fuse them into a unified superior graph matrix. Most current methods learn pairwise similarities between data points for each view independently, which is widely used in single view. However, the consensus information contained in multiple views are ignored, and the involved biases lead to an undesirable unified graph matrix. To this end, we propose a bipartite graph based multi-view clustering (BIGMC) approach. The consensus information can be represented by a small number of representative uniform anchor points for different views. A bipartite graph is constructed between data points and the anchor points. BIGMC constructs the bipartite graph matrices of all views and fuses them to produce a unified bipartite graph matrix. The unified bipartite graph matrix in turn improves the bipartite graph similarity matrix of each view and updates the anchor points. The final unified graph matrix forms the final clusters directly. In BIGMC, an adaptive weight is added for each view to avoid outlier views. A low-rank constraint is imposed on the Laplacian matrix of the unified matrix to construct a multi-component unified bipartite graph, where the component number corresponds to the required cluster number. The objective function is optimized in an alternating optimization fashion. Experimental results on synthetic and real-world data sets demonstrate its effectiveness and superiority compared with the state-of-the-art baselines.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2022-bipartite-graph-based-multi-view-clustering-ee9d45eb56",
+    "team": "lusi-li",
+    "topic": [
+      "anchor graph"
+    ],
+    "first_seen": "2026-08-16",
+    "last_checked": "2026-08-16",
+    "status": "new",
+    "relevance_score": 51
   },
   {
     "title": "Robust Multi-View Clustering With Incomplete Information",
@@ -2321,7 +2517,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 59
   },
@@ -2417,6 +2613,71 @@
     "last_checked": "2026-08-11",
     "status": "new",
     "relevance_score": 51
+  },
+  {
+    "title": "Consensus Graph Learning for Multi-View Clustering",
+    "authors": [
+      "Zhenglai Li",
+      "Chang Tang",
+      "Xinwang Liu",
+      "Xiao Zheng",
+      "Guanghui Yue",
+      "Wei Zhang",
+      "En Zhu"
+    ],
+    "year": 2021,
+    "venue": "IEEE transactions on multimedia",
+    "doi": "10.1109/TMM.2021.3081930",
+    "arxiv_id": "",
+    "semantic_scholar_id": "d047cfef091836d22a2426d1db586df877317b5d",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/d047cfef091836d22a2426d1db586df877317b5d",
+    "code_url": "",
+    "abstract": "Multi-view clustering, which exploits the multi-view information to partition data into their clusters, has attracted intense attention. However, most existing methods directly learn a similarity graph from original multi-view features, which inevitably contain noises and redundancy information. The learned similarity graph is inaccurate and is insufficient to depict the underlying cluster structure of multi-view data. To address this issue, we propose a novel multi-view clustering method that is able to construct an essential similarity graph in a spectral embedding space instead of the original feature space. Concretely, we first obtain multiple spectral embedding matrices from the view-specific similarity graphs, and reorganize the gram matrices constructed by the inner product of the normalized spectral embedding matrices into a tensor. Then, we impose a weighted tensor nuclear norm constraint on the tensor to capture high-order consistent information among multiple views. Furthermore, we unify the spectral embedding and low rank tensor learning into a unified optimization framework to determine the spectral embedding matrices and tensor representation jointly. Finally, we obtain the consensus similarity graph from the gram matrices via an adaptive neighbor manner. An efficient optimization algorithm is designed to solve the resultant optimization problem. Extensive experiments on six benchmark datasets are conducted to verify the efficacy of the proposed method. The code is implemented by using MATLAB R2018a and MindSpore library [1]: https://github.com/guanyuezhen/CGL.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2021-consensus-graph-learning-for-multi-view-clustering-60dcd97fcc",
+    "team": "liu-xinwang",
+    "topic": [
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-16",
+    "last_checked": "2026-08-16",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
+    "title": "Incomplete Multi-View Clustering With Joint Partition and Graph Learning",
+    "authors": [
+      "Lusi Li",
+      "Zhiqiang Wan",
+      "Haibo He"
+    ],
+    "year": 2021,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "doi": "10.1109/TKDE.2021.3082470",
+    "arxiv_id": "",
+    "semantic_scholar_id": "14108c1e0d6d572a42b4346972490f9374f2403e",
+    "openalex_id": "",
+    "pdf_url": "https://digitalcommons.uri.edu/ele_facpubs/265",
+    "code_url": "",
+    "abstract": "Incomplete multi-view clustering (IMC) aims to integrate the complementary information from incomplete views to improve clustering performance. Most existing IMC methods try to fill the incomplete views or directly learn a common representation based on matrix factorization or subspace learning. The former may introduce useless and/or even noisy information especially for data with a large missing rate. The latter relies on the initialization and ignores the data structures. To address these issues, we propose a novel Joint Partition and Graph (JPG) learning method for IMC. JPG can be formulated by two key components: unified partition space learning and consensus graph learning. The partition space is more robust to noise and the graph learning helps uncover the data structures. Specifically, JPG iteratively constructs local incomplete graph matrices, generates incomplete base partition matrices, stretches them to produce a unified partition matrix, and employs it to learn a consensus graph matrix. For efficiency, JPG adaptively allocates a large weight to the stretched base partition that is close to the unified partition, determines parameters, and imposes a low-rank constraint on graphs. Finally, the clusters can be obtained directly from the consensus graph. Experimental results on several benchmark datasets demonstrate the effectiveness and superiority of JPG over the state-of-the-art baselines.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2021-incomplete-multi-view-clustering-with-joint-partition-and-graph-learning-f398fa8944",
+    "team": "lusi-li",
+    "topic": [
+      "IMVC",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-16",
+    "last_checked": "2026-08-16",
+    "status": "new",
+    "relevance_score": 59
   },
   {
     "title": "Unified Tensor Framework for Incomplete Multi-view Clustering and Missing-view Inferring",
@@ -2549,7 +2810,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 59
   },
@@ -2652,6 +2913,75 @@
     "relevance_score": 51
   },
   {
+    "title": "Adaptive Graph Completion Based Incomplete Multi-View Clustering",
+    "authors": [
+      "Jie Wen",
+      "Ke Yan",
+      "Zheng Zhang",
+      "Yong Xu",
+      "Junqian Wang",
+      "Lunke Fei",
+      "Bob Zhang"
+    ],
+    "year": 2020,
+    "venue": "IEEE transactions on multimedia",
+    "doi": "10.1109/tmm.2020.3013408",
+    "arxiv_id": "",
+    "semantic_scholar_id": "15c89512a7d6b1001fcca6ab3d80b37daef4610a",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/15c89512a7d6b1001fcca6ab3d80b37daef4610a",
+    "code_url": "",
+    "abstract": "In real-world applications, it is often that the collected multi-view data are incomplete, i.e., some views of samples are absent. Existing clustering methods for incomplete multi-view data all focus on obtaining a common representation or graph from the available views but neglect the hidden information of missing views and information imbalance of different views. To solve these problems, a novel method, called adaptive graph completion based incomplete multi-view clustering (AGC_IMC), is proposed in this paper. Specifically, AGC_IMC develops a joint framework for graph completion and consensus representation learning, which mainly contains three components, i.e., within-view preservation, between-view inferring, and consensus representation learning. To reduce the negative influence of information imbalance, AGC_IMC introduces some adaptive weights to balance the importance of different views during the consensus representation learning. Importantly, AGC_IMC has the potential to recover the similarity graphs of all views with the optimal cluster structure, which encourages it to obtain a more discriminative consensus representation. Experimental results on five well-known datasets show that AGC_IMC significantly outperforms the state-of-the-art methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2020-adaptive-graph-completion-based-incomplete-multi-view-clustering-82def5d710",
+    "team": "hit-shenzhen-wen",
+    "topic": [
+      "IMVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-16",
+    "last_checked": "2026-08-16",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
+    "title": "DIMC-net: Deep Incomplete Multi-view Clustering Network",
+    "authors": [
+      "Jie Wen",
+      "Zheng Zhang",
+      "Zhao Zhang",
+      "Zhihao Wu",
+      "Lunke Fei",
+      "Yong Xu",
+      "Bob Zhang"
+    ],
+    "year": 2020,
+    "venue": "ACM Multimedia",
+    "doi": "10.1145/3394171.3413807",
+    "arxiv_id": "",
+    "semantic_scholar_id": "2af9ead9a469de96f4ada3bd45d19731e51a67f9",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/2af9ead9a469de96f4ada3bd45d19731e51a67f9",
+    "code_url": "",
+    "abstract": "In this paper, a new deep incomplete multi-view clustering network, called DIMC-net, is proposed to address the challenge of multi-view clustering on missing views. In particular, DIMC-net designs several view-specific encoders to extract the high-level information of multiple views and introduces a fusion graph based constraint to explore the local geometric information of data. To reduce the negative influence of missing views, a weighted fusion layer is introduced to obtain the consensus representation shared by all views. Moreover, a clustering layer is introduced to guarantee that the obtained consensus representation is the best one for the clustering task. Compared with the existing deep learning based approaches, DIMC-net is more flexible and efficient since it can handle all kinds of incomplete cases and directly produce the clustering results. Experimental results show that DIMC-net achieves significant improvement over state-of-the-art incomplete multi-view clustering methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2020-dimc-net-deep-incomplete-multi-view-clustering-network-a6d2e1924e",
+    "team": "hit-shenzhen-wen",
+    "topic": [
+      "IMVC",
+      "safe MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-16",
+    "last_checked": "2026-08-16",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
     "title": "Generative Partial Multi-View Clustering With Adaptive Fusion and Cycle Consistency",
     "authors": [
       "Qianqian Wang",
@@ -2741,7 +3071,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 59
   },
@@ -2773,9 +3103,41 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-15",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 67
+  },
+  {
+    "title": "Binary Multi-View Clustering",
+    "authors": [
+      "Zheng Zhang",
+      "Li Liu",
+      "Fumin Shen",
+      "Heng Tao Shen",
+      "Ling Shao"
+    ],
+    "year": 2019,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "doi": "10.1109/TPAMI.2018.2847335",
+    "arxiv_id": "",
+    "semantic_scholar_id": "eb22f2ced9139a122103a236eac564b1525c5d05",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/eb22f2ced9139a122103a236eac564b1525c5d05",
+    "code_url": "",
+    "abstract": "Clustering is a long-standing important research problem, however, remains challenging when handling large-scale image data from diverse sources. In this paper, we present a novel Binary Multi-View Clustering (BMVC) framework, which can dexterously manipulate multi-view image data and easily scale to large data. To achieve this goal, we formulate BMVC by two key components: compact collaborative discrete representation learning and binary clustering structure learning, in a joint learning framework. Specifically, BMVC collaboratively encodes the multi-view image descriptors into a compact common binary code space by considering their complementary information; the collaborative binary representations are meanwhile clustered by a binary matrix factorization model, such that the cluster structures are optimized in the Hamming space by pure, extremely fast bit-operations. For efficiency, the code balance constraints are imposed on both binary data representations and cluster centroids. Finally, the resulting optimization problem is solved by an alternating optimization scheme with guaranteed fast convergence. Extensive experiments on four large-scale multi-view image datasets demonstrate that the proposed method enjoys the significant reduction in both computation and memory footprint, while observing superior (in most cases) or very competitive performance, in comparison with state-of-the-art clustering methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2019-binary-multi-view-clustering-2dcc4654d3",
+    "team": "hit-shenzhen-wen",
+    "topic": [
+      "safe MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-16",
+    "last_checked": "2026-08-16",
+    "status": "new",
+    "relevance_score": 51
   },
   {
     "title": "Anchors Bring Ease: An Embarrassingly Simple Approach to Partial Multi-View Clustering",
@@ -2868,7 +3230,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-14",
+    "last_checked": "2026-08-16",
     "status": "new",
     "relevance_score": 59
   },
