@@ -90,7 +90,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 72
   },
@@ -120,7 +120,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -154,7 +154,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -189,7 +189,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -222,7 +222,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -255,7 +255,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -292,7 +292,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -326,7 +326,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -359,7 +359,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -395,7 +395,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 72
   },
@@ -484,7 +484,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -516,7 +516,72 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Towards Learnable Anchor for Deep Multi-View Clustering",
+    "authors": [
+      "Bocheng Wang",
+      "Chusheng Zeng",
+      "Mulin Chen",
+      "Xuelong Li"
+    ],
+    "year": 2025,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/aaai.v39i20.35401",
+    "arxiv_id": "2503.12427",
+    "semantic_scholar_id": "2a69cf4adce2b4d0943732731d84facc4ec856d7",
+    "openalex_id": "",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/35401/37556",
+    "code_url": "",
+    "abstract": "Deep multi-view clustering incorporating graph learning has presented tremendous potential. Most methods encounter costly square time consumption w.r.t. data size. Theoretically, anchor-based graph learning can alleviate this limitation, but related deep models mainly rely on manual discretization approaches to select anchors, which indicates that 1) the anchors are fixed during model training and 2) they may deviate from the true cluster distribution. Consequently, the unreliable anchors may corrupt clustering results. In this paper, we propose the Deep Multi-view Anchor Clustering (DMAC) model that performs clustering in linear time. Concretely, the initial anchors are intervened by the positive-incentive noise sampled from Gaussian distribution, such that they can be optimized with a newly designed anchor learning loss, which promotes a clear relationship between samples and anchors. Afterwards, anchor graph convolution is devised to model the cluster structure formed by the anchors, and the mutual information maximization loss is built to provide cross-view clustering guidance. In this way, the learned anchors can better represent clusters. With the optimal anchors, the full sample graph is calculated to derive a discriminative embedding for clustering. Extensive experiments on several datasets demonstrate the superior performance and efficiency of DMAC compared to state-of-the-art competitors.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-towards-learnable-anchor-for-deep-multi-view-clustering-a90e9d32c4",
+    "team": "unknown",
+    "topic": [
+      "anchor graph",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-17",
+    "last_checked": "2026-08-17",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
+    "title": "Deep Discriminative Multi-View Clustering",
+    "authors": [
+      "Zhe Chen",
+      "Xiao-jun Wu",
+      "Tianyang Xu",
+      "Hui Li",
+      "Josef Kittler"
+    ],
+    "year": 2025,
+    "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+    "doi": "10.1109/TCSVT.2025.3541928",
+    "arxiv_id": "",
+    "semantic_scholar_id": "8f3512c5821ee49736ce2f2e18a0f7fac5a08b10",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/8f3512c5821ee49736ce2f2e18a0f7fac5a08b10",
+    "code_url": "",
+    "abstract": "Multi-view clustering based on deep auto-encoder networks has garnered increasing attention and made significant progress in recent years. However, we argue that most existing methods inadequately explore the discriminability while learning clustering assignments, resulting in models struggling to accurately cluster data, particularly those with ambiguous semantics. To address this problem, we propose a novel framework termed deep discriminative multi-view clustering (DDMvC). This framework is designed to further increase the inter-cluster distances by learning a discriminative projection dictionary with global prior information. To begin with, we enhance the reliability of the dictionary atoms by initializing them with class-specific prototypes derived from concatenated global features across multiple views. Subsequently, we iteratively refine the atoms to guarantee their independence from any specific cluster. Simultaneously, we incorporate contrastive learning for the cluster assignments projected by these atoms, striving for inter-view consistent clustering results. Experimental results on benchmark multi-view datasets demonstrate that our framework achieves the state-of-the-art clustering performance.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-deep-discriminative-multi-view-clustering-a07b159f59",
+    "team": "unknown",
+    "topic": [
+      "contrastive MVC",
+      "safe MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-17",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -581,7 +646,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-08-14",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 72
   },
@@ -710,11 +775,11 @@
     "id": "2025-robust-multi-view-clustering-via-graph-oriented-high-order-correlations-739b3b0877",
     "team": "unknown",
     "topic": [
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-11",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -746,7 +811,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-11",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -908,7 +973,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -939,7 +1004,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -970,7 +1035,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -999,7 +1064,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -1031,7 +1096,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -1065,7 +1130,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -1098,7 +1163,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -1131,7 +1196,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -1168,7 +1233,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -1200,7 +1265,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 72
   },
@@ -1235,7 +1300,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -1270,7 +1335,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -1307,7 +1372,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -1344,7 +1409,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -1374,11 +1439,11 @@
     "team": "uestc-zhu-ren",
     "topic": [
       "contrastive MVC",
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-10",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -1409,7 +1474,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-10",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -1872,7 +1937,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-11",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -1935,7 +2000,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 51
   },
@@ -1964,7 +2029,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 67
   },
@@ -1998,7 +2063,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -2031,7 +2096,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -2262,7 +2327,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 75
   },
@@ -2293,7 +2358,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 67
   },
@@ -2325,7 +2390,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -2359,9 +2424,39 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-10",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 59
+  },
+  {
+    "title": "Explicit View-Labels Matter: A Multifacet Complementarity Study of Multi-View Clustering",
+    "authors": [
+      "Chuanxing Geng",
+      "Aiyang Han",
+      "Songcan Chen"
+    ],
+    "year": 2022,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "doi": "10.1109/TPAMI.2024.3521478",
+    "arxiv_id": "2205.02507",
+    "semantic_scholar_id": "6d19bab4cf83701369186803abadd87e3ad46eaf",
+    "openalex_id": "",
+    "pdf_url": "http://arxiv.org/pdf/2205.02507",
+    "code_url": "",
+    "abstract": "Consistency and complementarity are two key ingredients for boosting multi-view clustering (MVC). Recently with the introduction of popular contrastive learning, the consistency learning of views has been further enhanced in MVC, leading to promising performance. However, by contrast, the complementarity has not received sufficient attention except just in the feature facet, where the Hilbert Schmidt Independence Criterion term or the independent encoder-decoder network is usually adopted to capture view-specific information. This motivates us to reconsider the complementarity learning of views comprehensively from multiple facets including the feature-, view-label- and contrast- facets, while maintaining the view consistency. We empirically find that all the facets contribute to the complementarity learning, especially the view-label facet, which is usually neglected by existing methods. Based on this, a simple yet effective Multifacet Complementarity learning framework for Multi-View Clustering (MCMVC) is naturally developed, which fuses multifacet complementarity information, especially explicitly embedding the view-label information. To our best knowledge, it is the first time to use view-labels explicitly to guide the complementarity learning of views. Compared with the SOTA baselines, MCMVC achieves remarkable improvements, e.g., by average margins over 5.00% and 7.00% respectively in complete and incomplete MVC settings on Caltech101-20 in terms of three evaluation metrics.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2022-explicit-view-labels-matter-a-multifacet-complementarity-study-of-multi-486267cd65",
+    "team": "songcan-chen",
+    "topic": [
+      "IMVC",
+      "contrastive MVC"
+    ],
+    "first_seen": "2026-08-17",
+    "last_checked": "2026-08-17",
+    "status": "new",
+    "relevance_score": 51
   },
   {
     "title": "Bipartite Graph Based Multi-View Clustering",
@@ -2517,7 +2612,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -2551,7 +2646,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -2610,7 +2705,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-11",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 51
   },
@@ -2741,7 +2836,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-11",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 51
   },
@@ -2810,7 +2905,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -2842,7 +2937,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-14",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -3071,7 +3166,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -3103,9 +3198,37 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 67
+  },
+  {
+    "title": "One-Pass Incomplete Multi-view Clustering",
+    "authors": [
+      "Menglei Hu",
+      "Songcan Chen"
+    ],
+    "year": 2019,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/aaai.v33i01.33013838",
+    "arxiv_id": "1903.00637",
+    "semantic_scholar_id": "5efdea756e39b62809d98d57ff01f5a7ad71adf1",
+    "openalex_id": "",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/4271/4149",
+    "code_url": "",
+    "abstract": "Real data are often with multiple modalities or from multiple heterogeneous sources, thus forming so-called multi-view data, which receives more and more attentions in machine learning. Multi-view clustering (MVC) becomes its important paradigm. In real-world applications, some views often suffer from instances missing. Clustering on such multi-view datasets is called incomplete multi-view clustering (IMC) and quite challenging. To date, though many approaches have been developed, most of them are offline and have high computational and memory costs especially for large scale datasets. To address this problem, in this paper, we propose an One-Pass Incomplete Multi-view Clustering framework (OPIMC). With the help of regularized matrix factorization and weighted matrix factorization, OPIMC can relatively easily deal with such problem. Different from the existing and sole online IMC method, OPIMC can directly get clustering results and effectively determine the termination of iteration process by introducing two global statistics. Finally, extensive experiments conducted on four real datasets demonstrate the efficiency and effectiveness of the proposed OPIMC method.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2019-one-pass-incomplete-multi-view-clustering-56355d9e30",
+    "team": "songcan-chen",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-08-17",
+    "last_checked": "2026-08-17",
+    "status": "new",
+    "relevance_score": 59
   },
   {
     "title": "Binary Multi-View Clustering",
@@ -3230,7 +3353,35 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-17",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
+    "title": "Doubly Aligned Incomplete Multi-view Clustering",
+    "authors": [
+      "Menglei Hu",
+      "Songcan Chen"
+    ],
+    "year": 2018,
+    "venue": "International Joint Conference on Artificial Intelligence",
+    "doi": "10.24963/ijcai.2018/313",
+    "arxiv_id": "1903.02785",
+    "semantic_scholar_id": "f7beac7bd14436cbf4c9286fc6c81a28e95affc4",
+    "openalex_id": "",
+    "pdf_url": "https://www.ijcai.org/proceedings/2018/0313.pdf",
+    "code_url": "",
+    "abstract": "Nowadays, multi-view clustering has attracted more and more attention. To date, almost all the previous studies assume that views are complete. However, in reality, it is often the case that each view may contain some missing instances. Such incompleteness makes it impossible to directly use traditional multi-view clustering methods. In this paper, we propose a Doubly Aligned Incomplete Multi-view Clustering algorithm (DAIMC) based on weighted semi-nonnegative matrix factorization (semi-NMF). Specifically, on the one hand, DAIMC utilizes the given instance alignment information to learn a common latent feature matrix for all the views. On the other hand, DAIMC establishes a consensus basis matrix with the help of  L2,1-Norm regularized regression for reducing the influence of missing instances. Consequently, compared with existing methods, besides inheriting the strength of semi-NMF with ability to handle negative entries, DAIMC has two unique advantages: 1) solving the incomplete view problem by introducing a respective weight matrix for each view, making it able to easily adapt to the case with more than two views; 2) reducing the influence of view incompleteness on clustering by enforcing the basis matrices of individual views being aligned with the help of regression. Experiments on four real-world datasets demonstrate its advantages.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2018-doubly-aligned-incomplete-multi-view-clustering-c49a98c028",
+    "team": "songcan-chen",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-08-17",
+    "last_checked": "2026-08-17",
     "status": "new",
     "relevance_score": 59
   },
