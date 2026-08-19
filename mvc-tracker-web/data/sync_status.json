@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-18",
-  "existing_before": 108,
-  "fetched": 52,
-  "added": 1,
-  "total_after": 109,
+  "date": "2026-08-19",
+  "existing_before": 109,
+  "fetched": 61,
+  "added": 5,
+  "total_after": 114,
   "errors": [
     "semantic_scholar: multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: multiview clustering: HTTP Error 429: ",
@@ -14,21 +14,20 @@
     "semantic_scholar: contrastive multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: deep multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Xinwang Liu multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: Changqing Zhang multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Xi Peng multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Peng Hu multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: Dezhong Peng multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Feiping Nie multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Rong Wang multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Quanxue Gao multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Qianqian Wang multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Jie Wen multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Zheng Zhang multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: Yong Xu multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Xiaofeng Zhu multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Yazhou Ren multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Jie Xu multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Yong Liu multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: Huayi Tang multi-view clustering: HTTP Error 429: "
+    "semantic_scholar: Huayi Tang multi-view clustering: HTTP Error 429: ",
+    "semantic_scholar: Songcan Chen multi-view clustering: HTTP Error 429: ",
+    "semantic_scholar: Lusi Li multi-view clustering: HTTP Error 429: "
   ]
 }
