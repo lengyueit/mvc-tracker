@@ -29,7 +29,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 64
   },
@@ -124,7 +124,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 72
   },
@@ -154,7 +154,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
   },
@@ -188,7 +188,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 64
   },
@@ -223,7 +223,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 64
   },
@@ -256,7 +256,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
   },
@@ -326,7 +326,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 64
   },
@@ -360,7 +360,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 64
   },
@@ -393,7 +393,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
   },
@@ -429,7 +429,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 72
   },
@@ -518,7 +518,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
   },
@@ -550,9 +550,287 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
+  },
+  {
+    "title": "Multilevel Contrastive Multiview Clustering With Dual Self-Supervised Learning",
+    "authors": [
+      "Jintang Bian",
+      "Yixiang Lin",
+      "Xiaohua Xie",
+      "Chang-Dong Wang",
+      "Lingxiao Yang",
+      "Jianhuang Lai",
+      "Feiping Nie"
+    ],
+    "year": 2025,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "doi": "10.1109/TNNLS.2025.3552969",
+    "arxiv_id": "",
+    "semantic_scholar_id": "3f8d4d0b0e5b408864f7f93c9e3aeb1079aba865",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/3f8d4d0b0e5b408864f7f93c9e3aeb1079aba865",
+    "code_url": "",
+    "abstract": "Multiview clustering (MVC) aims to integrate multiple related but different views of data to achieve more accurate clustering performance. Contrastive learning has found many applications in MVC due to its successful performance in unsupervised visual representation learning. However, existing MVC methods based on contrastive learning overlook the potential of high similarity nearest neighbors as positive pairs. In addition, these methods do not capture the multilevel (i.e., cluster, instance, and prototype levels) representational structure that naturally exists in multiview datasets. These limitations could further hinder the structural compactness of learned multiview representations. To address these issues, we propose a novel end-to-end deep MVC method called multilevel contrastive MVC (MCMC) with dual self-supervised learning (DSL). Specifically, we first treat the nearest neighbors of an object from the latent subspace as the positive pairs for multiview contrastive loss, which improves the compactness of the representation at the instance level. Second, we perform multilevel contrastive learning (MCL) on clusters, instances, and prototypes to capture the multilevel representational structure underlying the multiview data in the latent space. In addition, we learn consistent cluster assignments for MVC by adopting a DSL method to associate different level structural representations. The evaluation experiment showed that MCMC can achieve intracluster compactness, intercluster separability, and higher accuracy (ACC) in clustering performance. Our code is available at https://github.com/bianjt-morning/MCMC.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-multilevel-contrastive-multiview-clustering-with-dual-self-supervised-le-f9ab695451",
+    "team": "nwpu-nie",
+    "topic": [
+      "contrastive MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Multigranularity Information Fused Contrastive Learning With Multiview Clustering",
+    "authors": [
+      "Hengrong Ju",
+      "Yang Lu",
+      "Weiping Ding",
+      "Wei Zhang",
+      "Xibei Yang"
+    ],
+    "year": 2025,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "doi": "10.1109/TNNLS.2025.3574885",
+    "arxiv_id": "",
+    "semantic_scholar_id": "03883bdd6d7faca56a2da46de7a2d2de521b0fe3",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/03883bdd6d7faca56a2da46de7a2d2de521b0fe3",
+    "code_url": "",
+    "abstract": "Contrastive multiview clustering (MVC) has emerged as a mainstream approach in MVC due to its superior representation learning capabilities. Traditional contrastive multiview learning methods extract both low- and high-level information from raw data. However, only high-level information is utilized for clustering. Since both types of information are essential for effective clustering, this limitation hampers performance. Moreover, effectively quantifying the importance of different views remains a critical challenge in contrastive MVC. Additionally, the absence of structural information during clustering further weakens clustering performance. To address these issues, this article proposes a multigranularity (MG) information fused contrastive learning with MVC (MGCMVC). Inspired by the concept of MG, low- and high-level features are reconstructed into fine- and coarse-granularity features. First, an MG adaptive weighting sample-level contrastive learning mechanism is introduced to fuse MG features to enhance clustering performance and mitigate clustering performance degradation caused by variations in view quality. Second, a structure-oriented cluster-level contrastive learning approach is designed to preserve structural information and enforce cross-view clustering consistency. Extensive and comprehensive experiments on ten widely used datasets demonstrate that MGCMVC achieves the state-of-the-art performance. The source code is available at https://github.com/Luyangabc/MGCMVC",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-multigranularity-information-fused-contrastive-learning-with-multiview-c-7a8429a03f",
+    "team": "unknown",
+    "topic": [
+      "contrastive MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Pseudo-Supervision Affinity Propagation for Efficient and Scalable Multiview Clustering",
+    "authors": [
+      "Xinxin Wang",
+      "Yongshan Zhang",
+      "Yicong Zhou"
+    ],
+    "year": 2025,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "doi": "10.1109/TNNLS.2025.3545465",
+    "arxiv_id": "",
+    "semantic_scholar_id": "ba1653c1a76f0acaa3e7f09a6a73a3b5489daeeb",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/ba1653c1a76f0acaa3e7f09a6a73a3b5489daeeb",
+    "code_url": "",
+    "abstract": "Anchor graph-based multiview clustering (AGMVC) demonstrates high efficiency and satisfactory performance. However, it still suffers from limitations such as single-structure similarity measurement, high time expenditure for large-scale anchor graph partitioning, and limited generalization ability. To alleviate the instability problem of single-structure information, this article proposes an anchor graph construction method that learns local and global (LG) structures simultaneously. To eliminate the need for graph partitioning and address the out-of-sample problem, we develop a landmark learning method to produce structural anchors, and further propose a pseudo-supervision affinity propagation (PSAP) framework. This framework jointly optimizes graph construction and landmark learning to disentangle the in-cluster distribution between samples and anchors while accelerating convergence. In addition, our framework introduces a clustering inference partition (CIP) strategy to directly output clustering results without the need for time-consuming postprocessing. Extensive experiments validate the efficiency and effectiveness of our framework. Our code is publicly available at https://github.com/W-Xinxin/PSAP.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-pseudo-supervision-affinity-propagation-for-efficient-and-scalable-multi-3e5d212e6d",
+    "team": "unknown",
+    "topic": [
+      "anchor graph"
+    ],
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
+    "title": "Diversity Embedding Deep Optimal Graph Regularized Nonnegative Matrix Factorization for Robust Multiview Clustering",
+    "authors": [
+      "Hangjun Che",
+      "Chenglu Li",
+      "Baicheng Pan",
+      "Yuting Cao"
+    ],
+    "year": 2025,
+    "venue": "IEEE Transactions on Computational Social Systems",
+    "doi": "10.1109/TCSS.2024.3457527",
+    "arxiv_id": "",
+    "semantic_scholar_id": "fee6c0be24ca02b4705675649d6edcd0cbbd73c1",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/fee6c0be24ca02b4705675649d6edcd0cbbd73c1",
+    "code_url": "",
+    "abstract": "Analyzing multimedia data, which often comprises diverse views such as text, images, and videos, presents unique challenges for data processing. Deep matrix factorization (DMF) provides an elegant way to obtain reduced-dimensional representation of the multiview data produced by multimedia. Compared with single-layer matrix factorization, DMF can better discover the hierarchical information in a layerwise technique. However, the existing multiview DMF methods still have several problems: 1) the standard DMF using Frobenius norm fails to process data containing noises and outliers; 2) most DMF methods neglect to exploit the feature diversity to learn a more discriminative representation; and 3) in graph learning methods for DMF, the $k$NN method is utilized to construct data graphs, which results in many incorrect neighbor assignments. To address these issues, a robust multiview deep nonnegative matrix factorization with feature diversity and optimal graph learning (RMvDNMF-FG) is proposed for clustering in this article. Specifically, a noise-insensitive logarithmic loss function is designed to measure the factorization error, inner products of basis vectors are minimized to achieve feature diversity for obtaining discriminative representation, and an optimal graph construction strategy is proposed to maintain the geometric structure of the data. To solve the proposed model, we explore an iterative updating algorithm that makes the objective function decrease consistently as the number of iterations increases. Additionally, the convergence proof of the iterative updating algorithm is provided with detailed mathematical analysis. Furthermore, through numerous comparative experiments with eleven state-of-the-art algorithms on five multiview datasets, the effectiveness of the proposed method is demonstrated.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-diversity-embedding-deep-optimal-graph-regularized-nonnegative-matrix-fa-60439d9b11",
+    "team": "unknown",
+    "topic": [
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Incomplete Multiview Clustering Using Discriminative Feature Recovery and Tensorized Matrix Factorization",
+    "authors": [
+      "Xinxin Wang",
+      "Yongshan Zhang",
+      "Jie Zhang",
+      "Yicong Zhou"
+    ],
+    "year": 2025,
+    "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+    "doi": "10.1109/TCSVT.2025.3573927",
+    "arxiv_id": "",
+    "semantic_scholar_id": "c3f349eb18c5346442f592725599d46a2531dd38",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/c3f349eb18c5346442f592725599d46a2531dd38",
+    "code_url": "",
+    "abstract": "Multiview clustering task groups objects using multiple properties, such as RGB images, infrared images, and texture information. However, incomplete multi-view clustering faces significant challenges due to missing views that hinder clustering performance. This paper proposes a Discriminative Feature Recovery and Tensorized Matrix Factorization method (DFRTMF) that effectively recovers missing views, learns low-dimensional discriminative embeddings, and enables direct clustering. DFRTMF addresses high dimensionality through projection learning and enables the output of soft indicators. To improve projection and facilitate the recovery of missing views, we propose an uncorrelated constraint based on the scatter matrix of the recovered complete data, exploring the correlations between observed and missing views. To capture high-order correlations among views, a low-rank tensor constraint based on tensor Schatten p-norm regularization is applied to a third-order tensor composed of soft indicator matrices. DFRTMF adaptively controls the inter-coordination between these factorizations using view weights to optimally explore complementary information. Furthermore, we propose an alternating optimization algorithm based on the Alternating Direction Method of Multipliers to effectively solve the proposed objective function. Extensive experiments across diverse datasets demonstrate the effectiveness of DFRTMF compared to the state-of-the-art methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-incomplete-multiview-clustering-using-discriminative-feature-recovery-an-939a51b325",
+    "team": "unknown",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 80
+  },
+  {
+    "title": "Incremental Multiview Clustering With Continual Information Bottleneck Method",
+    "authors": [
+      "Xiaoqiang Yan",
+      "Yiqiao Mao",
+      "Yangdong Ye",
+      "Hui Yu"
+    ],
+    "year": 2025,
+    "venue": "IEEE Transactions on Systems, Man & Cybernetics. Systems",
+    "doi": "10.1109/TSMC.2024.3465039",
+    "arxiv_id": "",
+    "semantic_scholar_id": "a8ae7d387e7998793dc88e3233a36fdbd7f21ab5",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/a8ae7d387e7998793dc88e3233a36fdbd7f21ab5",
+    "code_url": "",
+    "abstract": "Multiview clustering (MVC) provides a natural formulation to generate clusters for multiview data, which is fundamental to lots of industrial tasks like autonomous driving, defect detection, and multisensor information fusion, as part of the foundation models. Most existing MVC methods suppose that the data of multiple views are available during the clustering process. However, that is a very strong assumption and is impractical when the views are incremental over time. In addition, if directly applying existing MVC approaches to the clustering setting with incremental views, the massive redundant information in each view might limit the knowledge sharing between historical and newly arrived views. To solve these problems, a continual information bottleneck (CIB) method is presented in this article, which addresses the incremental MVC issue by maximally preserving the consistency of a sequence of views and removing the redundant information in each view. In particular, to facilitate the knowledge transfer from historical views to incoming one, we build a knowledge library to store the representative samples in historical views. When adding a new view, we first construct a view-specific encoder with information-theoretic constraints to learn a compact and discriminative representation, in which redundant information in the new view is eliminated. Then, to capture the consistency information between historical views and the new view, a shared encoder is devised after retrieving the global neighbors in the library for the new view, which is performed by contrasting the cluster assignment and feature representation simultaneously. Finally, a unified objective function is devised to simultaneously optimize the knowledge library and clustering process, in which the knowledge library is updated by maximizing the mutual information between the new view and all historical ones to keep tracking knowledge about the earlier views. Extensive experiment on nine multiview benchmarks has verified the superiority of the CIB method over 19 baselines.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-incremental-multiview-clustering-with-continual-information-bottleneck-m-f9bf76fdb5",
+    "team": "unknown",
+    "topic": [
+      "continual MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Balanced and Discrete Multi-View Clustering With Adaptive Graph Learning",
+    "authors": [
+      "Mingyu Zhao",
+      "Feiping Nie",
+      "Cong Wang",
+      "Xuelong Li"
+    ],
+    "year": 2025,
+    "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+    "doi": "10.1109/TCSVT.2025.3570992",
+    "arxiv_id": "",
+    "semantic_scholar_id": "077232e9ee24c46233c6512cbb3ac604fc53a265",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/077232e9ee24c46233c6512cbb3ac604fc53a265",
+    "code_url": "",
+    "abstract": "Graph-based methods have demonstrated strong performance in multi-view clustering (MVC) due to their capability to capture complex data structures. Among these, discrete spectral embedding learning has emerged as an effective strategy for directly producing clustering assignments, thereby avoiding potential suboptimality introduced by post-processing. However, most existing discrete MVC methods overlook the problem of skewed cluster assignments, which can significantly affect the quality and interpretability of clustering results in practical applications. To address this issue, we propose a novel framework for Balanced and Discrete Multi-view Clustering via Adaptive Graph Learning (BDMC-AGL). The proposed model jointly integrates adaptive graph construction and size-constrained spectral embedding learning into a unified optimization framework, enhancing the robustness of clustering while explicitly encouraging balanced partitioning. The introduction of size constraints into the discrete spectral embedding, however, poses a challenging optimization problem. To effectively solve it, we develop an efficient algorithm that guarantees convergence to an locally optimal solution. Extensive experiments conducted on benchmark datasets demonstrate that BDMC-AGL consistently outperforms state-of-the-art methods in terms of clustering accuracy and balance. Moreover, ablation studies validate the significant contribution of the size constraint mechanism in improving multi-view clustering performance. The source code is publicly available at: https://github.com/haha1206/BDMC-AGL.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-balanced-and-discrete-multi-view-clustering-with-adaptive-graph-learning-15c7b0bd9f",
+    "team": "nwpu-nie",
+    "topic": [
+      "safe MVC",
+      "robust MVC"
+    ],
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Tensorized Tri-Factor Decomposition for Multi-View Clustering",
+    "authors": [
+      "Rui Wang",
+      "Quanxue Gao",
+      "Ming Yang",
+      "Qianqian Wang"
+    ],
+    "year": 2025,
+    "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+    "doi": "10.1109/TCSVT.2025.3536629",
+    "arxiv_id": "",
+    "semantic_scholar_id": "7389653f4b379e44f75fd6682beb822b8067ef46",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/7389653f4b379e44f75fd6682beb822b8067ef46",
+    "code_url": "",
+    "abstract": "Multi-view clustering leverages the complementary and compatible information among various views to achieve superior clustering outcomes. The approach of multi-view clustering through non-negative matrix factorization (NMF) has garnered extensive interest, attributed to its remarkable interpretability and clustering efficacy. Nonetheless, existing NMF-based multi-view subspace clustering methods fall short in thoroughly harnessing the complementary information across different views, potentially impairing clustering performance. To mitigate this issue, we introduce an orthogonal semi-nonnegative matrix tri-factorization model. This model excels in clustering interpretability, enabling the direct derivation of cluster labels from the clustering indicator matrix, thereby eliminating the need for post-processing. Our model employs tensor Schatten p-norm as a constraint, adeptly capturing both the complementary information and spatial structure information across views. Extensive experimental evaluations on a variety of benchmark datasets affirm the superior clustering performance of our proposed method.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-tensorized-tri-factor-decomposition-for-multi-view-clustering-615ee37f75",
+    "team": "xidian-gao-wang",
+    "topic": [
+      "MVC"
+    ],
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Multi-view clustering based on feature selection and semi-non-negative anchor graph factorization",
+    "authors": [
+      "Shikun Mei",
+      "Qianqian Wang",
+      "Quanxue Gao",
+      "Ming Yang"
+    ],
+    "year": 2025,
+    "venue": "Neural Networks",
+    "doi": "10.1016/j.neunet.2024.107111",
+    "arxiv_id": "",
+    "semantic_scholar_id": "6c842ce7497e5d9780b9101d520e7d2b1bf0b660",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/6c842ce7497e5d9780b9101d520e7d2b1bf0b660",
+    "code_url": "",
+    "abstract": "Multi-view clustering has garnered significant attention due to its capacity to utilize information from multiple perspectives. The concept of anchor graph-based techniques was introduced to manage large-scale data better. However, current methods rely on K-means or uniform sampling to select anchors in the original space. This results in a disjointed approach separating anchor selection and subsequent graph construction. Moreover, these methods typically require additional K-means or spectral clustering to derive labels, often leading to suboptimal outcomes. To address these challenges, we present a novel approach called Multi-view Clustering based on Feature Selection and Semi-Non-Negative Anchor Graph Factorization (MCFSAF). This method unifies feature selection, anchor and anchor graph learning, and semi-non-negative factorization of the anchor graph into a cohesive framework. Within this framework, the anchors and anchor graph are learned in the embedding space following feature selection, and the clustering indicator matrix is obtained via semi-non-negative factorization of the anchor graph in each view. By applying the minimization of the tensor Schatten p-norm, we can uncover complementary information across multiple views efficiently. This synergetic process of anchor selection, anchor graph learning, and indicator matrix updating can effectively enhance the clustering quality. Critically, the fused indicator matrix enables us to directly acquire clustering labels without requiring additional K-means, thereby significantly improving the stability of the clustering process. Our method is optimized via an alternating iterations algorithm. Comprehensive experimental evaluations underscore the superior performance of our approach.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-multi-view-clustering-based-on-feature-selection-and-semi-non-negative-a-725bb30b3a",
+    "team": "xidian-gao-wang",
+    "topic": [
+      "anchor graph"
+    ],
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 64
   },
   {
     "title": "Towards Learnable Anchor for Deep Multi-View Clustering",
@@ -1007,7 +1285,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
   },
@@ -1038,7 +1316,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
   },
@@ -1069,7 +1347,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 64
   },
@@ -1098,7 +1376,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
   },
@@ -1130,7 +1408,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 64
   },
@@ -1164,7 +1442,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 64
   },
@@ -1230,7 +1508,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 64
   },
@@ -1267,7 +1545,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 64
   },
@@ -1299,7 +1577,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 72
   },
@@ -1334,7 +1612,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
   },
@@ -1369,7 +1647,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
   },
@@ -1406,7 +1684,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
   },
@@ -1443,7 +1721,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
   },
@@ -1541,7 +1819,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-12",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 64
   },
@@ -1574,7 +1852,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-12",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 64
   },
@@ -1604,7 +1882,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-12",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
   },
@@ -1639,6 +1917,37 @@
     "last_checked": "2026-08-10",
     "status": "new",
     "relevance_score": 64
+  },
+  {
+    "title": "Dual Contrast-Driven Deep Multi-View Clustering",
+    "authors": [
+      "Jinrong Cui",
+      "Yuting Li",
+      "Han Huang",
+      "Jie Wen"
+    ],
+    "year": 2024,
+    "venue": "IEEE Transactions on Image Processing",
+    "doi": "10.1109/TIP.2024.3444269",
+    "arxiv_id": "",
+    "semantic_scholar_id": "56fcc7084fb5d90d2e180e37bef48494ce0ad0f1",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/56fcc7084fb5d90d2e180e37bef48494ce0ad0f1",
+    "code_url": "",
+    "abstract": "Consensus representation learning is one of the most popular approaches in the field of multi-view clustering. However, most of the existing methods cannot learn discriminative representations with a clustering-friendly structure since these methods ignore the separation among clusters and the compactness within each cluster. To tackle this issue, we propose a new deep multi-view clustering network with a dual contrastive mechanism to learn clustering-friendly representations. Specifically, our method employs dual contrasting losses: a dynamic cluster diffusion loss to maximize the distance between different clusters and a reliable neighbor-guided positive alignment loss to enhance compactness within each cluster. Our approach includes several key components: view-specific encoders to extract high-level features from each view, and an adaptive feature fusion strategy to obtain consensus representations across multiple views. The dynamic cluster diffusion module ensures inter-cluster separation by maximizing distances between different clusters in the consensus feature space. Simultaneously, the reliable neighbor-guided positive alignment module improves within-cluster compactness through a pseudo-label and nearest neighbor structure-driven contrastive loss. Experimental results on several datasets show that our method can acquire clustering-friendly representations with both good properties of inter-cluster separation and within-cluster compactness, and outperforms the existing state-of-the-art approaches in clustering performance. Our source code is available at https://github.com/tweety1028/DCMVC.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-dual-contrast-driven-deep-multi-view-clustering-c50fd3688d",
+    "team": "hit-shenzhen-wen",
+    "topic": [
+      "contrastive MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 51
   },
   {
     "title": "Pick-and-Place Transform Learning for Fast Multi-View Clustering",
@@ -1735,7 +2044,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 59
   },
@@ -2066,7 +2375,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 51
   },
@@ -2095,7 +2404,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 67
   },
@@ -2129,7 +2438,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 59
   },
@@ -2193,7 +2502,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-12",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 51
   },
@@ -2493,7 +2802,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 75
   },
@@ -2524,7 +2833,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 67
   },
@@ -2556,7 +2865,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 59
   },
@@ -2778,7 +3087,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 59
   },
@@ -2876,6 +3185,38 @@
     "relevance_score": 51
   },
   {
+    "title": "Tensorized Bipartite Graph Learning for Multi-View Clustering",
+    "authors": [
+      "Wei Xia",
+      "Quanxue Gao",
+      "Qianqian Wang",
+      "Xinbo Gao",
+      "C. Ding",
+      "D. Tao"
+    ],
+    "year": 2021,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "doi": "10.1109/TPAMI.2022.3187976",
+    "arxiv_id": "2108.06734",
+    "semantic_scholar_id": "ac682a87e2f16b5e13f0f8ebef5708ab93b433c9",
+    "openalex_id": "",
+    "pdf_url": "https://arxiv.org/pdf/2108.06734",
+    "code_url": "",
+    "abstract": "Despite the impressive clustering performance and efficiency in characterizing both the relationship between the data and cluster structure, most existing graph-based multi-view clustering methods still have the following drawbacks. They suffer from the expensive time burden due to both the construction of graphs and eigen-decomposition of Laplacian matrix. Moreover, none of them simultaneously considers the similarity of inter-view and similarity of intra-view. In this article, we propose a variance-based de-correlation anchor selection strategy for bipartite construction. The selected anchors not only cover the whole classes but also characterize the intrinsic structure of data. Following that, we present a <italic>tensorized bipartite graph learning for multi-view clustering</italic> (TBGL). Specifically, TBGL exploits the similarity of inter-view by minimizing the tensor Schatten <italic>p</italic>-norm, which well exploits both the spatial structure and complementary information embedded in the bipartite graphs of views. We exploit the similarity of intra-view by using the <inline-formula><tex-math notation=\"LaTeX\">$\\ell _{\\text {1,2}}$</tex-math><alternatives><mml:math><mml:msub><mml:mi>ℓ</mml:mi><mml:mtext>1,2</mml:mtext></mml:msub></mml:math><inline-graphic xlink:href=\"gao-ieq1-3187976.gif\"/></alternatives></inline-formula>-norm minimization regularization and connectivity constraint on each bipartite graph. So the learned graph not only well encodes discriminative information but also has the exact connected components which directly indicates the clusters of data. Moreover, we solve TBGL by an efficient algorithm which is time-economical and has good convergence. Extensive experimental results demonstrate that TBGL is superior to the state-of-the-art methods. Codes and datasets are available: <uri>https://github.com/xdweixia/TBGL-MVC</uri>.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2021-tensorized-bipartite-graph-learning-for-multi-view-clustering-b81cab8fdd",
+    "team": "xidian-gao-wang",
+    "topic": [
+      "anchor graph"
+    ],
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
     "title": "Consensus Graph Learning for Multi-View Clustering",
     "authors": [
       "Zhenglai Li",
@@ -2969,7 +3310,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 59
   },
@@ -3071,7 +3412,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 59
   },
@@ -3174,6 +3515,40 @@
     "relevance_score": 51
   },
   {
+    "title": "CDIMC-net: Cognitive Deep Incomplete Multi-view Clustering Network",
+    "authors": [
+      "Jie Wen",
+      "Zheng Zhang",
+      "Yong Xu",
+      "Bob Zhang",
+      "Lunke Fei",
+      "Guosen Xie"
+    ],
+    "year": 2020,
+    "venue": "International Joint Conference on Artificial Intelligence",
+    "doi": "10.24963/ijcai.2020/443",
+    "arxiv_id": "2403.19514",
+    "semantic_scholar_id": "9765aed807c999817dccbe6bf809b00ac1ffee4a",
+    "openalex_id": "",
+    "pdf_url": "https://www.ijcai.org/proceedings/2020/0447.pdf",
+    "code_url": "",
+    "abstract": "In recent years, incomplete multi-view clustering, which studies the challenging multi-view clustering problem on missing views, has received growing research interests. Although a series of methods have been proposed to address this issue, the following problems still exist: 1) Almost all of the existing methods are based on shallow models, which is difficult to obtain discriminative common representations. 2) These methods are generally sensitive to noise or outliers since the negative samples are treated equally as the important samples. In this paper, we propose a novel incomplete multi-view clustering network, called Cognitive Deep Incomplete Multi-view Clustering Network (CDIMC-net), to address these issues. Specifically, it captures the high-level features and local structure of each view by incorporating the view-specific deep encoders and graph embedding strategy into a framework. Moreover, based on the human cognition, \\emph{i.e.}, learning from easy to hard, it introduces a self-paced strategy to select the most confident samples for model training, which can reduce the negative influence of outliers. Experimental results on several incomplete datasets show that CDIMC-net outperforms the state-of-the-art incomplete multi-view clustering methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2020-cdimc-net-cognitive-deep-incomplete-multi-view-clustering-network-c5ac82bdee",
+    "team": "hit-shenzhen-wen",
+    "topic": [
+      "IMVC",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
     "title": "Adaptive Graph Completion Based Incomplete Multi-View Clustering",
     "authors": [
       "Jie Wen",
@@ -3203,7 +3578,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 59
   },
@@ -3270,7 +3645,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-11",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 67
   },
@@ -3332,7 +3707,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 59
   },
@@ -3364,9 +3739,40 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 67
+  },
+  {
+    "title": "Deep Adversarial Multi-view Clustering Network",
+    "authors": [
+      "Z. Li",
+      "Qianqian Wang",
+      "Zhiqiang Tao",
+      "Quanxue Gao",
+      "Zhaohua Yang"
+    ],
+    "year": 2019,
+    "venue": "International Joint Conference on Artificial Intelligence",
+    "doi": "10.24963/ijcai.2019/409",
+    "arxiv_id": "",
+    "semantic_scholar_id": "f15db2d51124d9fe49f13cfded30980319d3e0ac",
+    "openalex_id": "",
+    "pdf_url": "https://www.ijcai.org/proceedings/2019/0409.pdf",
+    "code_url": "",
+    "abstract": "Multi-view clustering has attracted increasing attention in recent years by exploiting common clustering structure across multiple views. Most existing multi-view clustering algorithms use shallow and linear embedding functions to learn the common structure of multi-view data. However, these methods cannot fully utilize the non-linear property of multi-view data, which is important to reveal complex cluster structure underlying multi-view data. In this paper, we propose a novel multi-view clustering method, named Deep Adversarial Multi-view Clustering (DAMC) network, to learn the intrinsic structure embedded in multi-view data. Specifically, our model adopts deep auto-encoders to learn latent representations shared by multiple views, and meanwhile leverages adversarial training to further capture the data distribution and disentangle the latent space. Experimental results on several real-world datasets demonstrate that the proposed method outperforms the state-of art methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2019-deep-adversarial-multi-view-clustering-network-2cc5cad2ad",
+    "team": "xidian-gao-wang",
+    "topic": [
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-20",
+    "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 51
   },
   {
     "title": "Reciprocal Multi-Layer Subspace Learning for Multi-View Clustering",
@@ -3551,7 +3957,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 59
   },
@@ -3608,11 +4014,11 @@
     "team": "xidian-gao-wang",
     "topic": [
       "IMVC",
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-11",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 59
   },
@@ -3670,7 +4076,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-12",
+    "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 51
   },
