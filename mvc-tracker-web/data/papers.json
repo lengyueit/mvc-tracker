@@ -1,5 +1,33 @@
 [
   {
+    "title": "A comprehensive survey on clustering algorithms: concepts, taxonomy with nature-inspired meta-heuristic approaches and performance metrics",
+    "authors": [
+      "Yuvaraj M",
+      "Sivaprakash S"
+    ],
+    "year": 2026,
+    "venue": "Humanities and Social Sciences Communications",
+    "doi": "10.1057/s41599-026-08506-z",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7134137623",
+    "pdf_url": "https://www.nature.com/articles/s41599-026-08506-z_reference.pdf",
+    "code_url": "",
+    "abstract": "Abstract Clustering is a core technique in unsupervised learning that organizes unlabeled data into meaningful groups based on similarity. It has wide applications in domains such as bioinformatics, pattern recognition, social network analysis, computer vision, and artificial intelligence. Owing to the diversity and complexity of real-world datasets, numerous clustering paradigms have been developed, each with specific advantages and limitations. This survey provides a structured overview of classical and advanced clustering approaches, including hierarchical, partition-based, density-based, model-based, subspace, grid-based, and search-based metaheuristic techniques. We further examine commonly used similarity measures and validation metrics, including internal and external evaluation criteria, to highlight their role in assessing clustering quality. A comparative taxonomy is presented to clarify algorithmic characteristics, scalability, robustness, and parameter sensitivity under varying data conditions. Despite significant progress, challenges remain in handling noisy and high-dimensional data, determining the optimal number of clusters, and ensuring computational efficiency. Emerging directions such as hybrid frameworks, self-supervised learning, and multi-view clustering offer promising avenues for developing more adaptive and scalable clustering solutions.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-a-comprehensive-survey-on-clustering-algorithms-concepts-taxonomy-with-n-968fe1a633",
+    "team": "unknown",
+    "topic": [
+      "robust MVC"
+    ],
+    "first_seen": "2026-08-21",
+    "last_checked": "2026-08-21",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
     "title": "Beyond Independence: Learning Correlated Views for Variational Incomplete Multi-View Clustering",
     "authors": [
       "Zheming Xu",
@@ -29,7 +57,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 64
   },
@@ -124,7 +152,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 72
   },
@@ -154,7 +182,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 56
   },
@@ -188,7 +216,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 64
   },
@@ -223,7 +251,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 64
   },
@@ -256,7 +284,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 56
   },
@@ -326,7 +354,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 64
   },
@@ -360,7 +388,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 64
   },
@@ -393,7 +421,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 56
   },
@@ -429,7 +457,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 72
   },
@@ -518,7 +546,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 56
   },
@@ -553,6 +581,41 @@
     "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
+  },
+  {
+    "title": "Collaborative Similarity Fusion and Consistency Recovery for Incomplete Multi-view Clustering",
+    "authors": [
+      "Bingbing Jiang",
+      "Chenglong Zhang",
+      "Xinyan Liang",
+      "Peng Zhou",
+      "Jie Yang",
+      "Xingyu Wu",
+      "Junyi Guan",
+      "Weiping Ding",
+      "Weiguo Sheng"
+    ],
+    "year": 2025,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/aaai.v39i17.33937",
+    "arxiv_id": "",
+    "semantic_scholar_id": "3844bf456990f038a314cfd874d18013d92736d6",
+    "openalex_id": "",
+    "pdf_url": "https://doi.org/10.1609/aaai.v39i17.33937",
+    "code_url": "",
+    "abstract": "As partial samples are often absent in certain views, incomplete multi-view clustering has become a challenging task. To tackle data with missing views, current methods either utilize the data similarity relations to recover missing samples or primarily consider the available information of existing samples, typically facing some inherent limitations. Firstly, traditional solutions cannot fully explore the potential information contained in missing samples due to their omission strategy, leading to sub-optimal graphs. Moreover, most methods mainly focus on data recovery from the view level, ignoring the differences among available/missing samples in various views. To this end, we propose a collaborative Similarity Fusion and Consistency Recovery (SFCR) method, which resolves the incomplete multi-view clustering problem by learning a unified similarity graph and recovering missing samples with consistent structures.\nSpecifically, to learn a reliable graph compatible across views, a novel view-to-sample fusion model is designed to adaptively coalesce the view-wise similarities among available samples, not only preserving the complementarity and consistency among views but also properly balancing different samples.\nFurthermore, the missing samples are effectively recovered under the guidance of the fused similarity graph, so as to maintain the consistent structure of recovered data across views. In this way, the similarity learning and the missing data recovery benefit from each other in a collaborative reinforcement manner. Meanwhile, SFCR can directly obtain the final clustering labels without additional post-processing. Extensive experiments demonstrate the effectiveness and superiority of SFCR.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-collaborative-similarity-fusion-and-consistency-recovery-for-incomplete-a75300ec1a",
+    "team": "unknown",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-08-21",
+    "last_checked": "2026-08-21",
+    "status": "new",
+    "relevance_score": 64
   },
   {
     "title": "Multilevel Contrastive Multiview Clustering With Dual Self-Supervised Learning",
@@ -958,7 +1021,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 72
   },
@@ -1027,7 +1090,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 64
   },
@@ -1154,7 +1217,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-10",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 64
   },
@@ -1223,7 +1286,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-10",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 64
   },
@@ -1256,7 +1319,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 64
   },
@@ -1285,7 +1348,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 56
   },
@@ -1316,7 +1379,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 56
   },
@@ -1347,7 +1410,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 64
   },
@@ -1376,7 +1439,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 56
   },
@@ -1408,7 +1471,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 64
   },
@@ -1442,7 +1505,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 64
   },
@@ -1508,7 +1571,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 64
   },
@@ -1545,7 +1608,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 64
   },
@@ -1577,7 +1640,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 72
   },
@@ -1612,7 +1675,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 56
   },
@@ -1647,7 +1710,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 56
   },
@@ -1684,7 +1747,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 56
   },
@@ -1721,7 +1784,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 56
   },
@@ -2044,7 +2107,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 59
   },
@@ -2077,7 +2140,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 59
   },
@@ -2375,7 +2438,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 51
   },
@@ -2404,7 +2467,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 67
   },
@@ -2438,7 +2501,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 59
   },
@@ -2703,7 +2766,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 59
   },
@@ -2802,7 +2865,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 75
   },
@@ -2833,7 +2896,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 67
   },
@@ -2865,7 +2928,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 59
   },
@@ -3087,7 +3150,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 59
   },
@@ -3310,7 +3373,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 59
   },
@@ -3377,7 +3440,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 59
   },
@@ -3412,7 +3475,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 59
   },
@@ -3707,7 +3770,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 59
   },
@@ -3739,7 +3802,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 67
   },
@@ -3957,7 +4020,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-21",
     "status": "new",
     "relevance_score": 59
   },
