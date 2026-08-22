@@ -1,5 +1,37 @@
 [
   {
+    "title": "Cross-View Graph Matching for Unsupervised Learning With Unaligned Multi-View Clustering",
+    "authors": [
+      "Zhibin Dong",
+      "Shengju Yu",
+      "Siwei Wang",
+      "Xinwang Liu",
+      "En Zhu"
+    ],
+    "year": 2026,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "doi": "10.1109/TKDE.2026.3659906",
+    "arxiv_id": "",
+    "semantic_scholar_id": "397d8af16667c839588000f21b25a5799da1826f",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/397d8af16667c839588000f21b25a5799da1826f",
+    "code_url": "",
+    "abstract": "Multi-view clustering (MVC) leverages complementary information across heterogeneous views to improve unsupervised partitioning. Nevertheless, the majority of existing MVC methods critically assume that samples are fully aligned across views, an assumption frequently violated in practice when multi-view data are collected from independent sources without any correspondence. This gives rise to Completely Unaligned multi-view Clustering (CUC), where cross-view sample correspondences are entirely unknown, fundamentally impeding effective multi-view fusion. Prior CUC-oriented methods typically infer inter-view relations from distance/similarity matrices; however, severe cross-view heterogeneity often induces over-smoothing in such matrices, leading to unreliable matching signals and degraded clustering performance. To address these issues, we propose Cross-view Graph Matching for Completely Unaligned multi-view Clustering (CGM-CUC), a unified framework that couples structure-aware representation learning with progressive cross-view alignment. Specifically, CGM-CUC introduces a bipartite graph–based sample re-encoding mechanism to enhance discriminative structural cues, and an iterative cross-view matching network that progressively refines permutation matrices to recover latent correspondences. Moreover, we develop an alignment-guided optimization strategy that mitigates the over-smoothing effect in similarity estimation, thereby stabilizing the matching process and improving downstream clustering. Extensive experiments on multiple benchmark datasets demonstrate that CGM-CUC consistently achieves superior performance over state-of-the-art baselines, with particularly notable gains under fully unaligned view settings.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2026-cross-view-graph-matching-for-unsupervised-learning-with-unaligned-multi-ec4318a330",
+    "team": "liu-xinwang",
+    "topic": [
+      "anchor graph",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
     "title": "A comprehensive survey on clustering algorithms: concepts, taxonomy with nature-inspired meta-heuristic approaches and performance metrics",
     "authors": [
       "Yuvaraj M",
@@ -57,7 +89,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -152,7 +184,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 72
   },
@@ -182,7 +214,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -216,7 +248,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -251,7 +283,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -284,7 +316,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -354,7 +386,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -388,7 +420,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -421,7 +453,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -457,7 +489,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 72
   },
@@ -499,16 +531,17 @@
       "Gengyu Lyu"
     ],
     "year": 2026,
-    "venue": "",
+    "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
     "doi": "10.1145/3770855.3817741",
     "arxiv_id": "",
-    "semantic_scholar_id": "",
+    "semantic_scholar_id": "3211715933664152527c344af9bda9251ad26656",
     "openalex_id": "https://openalex.org/W7196924540",
     "pdf_url": "https://doi.org/10.1145/3770855.3817741",
     "code_url": "",
     "abstract": "The Unaligned Multi-view Clustering (UMC) aims to mine distinct cluster structures from unaligned multi-view data where sample features are not aligned across different views. Most existing methods extract low-dimensional representations from high-dimensional raw features, preserving key components for alignment and fusion. However, these feature extraction strategies often neglect the sample cluster structure, yielding the extracted representations with ambiguous cluster distributions that lead to subsequent suboptimal alignment and fusion. To address this issue, we propose a hypergraph-based cluster-aware alignment clustering framework (HG-UMC), which provides cluster-aware hyperedges for the hypergraph neural network, mining cluster-aware representations for subsequent effective alignment and fusion. Specifically, we design a Hyperedge-driven Feature Extraction module that constructs multiple groups of learnable hyperedges to capture the intrinsic clustering structure of samples precisely. These cluster-aware hyperedges are incorporated into the feature extraction process of the hypergraph neural network, enabling it to learn cluster-aware representations. In the subsequent alignment phase, we design a Hyperedge-driven Cluster-level Alignment and Fusion module. This module extracts the similarity structure among intra-cluster hyperedges to serve as the cluster-specific topology for cross-view cluster alignment, and incorporates a cluster-wise cross-attention mechanism to achieve cross-view cluster-level fusion. Extensive experiments on various datasets have verified the superiority of HG-UMC over other state-of-the-art methods.",
     "source": [
-      "openalex"
+      "openalex",
+      "semantic_scholar"
     ],
     "id": "2026-hypergraph-based-unaligned-multi-view-clustering-via-cluster-aware-featu-c139cd7445",
     "team": "unknown",
@@ -516,7 +549,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-11",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -546,7 +579,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -583,6 +616,130 @@
     "relevance_score": 56
   },
   {
+    "title": "Reordered $k$-Means: A New Baseline for View-Unaligned Multi-View Clustering",
+    "authors": [
+      "Zhiqiang Fu",
+      "Yao Zhao",
+      "Dongxia Chang",
+      "Yiming Wang",
+      "Jie Wen"
+    ],
+    "year": 2025,
+    "venue": "IEEE transactions on multimedia",
+    "doi": "10.1109/TMM.2024.3521747",
+    "arxiv_id": "",
+    "semantic_scholar_id": "9bbb1c44ec927199e586050e5b0255afb8f33284",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/9bbb1c44ec927199e586050e5b0255afb8f33284",
+    "code_url": "",
+    "abstract": "Most current multi-view clustering methods necessitate that a sample's features be view-aligned or at least partially aligned across different views. Regrettably, real-world applications often fail to meet this requirement due to spatial, temporal, or spatiotemporal mismatches, resulting in the view-unaligned issue. To tackle this issue, we conceptualize the view-unaligned problem and demonstrate that it can be transformed into a view-aligned problem through reordering. Building on this concept, we introduce an innovative reorder matrix that realigns view-unaligned features. Utilizing these realigned features, we develop a sophisticated and efficient approach called Reordered <inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math></inline-formula>-means (RKM), which merges NMF with <inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math></inline-formula>-means. Unlike traditional <inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math></inline-formula>-means, our method converts the binary challenge into an <inline-formula><tex-math notation=\"LaTeX\">$\\ell _{0}$</tex-math></inline-formula> problem, confirming the merit of this advancement. Furthermore, RKM's efficacy is affirmed on benchmarks, indicating substantial enhancements in handling the view-unaligned issue and maintaining competitive results with view-aligned problems.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-reordered-k-means-a-new-baseline-for-view-unaligned-multi-view-clusterin-e43a68c13a",
+    "team": "hit-shenzhen-wen",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Scalable One-step Unaligned Multi-view Clustering via Joint High-Order Correlation Learning",
+    "authors": [
+      "Hongyu Jiang",
+      "Yuxin Huo",
+      "Sirou Sheng",
+      "Hong Tao",
+      "Chenping Hou"
+    ],
+    "year": 2025,
+    "venue": "ACM Multimedia",
+    "doi": "10.1145/3746027.3755172",
+    "arxiv_id": "",
+    "semantic_scholar_id": "b3b4e97c3d6ce477ff33a459180028d29376873c",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/b3b4e97c3d6ce477ff33a459180028d29376873c",
+    "code_url": "",
+    "abstract": "Traditional multi-view clustering methods rely on the cross-view sample alignment presumption to explore consistent and complementary information from multiple views. However, in real-world scenarios, sensor heterogeneity and decentralized data storage and processing frequently make this presumption violated, leading to the Unaligned Multi-view Clustering (UMC) problem. Although existing works have promoted the development of UMC, they have at least one of the following limitations, i.e., high computational complexity, inadequate use of high-order correlation and two-stage clustering. To address these limitations, we propose a Joint High-order Correlation Learning (JHCL) framework for scalable one-step unaligned multi-view clustering. Specifically, multi-order bipartite graphs are utilized to make fully use of intra-view high-order correlations. Then, based on a tensorial bipartite graph alignment and fusion model, inter-view high-order correlations are exploited simultaneously. In such manner, the learned consistent bipartite graph retains adequate structural information for accurate and fast clustering in one step. Extensive experiments on real-world datasets validate the superiority of JHCL in both clustering performance and computational efficiency. Code available: https://github.com/revolution6575/JHCL.git.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-scalable-one-step-unaligned-multi-view-clustering-via-joint-high-order-c-cb187bfc6a",
+    "team": "unknown",
+    "topic": [
+      "anchor graph"
+    ],
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "AF-UMC: An Alignment-Free Fusion Framework for Unaligned Multi-View Clustering",
+    "authors": [
+      "Bohang Sun",
+      "Yuena Lin",
+      "Tao Yang",
+      "Zhengjie Zhu",
+      "Zhengbing Yang",
+      "Gengyu Lyu"
+    ],
+    "year": 2025,
+    "venue": "Neural Information Processing Systems",
+    "doi": "10.52202/085713-3478",
+    "arxiv_id": "",
+    "semantic_scholar_id": "f0a00064ac24dd76b0cfbc763adda90315af399c",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/f0a00064ac24dd76b0cfbc763adda90315af399c",
+    "code_url": "",
+    "abstract": ",",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-af-umc-an-alignment-free-fusion-framework-for-unaligned-multi-view-clust-09f0c6991e",
+    "team": "unknown",
+    "topic": [
+      "MVC"
+    ],
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Self-supervised Trusted Contrastive Multi-view Clustering with Uncertainty Refined",
+    "authors": [
+      "Shizhe Hu",
+      "Binyan Tian",
+      "Weibo Liu",
+      "Yangdong Ye"
+    ],
+    "year": 2025,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/aaai.v39i16.33902",
+    "arxiv_id": "",
+    "semantic_scholar_id": "0e13e7d532230aaeb9d95fd38c67b9d2f25f1259",
+    "openalex_id": "",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/33902/36057",
+    "code_url": "",
+    "abstract": "Multi-view clustering (MVC), especially contrastive MVC, has demonstrated promising potential in many fields and practical scenarios. However, existing contrastive MVC methods still ignore the reliability of clustering results and the impact of false negative pairs, which limits the application of methods in critical security areas. To solve the above challenges, we propose a Self-supervised Trusted Contrastive Multi-view Clustering with Uncertainty Refined (STCMC-UR) method, which integrates clustering results and uncertainty learning to guide the self-supervised contrastive learning (CL). First, the belief of a specific view is generated in the evidence generation module. Afterwards, the belief mass and uncertainty of each view are learned using the Dirichlet distribution and we fuse multiple views with the Dempster-Shafer theory to generate the final clustering result and the uncertainty of the view. Then, the view weight is further quantified to adjust the belief of each view. Different from existing methods, with the clustering result and uncertainty generated by the fusion, we design a feature-level uncertainty-refined self-supervised CL module, where the pseudo-label is selectively employed in each iteration to conduct more accurate CL. As a result, the modules are mutually beneficial, which is conducive to more effective feature learning and clustering structure discovery, and more accurate learning results are obtained. Extensive experiments on five datasets show that the proposed method has significant improvements in effectiveness compared with the latest methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-self-supervised-trusted-contrastive-multi-view-clustering-with-uncertain-59a6e14d8d",
+    "team": "unknown",
+    "topic": [
+      "contrastive MVC"
+    ],
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
     "title": "Collaborative Similarity Fusion and Consistency Recovery for Incomplete Multi-view Clustering",
     "authors": [
       "Bingbing Jiang",
@@ -613,7 +770,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-21",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -1021,7 +1178,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 72
   },
@@ -1090,7 +1247,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -1154,7 +1311,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-17",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -1186,7 +1343,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-17",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -1217,7 +1374,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -1286,7 +1443,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -1319,7 +1476,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -1348,7 +1505,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -1379,7 +1536,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -1410,7 +1567,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -1439,7 +1596,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -1471,7 +1628,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -1505,7 +1662,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -1571,7 +1728,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -1608,7 +1765,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -1640,7 +1797,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 72
   },
@@ -1675,7 +1832,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -1710,7 +1867,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -1747,7 +1904,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -1784,7 +1941,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -1980,6 +2137,35 @@
     "last_checked": "2026-08-10",
     "status": "new",
     "relevance_score": 64
+  },
+  {
+    "title": "Tensorized Unaligned Multi-view Clustering with Multi-scale Representation Learning",
+    "authors": [
+      "Jintian Ji",
+      "Songhe Feng",
+      "Yidong Li"
+    ],
+    "year": 2024,
+    "venue": "Knowledge Discovery and Data Mining",
+    "doi": "10.1145/3637528.3671689",
+    "arxiv_id": "",
+    "semantic_scholar_id": "f0714f6dfd834b8ccf4ab14d36c42c0c701dc3ba",
+    "openalex_id": "",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3637528.3671689",
+    "code_url": "",
+    "abstract": "The Unaligned Multi-view Clustering (UMC) problem is currently receiving widespread attention, focusing on clustering unaligned multi-view data generated in real-world applications. Although some algorithms have emerged to address this issue, there still exist the following drawbacks: 1) The fully unknown correspondence of samples across views can significantly limit the exploration of consistent clustering structure. 2) The fixed representation space makes it difficult to mine the comprehensive information in the original data. 3) Unbiased tensor rank approximation is desired to capture the high-order correlation among different views. To address these issues, we proposed a novel UMC framework termed Tensorized Unaligned Multi-view Clustering with Multi-scale Representation Learning (TUMCR). Specifically, TUMCR designs a multi-scale representation learning and alignment framework, which constructs multi-scale representation spaces to comprehensively explore the unknown correspondence across views. Then, a tensorial multi-scale fusion module is proposed to fuse multi-scale representations and explore the high-order correlation hidden in different views, which utilizes the Enhanced Tensor Rank (ETR) to learn the low-rank structure. Furthermore, TUMCR is solved by an efficient algorithm with good convergence. Extensive experiments on different types of datasets demonstrate the effectiveness and superiority of our TUMCR compared with state-of-the-art methods. Our code is publicly available at: https://github.com/jijintian/TUMCR.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-tensorized-unaligned-multi-view-clustering-with-multi-scale-representati-5226be9b0d",
+    "team": "unknown",
+    "topic": [
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22",
+    "status": "new",
+    "relevance_score": 51
   },
   {
     "title": "Dual Contrast-Driven Deep Multi-View Clustering",
@@ -2375,7 +2561,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-17",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 59
   },
@@ -2438,7 +2624,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 51
   },
@@ -2467,7 +2653,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 67
   },
@@ -2501,7 +2687,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 59
   },
@@ -2534,7 +2720,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-17",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 59
   },
@@ -2568,6 +2754,37 @@
     "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 51
+  },
+  {
+    "title": "Incomplete Contrastive Multi-View Clustering with High-Confidence Guiding",
+    "authors": [
+      "Guoqing Chao",
+      "Yi Jiang",
+      "Dianhui Chu"
+    ],
+    "year": 2023,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.48550/arXiv.2312.08697",
+    "arxiv_id": "2312.08697",
+    "semantic_scholar_id": "beaa4eb3aced336795a0cb53748e322e12d8b02b",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/beaa4eb3aced336795a0cb53748e322e12d8b02b",
+    "code_url": "",
+    "abstract": "Incomplete multi-view clustering becomes an important research problem, since multi-view data with missing values are ubiquitous in real-world applications. Although great efforts have been made for incomplete multi-view clustering, there are still some challenges: 1) most existing methods didn't make full use of multi-view information to deal with missing values; 2) most methods just employ the consistent information within multi-view data but ignore the complementary information; 3) For the existing incomplete multi-view clustering methods, incomplete multi-view representation learning and clustering are treated as independent processes, which leads to performance gap. In this work, we proposed a novel Incomplete Contrastive Multi-View Clustering method with high-confidence guiding (ICMVC). Firstly, we proposed a multi-view consistency relation transfer plus graph convolutional network to tackle missing values problem. Secondly, instance-level attention fusion and high-confidence guiding are proposed to exploit the complementary information while instance-level contrastive learning for latent representation is designed to employ the consistent information. Thirdly, an end-to-end framework is proposed to integrate multi-view missing values handling, multi-view representation learning and clustering assignment for joint optimization. Experiments compared with state-of-the-art approaches demonstrated the effectiveness and superiority of our method. Our code is publicly available at https://github.com/liunian-Jay/ICMVC. The version with supplementary material can be found at http://arxiv.org/abs/2312.08697.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2023-incomplete-contrastive-multi-view-clustering-with-high-confidence-guidin-08b945d5ba",
+    "team": "unknown",
+    "topic": [
+      "IMVC",
+      "contrastive MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-08-22",
+    "last_checked": "2026-08-22",
+    "status": "new",
+    "relevance_score": 67
   },
   {
     "title": "Semantic Invariant Multi-View Clustering With Fully Incomplete Information",
@@ -2632,7 +2849,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-19",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 59
   },
@@ -2865,7 +3082,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 75
   },
@@ -2896,7 +3113,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 67
   },
@@ -2928,7 +3145,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 59
   },
@@ -3150,7 +3367,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 59
   },
@@ -3243,7 +3460,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-17",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 51
   },
@@ -3406,7 +3623,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-17",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 51
   },
@@ -3440,7 +3657,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 59
   },
@@ -3475,7 +3692,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 59
   },
@@ -3507,7 +3724,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-17",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 59
   },
@@ -3770,7 +3987,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 59
   },
@@ -3802,7 +4019,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 67
   },
@@ -4020,7 +4237,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-21",
+    "last_checked": "2026-08-22",
     "status": "new",
     "relevance_score": 59
   },
