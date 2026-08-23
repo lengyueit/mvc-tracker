@@ -89,7 +89,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -184,7 +184,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 72
   },
@@ -214,7 +214,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -248,7 +248,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -283,7 +283,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -316,7 +316,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -386,7 +386,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -420,7 +420,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -453,7 +453,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -489,7 +489,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 72
   },
@@ -579,7 +579,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -612,6 +612,38 @@
     ],
     "first_seen": "2026-08-10",
     "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Multiview Clustering via Block Diagonal Graph Filtering",
+    "authors": [
+      "Haonan Xin",
+      "Danyang Wu",
+      "Jitao Lu",
+      "Rong Wang",
+      "Feiping Nie",
+      "Xuelong Li"
+    ],
+    "year": 2025,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "doi": "10.1109/TNNLS.2025.3543219",
+    "arxiv_id": "",
+    "semantic_scholar_id": "1ee2c9f2982f57f55d85987728621fa5f3b585a9",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/1ee2c9f2982f57f55d85987728621fa5f3b585a9",
+    "code_url": "",
+    "abstract": "Graph-based multiview clustering methods have gained significant attention in recent years. In particular, incorporating graph filtering into these methods allows for the exploration and utilization of both feature and topological information, resulting in a commendable improvement in clustering accuracy. However, these methods still exhibit several limitations: 1) the graph filters are predetermined, which disconnects the link with subsequent clustering tasks and 2) the separability of the filtered features is poor, which may not be suitable for the clustering. To mitigate these aforementioned issues, we propose Multiview Clustering via Block Diagonal Graph Filtering (MvC-BDGF), which can learn cluster-friendly graph filters. Specifically, the block diagonal graph filter with localized characteristics, which could make the filtered features very discriminating, is innovatively designed. The MvC-BDGF model seamlessly integrates the learning of graph filters with the acquisition of consensus graphs, forming a unified framework. This integration allows the model to obtain optimal filters and simultaneously acquire corresponding clustering labels. To solve the optimization problem in the MvC-BDGF model, an iterative solver based on the coordinate descent method is devised. Finally, a large number of experiments on benchmark datasets fully demonstrate the effectiveness and superiority of the proposed model. The code is available at https://github.com/haonanxin/MvC-BDGF_code.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-multiview-clustering-via-block-diagonal-graph-filtering-edb15c9fab",
+    "team": "nwpu-nie",
+    "topic": [
+      "MVC"
+    ],
+    "first_seen": "2026-08-23",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -804,7 +836,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -836,7 +868,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -865,7 +897,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -892,11 +924,11 @@
     "id": "2025-diversity-embedding-deep-optimal-graph-regularized-nonnegative-matrix-fa-60439d9b11",
     "team": "unknown",
     "topic": [
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -926,7 +958,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-08-20",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 80
   },
@@ -1505,7 +1537,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -1536,7 +1568,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -1567,7 +1599,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -1596,7 +1628,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -1628,7 +1660,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -1662,7 +1694,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -1728,7 +1760,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -1765,7 +1797,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -1797,7 +1829,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 72
   },
@@ -1832,7 +1864,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -1867,7 +1899,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -1904,7 +1936,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -1941,7 +1973,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -2624,7 +2656,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 51
   },
@@ -2653,7 +2685,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 67
   },
@@ -2687,7 +2719,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -3082,7 +3114,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 75
   },
@@ -3113,7 +3145,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 67
   },
@@ -3145,7 +3177,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -3367,7 +3399,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -3692,7 +3724,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -3987,7 +4019,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -4019,7 +4051,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-08-23",
     "status": "new",
     "relevance_score": 67
   },
