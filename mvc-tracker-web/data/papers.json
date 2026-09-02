@@ -89,7 +89,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -184,7 +184,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 72
   },
@@ -214,7 +214,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -248,7 +248,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -283,7 +283,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -386,7 +386,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -420,7 +420,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -453,7 +453,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -612,6 +612,127 @@
     ],
     "first_seen": "2026-08-10",
     "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Advanced unsupervised learning: a comprehensive overview of multi-view clustering techniques",
+    "authors": [
+      "A. Moujahid",
+      "F. Dornaika"
+    ],
+    "year": 2025,
+    "venue": "Artificial Intelligence Review",
+    "doi": "10.1007/s10462-025-11240-8",
+    "arxiv_id": "2512.05169",
+    "semantic_scholar_id": "1220df6f978d2a49041318b79c4490ed78be692a",
+    "openalex_id": "",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10462-025-11240-8.pdf",
+    "code_url": "",
+    "abstract": "Machine learning techniques face numerous challenges to achieve optimal performance. These include computational constraints, the limitations of single-view learning algorithms and the complexity of processing large datasets from different domains, sources or views. In this context, multi-view clustering (MVC), a class of unsupervised multi-view learning, emerges as a powerful approach to overcome these challenges. MVC compensates for the shortcomings of single-view methods and provides a richer data representation and effective solutions for a variety of unsupervised learning tasks. In contrast to traditional single-view approaches, the semantically rich nature of multi-view data increases its practical utility despite its inherent complexity. This survey makes a threefold contribution: (1) a systematic categorization of multi-view clustering methods into well-defined groups, including co-training, co-regularization, subspace, deep learning, kernel-based, anchor-based, and graph-based strategies; (2) an in-depth analysis of their respective strengths, weaknesses, and practical challenges, such as scalability and incomplete data; and (3) a forward-looking discussion of emerging trends, interdisciplinary applications, and future directions in MVC research. This study represents an extensive workload, encompassing the review of over 140 foundational and recent publications, the development of comparative insights on integration strategies such as early fusion, late fusion, and joint learning, and the structured investigation of practical use cases in the areas of healthcare, multimedia, and social network analysis. By integrating these efforts, this work aims to fill existing gaps in MVC research and provide actionable insights for the advancement of the field.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-advanced-unsupervised-learning-a-comprehensive-overview-of-multi-view-cl-445da66e81",
+    "team": "unknown",
+    "topic": [
+      "IMVC",
+      "anchor graph",
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-02",
+    "last_checked": "2026-09-02",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Mixture of Experts as Representation Learner for Deep Multi-View Clustering",
+    "authors": [
+      "Yunhe Zhang",
+      "Jinyu Cai",
+      "Zhihao Wu",
+      "Pengyang Wang",
+      "See-Kiong Ng"
+    ],
+    "year": 2025,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/aaai.v39i21.34430",
+    "arxiv_id": "",
+    "semantic_scholar_id": "b623d2005e94cbbc0320e21b5239d22792adabc8",
+    "openalex_id": "",
+    "pdf_url": "https://doi.org/10.1609/aaai.v39i21.34430",
+    "code_url": "",
+    "abstract": "Multi-view clustering (MVC) aims to integrate information from diverse data sources to facilitate the clustering process, which has achieved considerable success in various real-world applications. However, previous MVC methods typically employ one of two strategies: (1) designing separate feature extraction pipelines for each view, which restricts their ability to fully exploit collaborative potential; or (2) employing a single shared representation module, which hinders the capture of diverse, view-specific representations. To tackle these challenges, we introduce Deep Multi-View Clustering via Collaborative Experts (DMVC-CE), a novel MVC approach that employs the Mixture of Experts (MoE) framework. DMVC-CE incorporates a gating network that dynamically selects multiple experts for handling each data sample, capturing diverse and complementary information from different views. Additionally, to ensure balanced expert utilization and maintain their diversity, we introduce an equilibrium loss and a multi-expert distinctiveness enhancer. The equilibrium loss prevents excessive reliance on specific experts, while the distinctiveness enhancer encourages each expert to specialize in different aspects of the data, thereby promoting diversity in learned representations. Comprehensive experiments on various multi-view benchmark datasets demonstrate the superiority of DMVC-CE compared to state-of-the-art MVC baselines.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-mixture-of-experts-as-representation-learner-for-deep-multi-view-cluster-54a75e8c93",
+    "team": "unknown",
+    "topic": [
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-02",
+    "last_checked": "2026-09-02",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Self-Supervised Semantic Soft Label Learning Network for Deep Multi-View Clustering",
+    "authors": [
+      "Weiqing Yan",
+      "Tingyu Yang",
+      "Chang Tang"
+    ],
+    "year": 2025,
+    "venue": "IEEE transactions on multimedia",
+    "doi": "10.1109/TMM.2025.3543075",
+    "arxiv_id": "",
+    "semantic_scholar_id": "f04960fccf65590d53ce0e20fee4db7b7cdb84db",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/f04960fccf65590d53ce0e20fee4db7b7cdb84db",
+    "code_url": "",
+    "abstract": "Multi-view clustering, which identifies shared semantics from different perspectives and classifies data samples into distinct categories using unsupervised methods, is gaining increasing interest. This task primarily focuses on learning consistent multi-view feature representations and clustering labels. Current approaches for achieving consistent multi-view feature representations often use techniques such as cascading, weight fusion, and attention mechanism fusion. These methods reconstruct features based on original low-level features via encoder-decoder, which often contain visual private information, leading to misleading feature representations. Furthermore, in the clustering label learning process, many methods use a two-stage approach: first, they achieve consistent feature representations, and then they apply hard labeling methods like K-means or spectral clustering to obtain clustering labels. Single-stage methods typically derive consistent labels through a linear coding layer based on consistent representation learning. These methods do not fully utilize the multi-view view semantic information, and consistent representation learning may be impaired when some low-quality views are present, leading to the generation of inaccurate semantic labels. To address these issues, we propose a Self-supervised Semantic Soft Label Learning Network for Deep Multi-view Clustering. Specifically, we introduce a consensus high-level feature learning module that uses a shared MLP layer to transform low-level features into a high-level feature space. To enhance the consistency between high-level features from different views, we maximize mutual information between these features and introduce the U-Projection module, which improves the expressive power of the consensus feature via resampling the features and concatenating the fused features before and after sampling operations. Additionally, we propose a self-supervised semantic label learning module that employs a dual-branch approach to independently learn consistent view-specific semantic labels through contrastive learning, while deriving view-consensus semantic labels from shared high-level features extracted from multiple views. Finally, KL divergence is used to align the view-consensus labels with the view-specific labels. A series of extensive experiments have shown that our approach yields superior clustering results compared to existing techniques.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-self-supervised-semantic-soft-label-learning-network-for-deep-multi-view-41840caa22",
+    "team": "unknown",
+    "topic": [
+      "contrastive MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-02",
+    "last_checked": "2026-09-02",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Deep multi-view clustering with diverse and discriminative feature learning",
+    "authors": [
+      "Junpeng Xu",
+      "Min Meng",
+      "Jigang Liu",
+      "Jigang Wu"
+    ],
+    "year": 2025,
+    "venue": "Pattern Recognition",
+    "doi": "10.1016/j.patcog.2024.111322",
+    "arxiv_id": "",
+    "semantic_scholar_id": "2175ce988a7ac020ff9a94c9ad4ed4f6abebfd05",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/2175ce988a7ac020ff9a94c9ad4ed4f6abebfd05",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-deep-multi-view-clustering-with-diverse-and-discriminative-feature-learn-ca9149a1b8",
+    "team": "unknown",
+    "topic": [
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-02",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -1112,7 +1233,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-17",
-    "last_checked": "2026-08-29",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -1145,7 +1266,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-17",
-    "last_checked": "2026-08-29",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -1210,7 +1331,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-08-29",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 72
   },
@@ -1279,7 +1400,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-08-29",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -1312,7 +1433,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-30",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -1406,7 +1527,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-29",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -1440,7 +1561,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-10",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -1475,7 +1596,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-29",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -1508,7 +1629,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-30",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -1537,7 +1658,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -1568,7 +1689,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -1599,7 +1720,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -1628,7 +1749,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -1660,7 +1781,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -1694,7 +1815,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -1760,7 +1881,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -1797,7 +1918,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -1829,7 +1950,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 72
   },
@@ -1864,7 +1985,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -1899,7 +2020,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -1936,7 +2057,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -1973,7 +2094,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -2007,7 +2128,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-30",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -2171,6 +2292,41 @@
     "relevance_score": 64
   },
   {
+    "title": "Self-Weighted Contrastive Fusion for Deep Multi-View Clustering",
+    "authors": [
+      "Song Wu",
+      "Yan Zheng",
+      "Yazhou Ren",
+      "Jing He",
+      "Xiaorong Pu",
+      "Shudong Huang",
+      "Zhifeng Hao",
+      "Lifang He"
+    ],
+    "year": 2024,
+    "venue": "IEEE transactions on multimedia",
+    "doi": "10.1109/TMM.2024.3387298",
+    "arxiv_id": "",
+    "semantic_scholar_id": "3474de0b2e4ecf87f51de8a77aa9d991fd8e9dcf",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/3474de0b2e4ecf87f51de8a77aa9d991fd8e9dcf",
+    "code_url": "",
+    "abstract": "Multi-view clustering can explore consensus information from multiple views and has attracted increasing attention in the past two decades. However, existing works face two major challenges: i) how to deal with the conflict between learning view-consensus information and reconstructing inconsistent view-private information and ii) how to mitigate representation degeneration caused by implementing the consistency objective for multi-view data. To address these challenges, we propose a novel framework of self-weighted contrastive fusion for deep multi-view clustering (SCMVC). First, our method establishes a hierarchical feature fusion framework, effectively segregating the consistency objective from the reconstruction objective. Then, multi-view contrastive fusion is implemented via maximizing consistency expression between the view-consensus representation and global representation, fully exploring the view consistency and complementary. More importantly, we propose to measure the discrepancy between pairwise representations, and then introduce a self-weighting method, which adaptively strengthens useful views in feature fusion and weakens unreliable views, to mitigate representation degeneration. Extensive experiments on nine public datasets demonstrate that our proposed method achieves state-of-the-art clustering performance.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-self-weighted-contrastive-fusion-for-deep-multi-view-clustering-b7dccfadf4",
+    "team": "uestc-zhu-ren",
+    "topic": [
+      "contrastive MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-02",
+    "last_checked": "2026-09-02",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
     "title": "Tensorized Unaligned Multi-view Clustering with Multi-scale Representation Learning",
     "authors": [
       "Jintian Ji",
@@ -2226,7 +2382,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 51
   },
@@ -2560,7 +2716,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-30",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 51
   },
@@ -2656,7 +2812,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 51
   },
@@ -2685,7 +2841,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 67
   },
@@ -2719,7 +2875,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -2752,7 +2908,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-30",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -2881,7 +3037,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-19",
-    "last_checked": "2026-08-22",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -2914,7 +3070,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-19",
-    "last_checked": "2026-08-19",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -3114,7 +3270,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 75
   },
@@ -3145,7 +3301,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 67
   },
@@ -3177,7 +3333,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -3241,7 +3397,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-17",
-    "last_checked": "2026-08-29",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 51
   },
@@ -3303,7 +3459,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-30",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 51
   },
@@ -3399,7 +3555,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -3433,7 +3589,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-30",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -3689,7 +3845,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-30",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -3724,7 +3880,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -3756,7 +3912,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-30",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -3789,7 +3945,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-29",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 51
   },
@@ -3986,7 +4142,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-08-10",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 51
   },
@@ -4019,7 +4175,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -4051,7 +4207,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 67
   },
@@ -4142,7 +4298,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-17",
-    "last_checked": "2026-08-29",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -4235,7 +4391,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-08-30",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 51
   },
@@ -4297,7 +4453,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-17",
-    "last_checked": "2026-08-29",
+    "last_checked": "2026-09-02",
     "status": "new",
     "relevance_score": 59
   },
