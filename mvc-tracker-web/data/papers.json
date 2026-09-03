@@ -89,7 +89,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 64
   },
@@ -184,7 +184,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 72
   },
@@ -214,7 +214,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -248,7 +248,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 64
   },
@@ -283,7 +283,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 64
   },
@@ -386,7 +386,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 64
   },
@@ -420,7 +420,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 64
   },
@@ -453,7 +453,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -489,7 +489,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 72
   },
@@ -579,7 +579,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -612,6 +612,37 @@
     ],
     "first_seen": "2026-08-10",
     "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Deep Fair Multi-View Clustering with Attention KAN",
+    "authors": [
+      "Haiming Xu",
+      "Qianqian Wang",
+      "Boyue Wang",
+      "Quanxue Gao"
+    ],
+    "year": 2025,
+    "venue": "Computer Vision and Pattern Recognition",
+    "doi": "10.1109/CVPR52734.2025.00477",
+    "arxiv_id": "",
+    "semantic_scholar_id": "f0b1e7177ec10eca839f0ac3630960ed0edfc489",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/f0b1e7177ec10eca839f0ac3630960ed0edfc489",
+    "code_url": "",
+    "abstract": "Multi-view clustering is effective in unsupervised multi-view data analysis and has received considerable attention. However, most existing methods excessively emphasize certain attributes, resulting in unfair clustering outcomes, i.e., certain sensitive attributes dominate the clustering results. Moreover, existing methods struggle to effectively capture complex nonlinear relationships and interactions across views, limiting their ability to achieve optimal clustering performance. Therefore, in this work, we propose a novel method, Deep Fair Multi-View Clustering with Attention Kolmogorov-Arnold Network (DFMVC-AKAN), to generate fair clustering results while maintaining robust performance. DFMVC-AKAN integrates attention mechanisms into Kolmogorov-Arnold Networks (KAN) to exploit the complex nonlinear inter-view relationships. Specifically, KAN provides a nonlinear feature representation capable of efficiently approximating arbitrary multivariate continuous functions, augmented by a hybrid attention mechanism which enables the model to dynamically focus on the most relevant features. Finally, we refine the clustering assignments with a distribution alignment module to ensure fair outcomes across diverse groups while maintaining discriminative ability. Experimental results on four datasets containing sensitive attributes demonstrate that DFMVC-AKAN significantly improves fairness and clustering performance compared to state-of-the-art methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-deep-fair-multi-view-clustering-with-attention-kan-caa148e615",
+    "team": "xidian-gao-wang",
+    "topic": [
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-03",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -1171,7 +1202,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -1201,7 +1232,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 64
   },
@@ -1658,7 +1689,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -1689,7 +1720,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -1720,7 +1751,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 64
   },
@@ -1749,7 +1780,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -1781,7 +1812,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 64
   },
@@ -1815,7 +1846,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 64
   },
@@ -1881,7 +1912,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 64
   },
@@ -1918,7 +1949,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 64
   },
@@ -1950,7 +1981,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 72
   },
@@ -1985,7 +2016,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -2020,7 +2051,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -2057,7 +2088,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -2094,7 +2125,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -2290,6 +2321,38 @@
     "last_checked": "2026-08-10",
     "status": "new",
     "relevance_score": 64
+  },
+  {
+    "title": "Anchor Graph-Based Feature Selection for One-Step Multi-View Clustering",
+    "authors": [
+      "Wenhui Zhao",
+      "Qin Li",
+      "Hua-Fu Xu",
+      "Quanxue Gao",
+      "Qianqian Wang",
+      "Xinbo Gao"
+    ],
+    "year": 2024,
+    "venue": "IEEE transactions on multimedia",
+    "doi": "10.1109/TMM.2024.3367605",
+    "arxiv_id": "",
+    "semantic_scholar_id": "96add89921c857970185678ea963277789c34ede",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/96add89921c857970185678ea963277789c34ede",
+    "code_url": "",
+    "abstract": "Recently, multi-view clustering methods have been widely used in handling multi-media data and have achieved impressive performances. Among the many multi-view clustering methods, anchor graph-based multi-view clustering has been proven to be highly efficient for large-scale data processing. However, most existing anchor graph-based clustering methods necessitate post-processing to obtain clustering labels and are unable to effectively utilize the information within anchor graphs. To address this issue, we draw inspiration from regression and feature selection to propose <underline><bold>A</bold></underline>nchor <underline><bold>G</bold></underline>raph-Based <underline><bold>F</bold></underline>eature <underline><bold>S</bold></underline>election for <underline><bold>O</bold></underline>ne-Step <underline><bold>M</bold></underline>ulti-<underline><bold>V</bold></underline>iew <underline><bold>C</bold></underline>lustering (AGFS-OMVC). Our method combines embedding learning and sparse constraint to perform feature selection, allowing us to remove noisy anchor points and redundant connections in the anchor graph. This results in a clean anchor graph that can be projected into the label space, enabling us to obtain clustering labels in a single step without post-processing. Lastly, we employ the tensor Schatten <inline-formula><tex-math notation=\"LaTeX\">$p$</tex-math></inline-formula>-norm as a tensor rank approximation function to capture the complementary information between different views, ensuring similarity between cluster assignment matrices. Experimental results on five real-world datasets demonstrate that our proposed method outperforms state-of-the-art approaches.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-anchor-graph-based-feature-selection-for-one-step-multi-view-clustering-d73b895511",
+    "team": "xidian-gao-wang",
+    "topic": [
+      "anchor graph"
+    ],
+    "first_seen": "2026-09-03",
+    "last_checked": "2026-09-03",
+    "status": "new",
+    "relevance_score": 59
   },
   {
     "title": "Self-Weighted Contrastive Fusion for Deep Multi-View Clustering",
@@ -2812,7 +2875,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 51
   },
@@ -2841,7 +2904,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 67
   },
@@ -2875,7 +2938,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 59
   },
@@ -3270,7 +3333,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 75
   },
@@ -3301,7 +3364,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 67
   },
@@ -3333,7 +3396,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 59
   },
@@ -3555,7 +3618,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 59
   },
@@ -3653,6 +3716,37 @@
     "relevance_score": 51
   },
   {
+    "title": "Self-Supervised Graph Convolutional Network for Multi-View Clustering",
+    "authors": [
+      "Wei Xia",
+      "Qianqian Wang",
+      "Quanxue Gao",
+      "Xiangdong Zhang",
+      "Xinbo Gao"
+    ],
+    "year": 2021,
+    "venue": "IEEE transactions on multimedia",
+    "doi": "10.1109/tmm.2021.3094296",
+    "arxiv_id": "",
+    "semantic_scholar_id": "9167e6f9f5d732266a1101329943512c58418466",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/9167e6f9f5d732266a1101329943512c58418466",
+    "code_url": "",
+    "abstract": "Despite the promising preliminary results, existing graph convolutional network (GCN) based multi-view learning methods directly use the graph structure as view descriptor, which may inhibit the ability of multi-view learning for multimedia data. The major reason is that, in real multimedia applications, the graph structure may contain outliers. Moreover, they fail to take advantage of the information embedded in the inaccurate clustering labels obtained from their proposed methods, resulting in inferior clustering results. These observations motivate us to study whether there is a better alternative GCN based framework for multi-view clustering. To this end, in this paper, we propose an end-to-end self-supervised graph convolutional network for multi-view clustering (SGCMC). Specifically, SGCMC constructs a new view descriptor for graph-structured data by mapping the raw node content into the complex space via Euler transformation, which not only suppresses outliers but also reveals non-linear patterns embedded in data. Meanwhile, the proposed SGCMC uses the clustering labels to guide the learning of the latent representation and coefficient matrix, and the latter in turn is used to conduct the subsequent node clustering. By this way, clustering and representation learning are seamlessly connected, with the aim to achieve better clustering results. Extensive experimental results indicate that the proposed SGCMC outperforms the state-of-the-art methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2021-self-supervised-graph-convolutional-network-for-multi-view-clustering-46291dcc75",
+    "team": "xidian-gao-wang",
+    "topic": [
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-03",
+    "last_checked": "2026-09-03",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
     "title": "Tensorized Bipartite Graph Learning for Multi-View Clustering",
     "authors": [
       "Wei Xia",
@@ -3680,7 +3774,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-09-01",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 51
   },
@@ -3880,7 +3974,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 59
   },
@@ -4175,7 +4269,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 59
   },
@@ -4207,7 +4301,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-03",
     "status": "new",
     "relevance_score": 67
   },
