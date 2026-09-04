@@ -1,14 +1,13 @@
 {
-  "date": "2026-09-03",
-  "existing_before": 142,
-  "fetched": 50,
-  "added": 3,
-  "total_after": 145,
+  "date": "2026-09-04",
+  "existing_before": 145,
+  "fetched": 62,
+  "added": 1,
+  "total_after": 146,
   "errors": [
     "semantic_scholar: multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: multiview clustering: HTTP Error 429: ",
     "semantic_scholar: incomplete multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: incomplete multiview clustering: HTTP Error 500: Internal Server Error",
+    "semantic_scholar: incomplete multiview clustering: HTTP Error 429: ",
     "semantic_scholar: partial multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: unaligned multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: contrastive multi-view clustering: HTTP Error 429: ",
@@ -17,7 +16,7 @@
     "semantic_scholar: Changqing Zhang multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Xi Peng multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Peng Hu multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: Dezhong Peng multi-view clustering: HTTP Error 500: Internal Server Error",
+    "semantic_scholar: Dezhong Peng multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Feiping Nie multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Rong Wang multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Qianqian Wang multi-view clustering: HTTP Error 429: ",
@@ -28,7 +27,7 @@
     "semantic_scholar: Yazhou Ren multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Jie Xu multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Yong Liu multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: Huayi Tang multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: Songcan Chen multi-view clustering: HTTP Error 429: "
+    "semantic_scholar: Songcan Chen multi-view clustering: HTTP Error 429: ",
+    "semantic_scholar: Lusi Li multi-view clustering: HTTP Error 429: "
   ]
 }
