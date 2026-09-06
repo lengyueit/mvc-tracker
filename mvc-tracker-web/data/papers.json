@@ -27,7 +27,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-05",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -121,7 +121,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -216,7 +216,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 72
   },
@@ -246,7 +246,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -280,7 +280,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -315,7 +315,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -418,7 +418,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -452,7 +452,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -485,7 +485,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -521,7 +521,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 72
   },
@@ -611,7 +611,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -644,6 +644,38 @@
     ],
     "first_seen": "2026-08-10",
     "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "TLRLF4MVC: Tensor Low-Rank and Low-Frequency for Scalable Multi-View Clustering",
+    "authors": [
+      "Zhen Long",
+      "Qiyuan Wang",
+      "Yazhou Ren",
+      "Yipeng Liu",
+      "Ce Zhu"
+    ],
+    "year": 2025,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "doi": "10.1109/TPAMI.2025.3566169",
+    "arxiv_id": "",
+    "semantic_scholar_id": "e722d856796030d8bd7ae96e03697a2148ac4e8d",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/e722d856796030d8bd7ae96e03697a2148ac4e8d",
+    "code_url": "",
+    "abstract": "Anchor-based multi-view clustering has garnered much attention for its effectiveness in handling massive datasets. However, current methods either fail to consider intra-view similarity or require (<inline-formula><tex-math notation=\"LaTeX\">$\\mathcal {O}(N^{3})$</tex-math><alternatives><mml:math><mml:mrow><mml:mi mathvariant=\"script\">O</mml:mi><mml:mo>(</mml:mo><mml:msup><mml:mi>N</mml:mi><mml:mn>3</mml:mn></mml:msup><mml:mo>)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href=\"long-ieq1-3566169.gif\"/></alternatives></inline-formula>) for exploring intra-view similarity, making efficient large-scale multi-view clustering difficult. This paper introduces a novel tensor low-frequency component (TLFC) operator, which achieves smooth representation among samples. Furthermore, this TLFC operator, which explores intra-view similarity, incorporates tensor nuclear norm (TNN) operator and consensus regularization that explore inter-view correlations, resulting in the development of tensor low-rank and low-frequency for scalable multi-view clustering (TLRLF4MVC). Iteratively, as intra-view sample similarity and complementary information across views achieve balance, the learned embedding features are mapped into a smooth and compact subspace, ultimately leading to outstanding clustering performance. Extensive experiments on six large-scale multi-view datasets demonstrate that TLRLF4MVC not only significantly outperforms state-of-the-art methods in terms of clustering accuracy but also achieves remarkable computational efficiency, particularly when handling massive data.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-tlrlf4mvc-tensor-low-rank-and-low-frequency-for-scalable-multi-view-clus-735462621a",
+    "team": "uestc-zhu-ren",
+    "topic": [
+      "anchor graph",
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-06",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -1142,7 +1174,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-09-04",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 80
   },
@@ -1426,7 +1458,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -1496,7 +1528,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -1692,7 +1724,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -1721,7 +1753,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -1752,7 +1784,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -1783,7 +1815,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -1812,7 +1844,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -1844,7 +1876,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -1878,7 +1910,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -1944,7 +1976,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -1981,7 +2013,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -2013,7 +2045,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 72
   },
@@ -2048,7 +2080,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -2083,7 +2115,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -2120,7 +2152,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -2157,7 +2189,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -2191,7 +2223,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -2355,6 +2387,76 @@
     "relevance_score": 64
   },
   {
+    "title": "Dynamic Weighted Graph Fusion for Deep Multi-View Clustering",
+    "authors": [
+      "Yazhou Ren",
+      "Jingyu Pu",
+      "Chenhang Cui",
+      "Yan Zheng",
+      "Xinyue Chen",
+      "Xiaorong Pu",
+      "Lifang He"
+    ],
+    "year": 2024,
+    "venue": "International Joint Conference on Artificial Intelligence",
+    "doi": "10.24963/ijcai.2024/535",
+    "arxiv_id": "",
+    "semantic_scholar_id": "a7f5a7584d160c0aeb23438010e9889e183b3d7a",
+    "openalex_id": "",
+    "pdf_url": "https://www.ijcai.org/proceedings/2024/0535.pdf",
+    "code_url": "",
+    "abstract": "By exploring complex graph information hidden in data from multiple views, multi-view clustering based on graph neural network significantly enhances the clustering performance and has drawn increasing attention in recent years. Although considerable progress has been made, most existing GNN based MVC models merely consider the explicit presence of graph structure in raw data and ignore that latent graphs of different views also provide specific information for the clustering task. We propose dynamic weighted graph fusion for deep multi-view clustering (DFMVC) to address this issue. Specifically, DFMVC learns embedded features via deep autoencoders and then constructs latent graphs for each individual view. Then, it concatenates the embedded features of all views to form a global feature to leverage complementary information, as well as generates a fusion graph via combining all latent graphs to accurately capture the topological information among samples. Based on the informative fusion graph and global features, the graph convolution module is adopted to derive a representation with global comprehensive information, which is further used to generate pseudo-label information. In a self-supervised manner, such information guides each view to dynamically learn discriminative features and latent graphs. Extensive experimental results demonstrate the efficacy of DFMVC.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-dynamic-weighted-graph-fusion-for-deep-multi-view-clustering-512d9caef6",
+    "team": "uestc-zhu-ren",
+    "topic": [
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-06",
+    "last_checked": "2026-09-06",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
+    "title": "A novel federated multi-view clustering method for unaligned and incomplete data fusion",
+    "authors": [
+      "Yazhou Ren",
+      "Xinyue Chen",
+      "Jie Xu",
+      "Jingyu Pu",
+      "Yonghao Huang",
+      "Xiaorong Pu",
+      "Ce Zhu",
+      "Xiaofeng Zhu",
+      "Zhifeng Hao",
+      "Lifang He"
+    ],
+    "year": 2024,
+    "venue": "Information Fusion",
+    "doi": "10.1016/j.inffus.2024.102357",
+    "arxiv_id": "",
+    "semantic_scholar_id": "f0042172d2290ab473954b26f8a3b276dd84b7fb",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/f0042172d2290ab473954b26f8a3b276dd84b7fb",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-a-novel-federated-multi-view-clustering-method-for-unaligned-and-incompl-c350ae7eba",
+    "team": "uestc-zhu-ren",
+    "topic": [
+      "IMVC",
+      "federated MVC"
+    ],
+    "first_seen": "2026-09-06",
+    "last_checked": "2026-09-06",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
     "title": "Anchor Graph-Based Feature Selection for One-Step Multi-View Clustering",
     "authors": [
       "Wenhui Zhao",
@@ -2417,7 +2519,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-02",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 51
   },
@@ -2674,11 +2776,11 @@
     "team": "unknown",
     "topic": [
       "IMVC",
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -2742,7 +2844,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -2811,7 +2913,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 51
   },
@@ -2907,7 +3009,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 51
   },
@@ -2936,7 +3038,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 67
   },
@@ -2970,7 +3072,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -3331,7 +3433,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-08-13",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -3397,7 +3499,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 75
   },
@@ -3428,7 +3530,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 67
   },
@@ -3460,7 +3562,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -3495,6 +3597,39 @@
     ],
     "first_seen": "2026-08-10",
     "last_checked": "2026-08-30",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
+    "title": "A Survey on Incomplete Multiview Clustering",
+    "authors": [
+      "Jie Wen",
+      "Zheng Zhang",
+      "Lunke Fei",
+      "Bob Zhang",
+      "Yong Xu",
+      "Zhao Zhang",
+      "Jinxing Li"
+    ],
+    "year": 2022,
+    "venue": "IEEE Transactions on Systems, Man & Cybernetics. Systems",
+    "doi": "10.1109/TSMC.2022.3192635",
+    "arxiv_id": "2208.08040",
+    "semantic_scholar_id": "5c7917adf1c12af7c6ae341b6be769629069c27e",
+    "openalex_id": "",
+    "pdf_url": "https://arxiv.org/pdf/2208.08040",
+    "code_url": "",
+    "abstract": "Conventional multiview clustering seeks to partition data into respective groups based on the assumption that all views are fully observed. However, in practical applications, such as disease diagnosis, multimedia analysis, and recommendation system, it is common to observe that not all views of samples are available in many cases, which leads to the failure of the conventional multiview clustering methods. Clustering on such incomplete multiview data is referred to as incomplete multiview clustering (IMC). In view of the promising application prospects, the research of IMC has noticeable advances in recent years. However, there is no survey to summarize the current progresses and point out the future research directions. To this end, we review the recent studies of IMC. Importantly, we provide some frameworks to unify the corresponding IMC methods and make an in-depth comparative analysis for some representative methods from theoretical and experimental perspectives. Finally, some open problems in the IMC field are offered for researchers. The related codes are released at https://github.com/DarrenZZhang/Survey_IMC.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2022-a-survey-on-incomplete-multiview-clustering-0985587077",
+    "team": "hit-shenzhen-wen",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-09-06",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -3586,7 +3721,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 51
   },
@@ -3682,7 +3817,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -4038,7 +4173,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -4070,7 +4205,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-04",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -4333,7 +4468,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -4365,7 +4500,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-05",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 67
   },
@@ -4549,7 +4684,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-06",
     "status": "new",
     "relevance_score": 51
   },
