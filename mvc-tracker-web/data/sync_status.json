@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "existing_before": 151,
-  "fetched": 56,
+  "fetched": 47,
   "added": 0,
   "total_after": 151,
   "errors": [
@@ -10,16 +10,17 @@
     "semantic_scholar: incomplete multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: incomplete multiview clustering: HTTP Error 429: ",
     "semantic_scholar: partial multi-view clustering: HTTP Error 429: ",
+    "semantic_scholar: unaligned multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: contrastive multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: deep multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Xinwang Liu multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: Changqing Zhang multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Xi Peng multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Peng Hu multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Dezhong Peng multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Feiping Nie multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Rong Wang multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Quanxue Gao multi-view clustering: HTTP Error 429: ",
+    "semantic_scholar: Qianqian Wang multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Jie Wen multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Zheng Zhang multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Yong Xu multi-view clustering: HTTP Error 429: ",
@@ -28,7 +29,6 @@
     "semantic_scholar: Jie Xu multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Yong Liu multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Huayi Tang multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: Songcan Chen multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: Lusi Li multi-view clustering: HTTP Error 429: "
+    "semantic_scholar: Songcan Chen multi-view clustering: HTTP Error 429: "
   ]
 }
