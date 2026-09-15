@@ -1,5 +1,33 @@
 [
   {
+    "title": "When Connected Does Not Mean Similar: Charting the Homophily Boundary of SNAP-KG for Streaming Entity Integration",
+    "authors": [
+      "Jui-Chien Lin",
+      "Oshani Seneviratne"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "doi": "",
+    "arxiv_id": "2609.12356v1",
+    "semantic_scholar_id": "",
+    "openalex_id": "",
+    "pdf_url": "http://arxiv.org/pdf/2609.12356v1",
+    "code_url": "",
+    "abstract": "SNAP-KG is a framework for assigning newly arriving entities to semantic communities in a growing knowledge graph (KG) using only their raw features, with no graph access and no retraining at inference time. It was evaluated on five multi-view benchmarks and a 2.4M-node OGB-WikiKG2 KG. In each of these datasets, at least one graph view is homophilous, meaning that connected nodes usually belong to the same class, and SNAP-KG performs well on all of them. This paper asks what happens outside that setting. We extend the evaluation to three heterophilous graphs (Texas, Wisconsin, Chameleon) and measure the edge homophily of every view. When no homophilous view is available, clustering quality drops sharply for both SNAP-KG and the transductive baselines used in its original evaluation. What decides this is the homophily of the relation, not the number of relations. Multi-view fusion still helps, but only when at least one homophilous relation provides a reliable foundation. The homophily assumption is therefore shared by the whole method family, not specific to SNAP-KG. We argue that heterophilous multi-view clustering is a separate research problem, outside the scope of this work. As future work, we outline how a heterophily-aware teacher could be distilled into SNAP-KG's projector to serve both homophilous and heterophilous KGs.",
+    "source": [
+      "arxiv"
+    ],
+    "id": "2026-when-connected-does-not-mean-similar-charting-the-homophily-boundary-of-e1e2e7549b",
+    "team": "unknown",
+    "topic": [
+      "MVC"
+    ],
+    "first_seen": "2026-09-15",
+    "last_checked": "2026-09-15",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
     "title": "Reliable cross-view neighborhood relation transfer and high-order semantic structure mining for incomplete multi-view partial multi-label classification",
     "authors": [
       "Jiayan Li",
@@ -121,7 +149,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -216,7 +244,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 72
   },
@@ -246,7 +274,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -280,7 +308,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -315,7 +343,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -418,7 +446,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -452,7 +480,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -485,7 +513,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -521,7 +549,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 72
   },
@@ -611,7 +639,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -644,6 +672,36 @@
     ],
     "first_seen": "2026-08-10",
     "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "DFL-Net: Disentangled Feature Learning Network for Multi-View Clustering",
+    "authors": [
+      "Zhe Chen",
+      "Xiao-Jun Wu",
+      "Tianyang Xu",
+      "Josef Kittler"
+    ],
+    "year": 2025,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "doi": "10.1109/TKDE.2025.3574150",
+    "arxiv_id": "",
+    "semantic_scholar_id": "e0bd97d41869dcfcfa3c0e952e775576b4ee863b",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/e0bd97d41869dcfcfa3c0e952e775576b4ee863b",
+    "code_url": "",
+    "abstract": "Multi-view clustering aims at partitioning data into their underlying categories by mining shared and complementary information conveyed by different views. Although the integration of deep learning and disentanglement learning has markedly improved clustering performance, our analysis reveals two fundamental limitations in existing approaches: inadequate separation between view-shared and view-exclusive features; and the negative effects of clustering-irrelevant information on feature decoupling. To tackle these issues, we present a novel Disentangled Feature Learning Network (DFL-Net), which utilizes a progressive learning framework to systematically disentangle features. DFL-Net initially establishes view-shared representations through semantic disparity minimization, followed by the construction of orthogonal feature subspaces using cross-view and intra-view independence constraints to isolate view-specific features. Subsequently, DFL-Net enforces clustering consistency across views to adaptively eliminate irrelevant information, thus enhancing the overall effectiveness of disentanglement learning. The framework introduces two significant innovations: a comprehensive feature independence criterion that concurrently reduces intra-view and cross-view feature dependencies, and an irrelevance filtering mechanism that ensures cross-view clustering consistency. Extensive experiments on benchmark datasets demonstrate the superior performance of DFL-Net compared to state-of-the-art methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-dfl-net-disentangled-feature-learning-network-for-multi-view-clustering-79b869da93",
+    "team": "unknown",
+    "topic": [
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-15",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -702,11 +760,11 @@
     "id": "2025-deep-fair-multi-view-clustering-with-attention-kan-caa148e615",
     "team": "xidian-gao-wang",
     "topic": [
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-09-03",
-    "last_checked": "2026-09-03",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -1266,7 +1324,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -1296,7 +1354,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -1328,7 +1386,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-17",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -1426,7 +1484,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 72
   },
@@ -1753,7 +1811,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -1784,7 +1842,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -1815,7 +1873,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -1844,7 +1902,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -1876,7 +1934,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -1910,7 +1968,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -1976,7 +2034,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -2013,7 +2071,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -2045,7 +2103,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 72
   },
@@ -2080,7 +2138,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -2115,7 +2173,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -2152,7 +2210,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -2189,7 +2247,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -2484,7 +2542,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-09-03",
-    "last_checked": "2026-09-04",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -2878,7 +2936,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -3009,7 +3067,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 51
   },
@@ -3038,7 +3096,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 67
   },
@@ -3072,7 +3130,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -3466,7 +3524,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -3499,7 +3557,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 75
   },
@@ -3530,7 +3588,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 67
   },
@@ -3562,7 +3620,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -3659,7 +3717,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-17",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 51
   },
@@ -3817,7 +3875,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -3941,7 +3999,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-03",
-    "last_checked": "2026-09-04",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 51
   },
@@ -3973,7 +4031,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 51
   },
@@ -4173,7 +4231,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -4406,7 +4464,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 67
   },
@@ -4468,7 +4526,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -4500,7 +4558,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-11",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 67
   },
@@ -4591,7 +4649,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-17",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -4653,7 +4711,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -4746,7 +4804,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-17",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -4779,7 +4837,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -4866,7 +4924,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-15",
     "status": "new",
     "relevance_score": 59
   }
