@@ -1,5 +1,55 @@
 [
   {
+    "title": "Multimodal data-driven clustering analysis of heart failure patients identifies two distinct patterns of heart failure with preserved ejection fraction: Results from the PACIFIC-PRESERVED study",
+    "authors": [
+      "Jean‐Sébastien Hulot",
+      "Pierre‐Yves Hervé",
+      "Nicolas Girerd",
+      "Frédérique Chézalviel-Guilbert",
+      "Philip Janiak",
+      "P. Boutouyrie",
+      "Jean-Joseph Christophe",
+      "Ariel Cohen",
+      "Thibaud Damy",
+      "Liliane Berkani",
+      "Kevin Duarte",
+      "Caroline Fraslon",
+      "Hüseyin Fırat",
+      "Olivier Hanon",
+      "Richard Isnard",
+      "Guillaume Jondeau",
+      "Élie Mousseaux",
+      "Mathieu Pernot",
+      "Andrea Ruiz‐Velasco",
+      "Alfonso Sartorius",
+      "Benoît Tyl",
+      "Gilles Soulat",
+      "Philippe Boutinaud",
+      "Damien Logeart"
+    ],
+    "year": 2026,
+    "venue": "Nature Communications",
+    "doi": "10.1038/s41467-026-77642-6",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7213314674",
+    "pdf_url": "https://www.nature.com/articles/s41467-026-77642-6_reference.pdf",
+    "code_url": "",
+    "abstract": "Heart failure with preserved ejection fraction (HFpEF) accounts for over half of heart failure cases but remains poorly defined due to its clinical heterogeneity. In the prospective PACIFIC-Preserved cohort (NCT04189029, n = 155), we applied multimodal deep phenotyping, including high-throughput proteomics, and unsupervised machine learning to identify biologically distinct HFpEF subgroups. Multiview clustering revealed two major HFpEF phenogroups: PEF1, characterized by inflammatory signaling, TNF receptor activation, cardio-skeletal injury, and greater renal dysfunction; and PEF2, marked by endothelial stress and milder perturbations. Conventional diagnostics alone could not reliably distinguish these subgroups, but a multimodal classifier integrating clinical, imaging, and proteomic variables achieved high predictive accuracy (F1-score 0.87). External validation in the MEDIA-DHF cohort (n = 456) confirmed that PEF1 was independently associated with adverse outcomes (adjusted HR 2.27, 95% CI 1.04–4.94). These findings establish a classifier-driven, biologically informed stratification of HFpEF, providing a framework for precision medicine in heart failure. Heart failure with preserved ejection fraction is clinically heterogeneous, complicating efforts to identify patients at highest risk. Here, the authors show that integrating proteomics with machine learning reveals two biologically distinct subtypes with different prognoses, including a high-risk inflammatory cardiorenal phenotype.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-multimodal-data-driven-clustering-analysis-of-heart-failure-patients-ide-b10b088288",
+    "team": "unknown",
+    "topic": [
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-16",
+    "last_checked": "2026-09-16",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
     "title": "When Connected Does Not Mean Similar: Charting the Homophily Boundary of SNAP-KG for Streaming Entity Integration",
     "authors": [
       "Jui-Chien Lin",
@@ -87,7 +137,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-22",
-    "last_checked": "2026-09-10",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -178,12 +228,12 @@
     "team": "lusi-li",
     "topic": [
       "IMVC",
-      "contrastive MVC",
       "anchor graph",
+      "contrastive MVC",
       "deep MVC"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -549,7 +599,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-15",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 72
   },
@@ -609,7 +659,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-10",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -639,7 +689,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-15",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -794,7 +844,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-02",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -948,7 +998,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-22",
-    "last_checked": "2026-09-10",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -979,7 +1029,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-22",
-    "last_checked": "2026-09-10",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -1011,7 +1061,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-22",
-    "last_checked": "2026-09-10",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -1448,11 +1498,11 @@
     "topic": [
       "IMVC",
       "contrastive MVC",
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -1484,7 +1534,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-09-15",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 72
   },
@@ -1680,7 +1730,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -1714,7 +1764,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 56
   },
@@ -1749,7 +1799,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -1782,7 +1832,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 64
   },
@@ -2606,7 +2656,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-22",
-    "last_checked": "2026-09-10",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 51
   },
@@ -2702,7 +2752,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 59
   },
@@ -2736,7 +2786,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 59
   },
@@ -2769,7 +2819,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 59
   },
@@ -3421,11 +3471,11 @@
     "team": "lusi-li",
     "topic": [
       "IMVC",
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 59
   },
@@ -3458,7 +3508,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 59
   },
@@ -3745,7 +3795,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 51
   },
@@ -4092,11 +4142,11 @@
     "team": "lusi-li",
     "topic": [
       "IMVC",
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 59
   },
@@ -4129,7 +4179,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 59
   },
@@ -4493,7 +4543,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 51
   },
@@ -4776,7 +4826,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-16",
     "status": "new",
     "relevance_score": 59
   },
