@@ -1,5 +1,336 @@
 [
   {
+    "title": "High-order enhanced multi-view subspace clustering via dual norm and manifold constraints",
+    "authors": [
+      "Guoqing Liu",
+      "Guifu Lu",
+      "Piao Shi",
+      "Yueguang Li",
+      "Shigan Yu"
+    ],
+    "year": 2026,
+    "venue": "Scientific Reports",
+    "doi": "10.1038/s41598-026-70395-8",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7213419427",
+    "pdf_url": "https://www.nature.com/articles/s41598-026-70395-8_reference.pdf",
+    "code_url": "",
+    "abstract": "Multi-view subspace clustering (MSC) algorithms are an important component of multi-view clustering research. The problem with current MSC studies is that they often struggle to simultaneously achieve a subspace representation (SR) that preserves inter-class sparsity and intra-class consistency, while enhancing the block-diagonal property of SR. Moreover, these approaches often fall short in their ability to delve deep into the underlying manifold structure within the data. Based on this, a new high-order enhanced MSC via dual norm and manifold constraints (HEMSCDM) is proposed. This method utilizes the Frobenius norm constraint and a novel sparse constraint to obtain SR with intra-class consistency and inter-class sparsity while further enhancing the block diagonal structure of SR. To extract the common data in multi-view data, this study adopts the concept of tensor and apply low-rank (LR) constraint to the tensor to eliminate irrelevant information. Additionally, the constructed method employs manifold constraint to explore the manifold information in the data to obtain more essential information, thereby enhancing the model's learning ability. For the HEMSCDM, we developed an efficient solution algorithm and analyzed its convergence. Experiments on various multi-view datasets ultimately demonstrate the enhanced clustering power of our model, even outperforming cutting-edge multi-view clustering power.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-high-order-enhanced-multi-view-subspace-clustering-via-dual-norm-and-man-24b2d9ce9b",
+    "team": "unknown",
+    "topic": [
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-17",
+    "last_checked": "2026-09-17",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Instance-Aligned Semantic Reconstruction for Incomplete Multi-View Clustering",
+    "authors": [
+      "Weiqing Yan",
+      "Yongteng Du",
+      "Peng Song",
+      "Chang Tang"
+    ],
+    "year": 2026,
+    "venue": "",
+    "doi": "10.24963/ijcai.2026/572",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7213395593",
+    "pdf_url": "https://www.ijcai.org/proceedings/2026/0572.pdf",
+    "code_url": "",
+    "abstract": "Incomplete multi-view clustering (IMVC) aims to exploit complementary information from multiple views with missing observations. Recent diffusion-based approaches have shown promise for view completion; however, they often fail to capture instance-aligned global correlations across views and suffer from inefficient inference and loosely coupled optimization. In this paper, we propose IASR, an Instance-Aligned Semantic Reconstruction framework for IMVC. IASR formulates missing-view recovery as a cross-view token alignment generator, in which noisy targets, observed views, and timestep embeddings are jointly represented as tokens and interact to capture long-range cross-view dependencies throughout the denoising trajectory. To stabilize representation learning under generative noise, we further introduce a stable–active dual-encoder representation architecture with a generative-adaptive contrastive learning strategy that tightly couples view completion and clustering. Extensive experiments on eight benchmark datasets demonstrate that IASR consistently outperforms state-of-the-art IMVC methods, especially under high missing-rate settings, while achieving improved inference efficiency.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-instance-aligned-semantic-reconstruction-for-incomplete-multi-view-clust-30c7f62589",
+    "team": "unknown",
+    "topic": [
+      "IMVC",
+      "contrastive MVC",
+      "deep MVC",
+      "robust MVC"
+    ],
+    "first_seen": "2026-09-17",
+    "last_checked": "2026-09-17",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
+    "title": "Salient-Residual Decoupled Multi-View Learning for Clustering",
+    "authors": [
+      "Gaokai Wang",
+      "Yazhou Ren",
+      "Fengyu Zhang",
+      "Jie Xu",
+      "Chaoning Zhang",
+      "Zhen Long",
+      "Ce Zhu"
+    ],
+    "year": 2026,
+    "venue": "",
+    "doi": "10.24963/ijcai.2026/547",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7213399633",
+    "pdf_url": "https://www.ijcai.org/proceedings/2026/0547.pdf",
+    "code_url": "",
+    "abstract": "Multi-view clustering aims to utilize information from multiple feature representations to uncover underlying data structures. Most existing methods emphasize learning a consensus representation by enforcing consistency across views. However, those structures that cannot be directly incorporated into the clustering space receive little attention, and are often discarded as noise in practice. In this paper, we argue that such information can be informative signals for the clustering process and should be explicitly modeled rather than suppressed or ignored. Specifically, we propose salient-residual decoupled multi-view learning for clustering, SRDMVC, introducing a novel decomposition-fusion iterative optimization, which separates the feature space into a salient space and a residual subspace effectively and fuses them using a novel attention mechanism. The residual subspace can capture the deep-level structure of view information, making positive contributions to the clustering process, under proper constraints. Without assuming stronger view alignment or complementarity, SRDMVC enhances cluster discrimination, avoids spurious consensus, and alleviates representation degradation. Extensive experiments on benchmark datasets demonstrate the superior performance of the method we propose.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-salient-residual-decoupled-multi-view-learning-for-clustering-858d307dc9",
+    "team": "uestc-zhu-ren",
+    "topic": [
+      "deep MVC",
+      "robust MVC"
+    ],
+    "first_seen": "2026-09-17",
+    "last_checked": "2026-09-17",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "PRIME: A Decoupled Multi-agent Actor-Critic for Multi-view Clustering",
+    "authors": [
+      "Jing Gao",
+      "Xinxin Liu",
+      "Peng Li",
+      "Jianing Zhang",
+      "Meng Liu",
+      "Qingchen Zhang"
+    ],
+    "year": 2026,
+    "venue": "",
+    "doi": "10.24963/ijcai.2026/478",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7213402456",
+    "pdf_url": "https://www.ijcai.org/proceedings/2026/0478.pdf",
+    "code_url": "",
+    "abstract": "Deep multi-view clustering draws plentiful attention in various domains, owing to remarkable performance in learning patterns from complementary information of multi-view data. However, previous methods encounter two challenges. They utilize a single pre-defined clustering strategy to perceive diverse structures from data in multiple views subject to heterogeneous distributions, failing to fully capture intricate complementary structures. They leverage either the feature fusion or the result fusion in clustering, which cannot fully integrate complementary information. Therefore, a decoupled multi-agent actor-critic (PRIME) is proposed via defining multi-view clustering as a partially observable Markov game, which establishes a dynamic trial-and-error assignment process of samples in a decentralized perception with centralized learning framework to adaptively learn the optimal clustering strategy. In PRIME, an actor leverages the policy gradient paradigm to independently implement a Markov decision process of data partition in a view, which fully explores data structures to tailor a clustering sub-policy for a view. Meanwhile, a critic utilizes the value function paradigm to centrally guide the Markov game among actors in different views, which constructs both feature and result fusion to progressively enhance complementary knowledge integration for robust clustering results. Extensive experiments on 6 benchmark datasets verify the superiority of PRIME against 10 methods.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-prime-a-decoupled-multi-agent-actor-critic-for-multi-view-clustering-0a9e680b6e",
+    "team": "unknown",
+    "topic": [
+      "IMVC",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-17",
+    "last_checked": "2026-09-17",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "SCD-MVC: Stable Conditional Diffusion for Multi-view Clustering",
+    "authors": [
+      "JinLi Ma",
+      "Chenkai Guo",
+      "Renda Han",
+      "Renxiang Guan",
+      "Siwei Wang",
+      "Ke Liang",
+      "Xiaoyu Cui",
+      "Dayu Hu"
+    ],
+    "year": 2026,
+    "venue": "",
+    "doi": "10.24963/ijcai.2026/515",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7213407588",
+    "pdf_url": "https://www.ijcai.org/proceedings/2026/0515.pdf",
+    "code_url": "",
+    "abstract": "Multi-view clustering has garnered significant attention for its ability to integrate heterogeneous data and uncover underlying categorical structures. However, prevailing autoencoder-based methods often yield indiscriminative embeddings, rendering them prone to trivial solutions. While diffusion models have shown promise in modeling complex data distributions, their generative processes remain inherently unstable. More critically, the resulting latent representations often lack sufficient intra-class compactness and inter-class separability, leading to suboptimal clustering performance. In this paper, we propose SCD-MVC, a Stable Conditional Diffusion-driven framework for Multi-View Clustering. Specifically, it integrates conditional diffusion generation into the latent encoder to generate a target view conditioned on the remaining views, thereby facilitating robust joint distribution modeling. To align the generative process with clustering objectives, we introduce a clustering-guided semantic alignment module. This module regulates the diffusion path to enforce the learning of representations that are both view-consistent and discriminative. Furthermore, we introduce a temporal consistency regularization that enforces alignment between representations of adjacent diffusion steps. This stabilizes training and guides the optimization toward clustering-friendly representations. Extensive experiments on nine benchmark datasets demonstrate that SCD-MVC consistently outperforms eight state-of-the-art methods, achieving performance gains ranging from 6.68% to 13.09%. The source code is available at https://github.com/Knighttt0011/SCD-MVC.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-scd-mvc-stable-conditional-diffusion-for-multi-view-clustering-21b83b0cab",
+    "team": "unknown",
+    "topic": [
+      "deep MVC",
+      "robust MVC"
+    ],
+    "first_seen": "2026-09-17",
+    "last_checked": "2026-09-17",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Efficient Time Series Clustering from Multiscale Reservoir Dynamics with Granular-Ball Anchoring Graph Optimization",
+    "authors": [
+      "Yifan Wang (380120)",
+      "Lifeng Shen",
+      "Shuyin Xia",
+      "Yi Wang (32470)"
+    ],
+    "year": 2026,
+    "venue": "",
+    "doi": "10.24963/ijcai.2026/557",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7164389110",
+    "pdf_url": "https://www.ijcai.org/proceedings/2026/0557.pdf",
+    "code_url": "",
+    "abstract": "Time-series clustering remains challenging due to the inherent trade-off between clustering effectiveness and computational efficiency. Similarity-based methods often suffer from quadratic complexity caused by pairwise distance computations, while deep learning–based approaches typically rely on costly iterative training and a large number of trainable parameters. In this paper, we propose MSRGC-Net, an efficient time-series clustering framework that integrates multiscale reservoir computing, granular-ball-based anchoring graph construction, and consensus learning. MSRGC-Net adopts a training-free reservoir computing paradigm to extract multiscale temporal representations from raw time series without backpropagation, significantly reducing computational overhead. To capture the intrinsic structure of the resulting representations, granular-ball computing is employed to adaptively model data distributions via density-consistent regions, yielding compact and robust anchor graph representations. Furthermore, a consensus-based anchoring graph optimization strategy is introduced to effectively align multiscale reservoir representations and integrate complementary information across temporal scales. Extensive experiments on widely used univariate and multivariate benchmark datasets demonstrate that MSRGC-Net consistently outperforms state-of-the-art methods in clustering performance while maintaining superior computational efficiency.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-efficient-time-series-clustering-from-multiscale-reservoir-dynamics-with-91e82476e1",
+    "team": "unknown",
+    "topic": [
+      "anchor graph",
+      "deep MVC",
+      "robust MVC"
+    ],
+    "first_seen": "2026-09-17",
+    "last_checked": "2026-09-17",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Resisting Label Drift: Real-Time Multi-View Clustering with Semantic Consistency",
+    "authors": [
+      "Qi Liu",
+      "Suyuan Liu",
+      "Hao Tan",
+      "Yangfan Du",
+      "Bowen Zhang",
+      "Wenpeng Lu",
+      "Xinwang Liu"
+    ],
+    "year": 2026,
+    "venue": "",
+    "doi": "10.24963/ijcai.2026/319",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7213395183",
+    "pdf_url": "https://www.ijcai.org/proceedings/2026/0319.pdf",
+    "code_url": "",
+    "abstract": "Real-time clustering of dynamic multi-view data streams is a critical yet challenging task in open-world applications. While several methods have been proposed to address this task, most of them extract features incrementally but fail to output instant clustering results for the current batch. In addition, they neglect semantic consistency, causing the cluster labels of identical concepts to drift unpredictably due to independent processing. To address these limitations, we propose a real-time semantic consistent incremental multi-view clustering framework. Specifically, we constructs a compact historical knowledge base via an adaptive diversity-aware selection mechanism, which guides the clustering of incoming data, enabling immediate inference without accessing the full history. Furthermore, we introduce a semantic alignment strategy based on consensus centers to ensure robust label consistency over time. Extensive experiments demonstrate the effectiveness and efficiency of our proposed method.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-resisting-label-drift-real-time-multi-view-clustering-with-semantic-cons-42280f089d",
+    "team": "liu-xinwang",
+    "topic": [
+      "continual MVC",
+      "robust MVC"
+    ],
+    "first_seen": "2026-09-17",
+    "last_checked": "2026-09-17",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "One-Step Self-Aligned Anchor Learning for Multi-View Clustering",
+    "authors": [
+      "Zijian Chen",
+      "Miao Jia",
+      "Xingchen Hu",
+      "Jiyuan Liu",
+      "Huan Chen",
+      "Siwei Wang",
+      "Jincai Huang"
+    ],
+    "year": 2026,
+    "venue": "",
+    "doi": "10.24963/ijcai.2026/468",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7213409044",
+    "pdf_url": "https://www.ijcai.org/proceedings/2026/0468.pdf",
+    "code_url": "",
+    "abstract": "Multi-view anchor graph clustering has emerged as a high-efficiency paradigm of multi-view learning. However, how to design an effective anchor alignment mechanism within this framework remains an open challenge, which is formally termed the Anchor-Unaligned Problem (AUP). Current research fails to adequately address two pivotal aspects of this challenge: first, the construction of anchor graphs and the alignment of anchors are two independent stages, overlooking their potential synergistic reinforcement; second, selecting anchors from different views as an alignment baseline often renders the clustering performance highly sensitive to the baseline choice. To address these issues, we propose a unified framework termed One-Step Self-Aligned Anchor Learning for Multi-View Clustering (OSAA-MVC). Departing from conventional two-stage strategies, we integrate anchor alignment and anchor graph construction into a joint optimization process, thereby enabling their mutual reinforcement to improve clustering performance. To avoid the baseline selection issue, we introduce a novel mixed anchor strategy, which effectively bypasses the necessity of manual baseline selection while simultaneously capturing both view-specific and cross-view information. This strategy can stabilize clustering performance at a consistently high level. Extensive experiments demonstrate the superior efficiency and effectiveness of our proposed method compared to state-of-the-art competitors. The code is available at https://github.com/Jiamiao2024/OSAA-MVC.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-one-step-self-aligned-anchor-learning-for-multi-view-clustering-dd4349c306",
+    "team": "unknown",
+    "topic": [
+      "anchor graph"
+    ],
+    "first_seen": "2026-09-17",
+    "last_checked": "2026-09-17",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
+    "title": "Multi-view Regression Clustering via Low-Rank Manifold Decomposition",
+    "authors": [
+      "Xiaowei Zhao",
+      "Xinyu Kou",
+      "Yan Chen",
+      "Linrui Xie",
+      "Qiang Zhang",
+      "Liang Du"
+    ],
+    "year": 2026,
+    "venue": "",
+    "doi": "10.24963/ijcai.2026/599",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7213421841",
+    "pdf_url": "https://www.ijcai.org/proceedings/2026/0599.pdf",
+    "code_url": "",
+    "abstract": "Similarity-graph-based multi-view clustering is effective in capturing non-Gaussian cluster structures, yet it suffers from an inherent conflict between scalability and geometry-consistent cluster assignment. In particular, cluster labels are typically inferred via secondary clustering rather than being learned directly from the underlying data geometry. Although anchor-based extensions alleviate the computational burden, they introduce the challenge of anchor-number selection. To address these limitations, we propose Multi-view Clustering via Manifold Decomposition (MvMD), which directly infers cluster labels from multi-view data without explicit similarity graph construction or anchor selection. MvMD reformulates multi-view clustering as a unified multi-view regression problem, where cluster labels are optimized as model variables. To improve robustness against missing small clusters, a global balance regularization is incorporated. Meanwhile, local geometric consistency and the low-rank structure of cluster assignments are jointly enforced through a symmetric matrix factorization scheme, which is efficiently realized via a truncated SVD-based low-rank approximation. Extensive experiments on benchmark datasets validate the effectiveness and efficiency of the proposed MvMD. The code is available at https://github.com/Vince-Doit/MvMD.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-multi-view-regression-clustering-via-low-rank-manifold-decomposition-bc3d6c5541",
+    "team": "unknown",
+    "topic": [
+      "IMVC",
+      "anchor graph",
+      "robust MVC"
+    ],
+    "first_seen": "2026-09-17",
+    "last_checked": "2026-09-17",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Mixture of Clustering Experts with Dual Consistency for Multi-View Clustering",
+    "authors": [
+      "Daidai Zhu",
+      "Yang Zhao",
+      "Dandan Ma",
+      "Ganchao Liu",
+      "Zhiyu Jiang"
+    ],
+    "year": 2026,
+    "venue": "",
+    "doi": "10.24963/ijcai.2026/605",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7213398562",
+    "pdf_url": "https://www.ijcai.org/proceedings/2026/0605.pdf",
+    "code_url": "",
+    "abstract": "Multi-view clustering aims to discover shared semantic structures from multiple complementary data views to improve clustering performance. However, most existing methods rely on a single clustering representation for each semantic cluster, which limits the ability to model complex cluster structures and diverse patterns in real-world data. To address this limitation, we propose a Mixture of Clustering Experts with Dual Consistency (MoCE-DC). MoCE-DC introduces a set of learnable clustering experts that characterize the same semantic cluster from multiple perspectives within a unified prototype space. A gating mechanism is employed to adaptively select experts for each sample. MoCE-DC decomposes complex semantic clusters into multiple collaborative sub-structures, significantly enhances the ability to model intricate intra-cluster diversity. To further ensure cross-view semantic consistency, we propose a dual-level alignment mechanism that enforces prediction consistency across views while guiding clustering assignments toward a more discriminative direction. In addition, a gating balance regularization strategy is introduced to mitigate expert collapse and promote balanced expert utilization. Extensive experiments on multiple public multi-view clustering benchmarks demonstrate that MoCE-DC outperforms state-of-the-art methods.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-mixture-of-clustering-experts-with-dual-consistency-for-multi-view-clust-1e3ce5c1ad",
+    "team": "unknown",
+    "topic": [
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-17",
+    "last_checked": "2026-09-17",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
     "title": "Multimodal data-driven clustering analysis of heart failure patients identifies two distinct patterns of heart failure with preserved ejection fraction: Results from the PACIFIC-PRESERVED study",
     "authors": [
       "Jean‐Sébastien Hulot",
@@ -1636,7 +1967,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -1832,7 +2163,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-16",
+    "last_checked": "2026-09-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -3021,7 +3352,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-17",
     "status": "new",
     "relevance_score": 51
   },
@@ -3829,7 +4160,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-17",
     "status": "new",
     "relevance_score": 51
   },
@@ -4246,7 +4577,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -4792,7 +5123,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-14",
+    "last_checked": "2026-09-17",
     "status": "new",
     "relevance_score": 51
   },
