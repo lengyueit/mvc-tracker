@@ -1,16 +1,14 @@
 {
-  "date": "2026-09-17",
-  "existing_before": 154,
-  "fetched": 29,
-  "added": 10,
+  "date": "2026-09-18",
+  "existing_before": 164,
+  "fetched": 46,
+  "added": 0,
   "total_after": 164,
   "errors": [
     "semantic_scholar: multi-view clustering: HTTP Error 429: ",
-    "arxiv: multi-view clustering: HTTP Error 406: Not Acceptable",
     "semantic_scholar: multiview clustering: HTTP Error 429: ",
     "arxiv: multiview clustering: HTTP Error 406: Not Acceptable",
     "semantic_scholar: incomplete multi-view clustering: HTTP Error 429: ",
-    "arxiv: incomplete multi-view clustering: HTTP Error 406: Not Acceptable",
     "semantic_scholar: incomplete multiview clustering: HTTP Error 429: ",
     "arxiv: incomplete multiview clustering: HTTP Error 406: Not Acceptable",
     "semantic_scholar: partial multi-view clustering: HTTP Error 429: ",
@@ -18,17 +16,19 @@
     "semantic_scholar: unaligned multi-view clustering: HTTP Error 429: ",
     "arxiv: unaligned multi-view clustering: HTTP Error 406: Not Acceptable",
     "semantic_scholar: contrastive multi-view clustering: HTTP Error 429: ",
-    "arxiv: contrastive multi-view clustering: HTTP Error 406: Not Acceptable",
     "semantic_scholar: deep multi-view clustering: HTTP Error 429: ",
-    "arxiv: deep multi-view clustering: HTTP Error 406: Not Acceptable",
     "semantic_scholar: Xinwang Liu multi-view clustering: HTTP Error 429: ",
     "arxiv: Xinwang Liu multi-view clustering: HTTP Error 406: Not Acceptable",
     "semantic_scholar: Changqing Zhang multi-view clustering: HTTP Error 429: ",
     "arxiv: Changqing Zhang multi-view clustering: HTTP Error 406: Not Acceptable",
+    "semantic_scholar: Xi Peng multi-view clustering: HTTP Error 429: ",
     "arxiv: Xi Peng multi-view clustering: HTTP Error 406: Not Acceptable",
     "semantic_scholar: Peng Hu multi-view clustering: HTTP Error 429: ",
     "arxiv: Peng Hu multi-view clustering: HTTP Error 406: Not Acceptable",
     "semantic_scholar: Dezhong Peng multi-view clustering: HTTP Error 429: ",
-    "arxiv: Dezhong Peng multi-view clustering: HTTP Error 406: Not Acceptable"
+    "arxiv: Dezhong Peng multi-view clustering: HTTP Error 406: Not Acceptable",
+    "semantic_scholar: Feiping Nie multi-view clustering: HTTP Error 429: ",
+    "arxiv: Feiping Nie multi-view clustering: HTTP Error 406: Not Acceptable",
+    "semantic_scholar: Rong Wang multi-view clustering: HTTP Error 429: "
   ]
 }
