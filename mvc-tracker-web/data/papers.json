@@ -1998,7 +1998,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-09-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -2030,7 +2030,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-09-22",
     "status": "new",
     "relevance_score": 56
   },
@@ -2693,7 +2693,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-09-22",
     "status": "new",
     "relevance_score": 64
   },
@@ -3385,7 +3385,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-09-22",
     "status": "new",
     "relevance_score": 59
   },
@@ -3768,11 +3768,11 @@
     "team": "unknown",
     "topic": [
       "IMVC",
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-09-22",
     "status": "new",
     "relevance_score": 59
   },
@@ -4349,7 +4349,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-09-22",
     "status": "new",
     "relevance_score": 51
   },
@@ -4442,11 +4442,11 @@
     "id": "2021-consensus-graph-learning-for-multi-view-clustering-60dcd97fcc",
     "team": "liu-xinwang",
     "topic": [
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-09-22",
     "status": "new",
     "relevance_score": 51
   },
@@ -4543,7 +4543,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-09-22",
     "status": "new",
     "relevance_score": 51
   },
@@ -4778,7 +4778,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-09-22",
     "status": "new",
     "relevance_score": 59
   },
@@ -5058,11 +5058,11 @@
     "id": "2019-binary-multi-view-clustering-2dcc4654d3",
     "team": "hit-shenzhen-wen",
     "topic": [
-      "safe MVC",
-      "deep MVC"
+      "deep MVC",
+      "safe MVC"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-08-16",
+    "last_checked": "2026-09-22",
     "status": "new",
     "relevance_score": 51
   },
@@ -5157,7 +5157,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-09-22",
     "status": "new",
     "relevance_score": 59
   },
