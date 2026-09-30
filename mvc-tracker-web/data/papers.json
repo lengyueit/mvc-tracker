@@ -1,5 +1,35 @@
 [
   {
+    "title": "Adversarial Consistency-Guided Representation Learning for Multi-view Clustering",
+    "authors": [
+      "Yuchen Lin",
+      "Kunpeng Xu",
+      "Ying Fang",
+      "Lifei Chen"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "doi": "",
+    "arxiv_id": "2609.35212v1",
+    "semantic_scholar_id": "",
+    "openalex_id": "",
+    "pdf_url": "http://arxiv.org/pdf/2609.35212v1",
+    "code_url": "",
+    "abstract": "Multi-view clustering aims to capture cross-view consistency while exploiting view-specific information. However, shared representations learned to capture cross-view consistency may still retain view-identifying information, potentially compromising the consistency of cross-view clustering structures. To address this issue, we propose ACGRL, an adversarial consistency-guided representation learning framework for multi-view clustering. ACGRL employs a gradient-reversal view discriminator to reduce view identifiability and obtain invariant reference representations. These representations are then frozen to provide fixed references for disentangling view-specific information from cross-view common information in the subsequent learning stage. The fixed reference representations are concatenated with the learned view-specific representations for reconstruction and clustering, with cross-view cluster alignment encouraging consistent clustering assignments. Experiments on four benchmark datasets demonstrate the superior clustering performance of ACGRL compared with representative multi-view clustering methods.",
+    "source": [
+      "arxiv"
+    ],
+    "id": "2026-adversarial-consistency-guided-representation-learning-for-multi-view-cl-7e29121a7a",
+    "team": "unknown",
+    "topic": [
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-30",
+    "last_checked": "2026-09-30",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
     "title": "Multi-View Fair Clustering Guided by Cross-View Sensitive Information Discrepancy",
     "authors": [
       "Mudi Jiang",
@@ -26,7 +56,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-29",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 56
   },
@@ -90,7 +120,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-09-27",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 64
   },
@@ -124,7 +154,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-09-27",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 56
   },
@@ -225,7 +255,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-09-27",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 56
   },
@@ -259,7 +289,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-09-27",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 56
   },
@@ -357,7 +387,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-09-27",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 56
   },
@@ -435,7 +465,7 @@
       "MVC"
     ],
     "first_seen": "2026-09-15",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 56
   },
@@ -561,7 +591,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 64
   },
@@ -656,7 +686,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 72
   },
@@ -720,7 +750,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 64
   },
@@ -755,7 +785,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 64
   },
@@ -858,7 +888,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 64
   },
@@ -892,7 +922,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 64
   },
@@ -925,7 +955,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 56
   },
@@ -1086,6 +1116,37 @@
     "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
+  },
+  {
+    "title": "Tensor-Based Late Fusion Incomplete Multiview Clustering",
+    "authors": [
+      "Xiaoxing Guo",
+      "Ming Yang",
+      "Gui-Fu Lu"
+    ],
+    "year": 2025,
+    "venue": "IEEE transactions on multimedia",
+    "doi": "10.1109/TMM.2025.3565971",
+    "arxiv_id": "",
+    "semantic_scholar_id": "e123e59c22f4996fccface07e84433c9e93fa3a3",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/e123e59c22f4996fccface07e84433c9e93fa3a3",
+    "code_url": "",
+    "abstract": "Late fusion-based algorithms have attracted extensive attention because of their low time and space complexity for handling in-complete multiview data. However, these methods have certain limitations. First, the basic clustering indicator matrices generated by incomplete views are susceptible to low-quality imputation. Second, traditional methods often fail to adequately consider the high-order correlations between these basic clustering indicator matrices, leading to suboptimal performance. Third, conventional methods focus primarily on improving speed, with less emphasis on enhancing clustering performance. To address these issues, we propose two novel models. The first is called tensor-based late fusion incomplete multiview clustering (TLF-IMVC-1). Specifical-ly, TLF-IMVC-1 first seeks a consensus clustering matrix from the basic clustering indicator matrices and subsequently imputes the incomplete portions of these matrices via the learned consen-sus matrix. This approach seamlessly integrates the clustering process with the imputation of missing elements into a unified framework. Furthermore, we construct a third-order tensor from these basic clustering matrices, constrained by the tensor nuclear norm, to capture their high-order correlations. Although this model is effective, it lacks proper guidance in the learning process of the basic clustering indicator matrices, making them suscepti-ble to low-quality imputation. Therefore, we introduce the second novel model, i.e., TLF-IMVC-2, to address this issue. Specifically, TLF-IMVC-2 uses the learned consensus representation matrix as a new component to construct the third-order tensor. This strategy leverages the robust clustering structure inherent in the consensus matrix to guide the learning process of the basic clus-tering matrices. The experimental results demonstrate that both models outperform state-of-the-art methods in clustering.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-tensor-based-late-fusion-incomplete-multiview-clustering-d8c1ed9196",
+    "team": "unknown",
+    "topic": [
+      "IMVC",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-09-30",
+    "last_checked": "2026-09-30",
+    "status": "new",
+    "relevance_score": 64
   },
   {
     "title": "DFL-Net: Disentangled Feature Learning Network for Multi-View Clustering",
@@ -1644,7 +1705,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-09-24",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 80
   },
@@ -2223,7 +2284,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 56
   },
@@ -2254,7 +2315,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 56
   },
@@ -2285,7 +2346,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 64
   },
@@ -2314,7 +2375,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 56
   },
@@ -2346,7 +2407,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 64
   },
@@ -2380,7 +2441,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 64
   },
@@ -2446,7 +2507,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 64
   },
@@ -2483,7 +2544,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 64
   },
@@ -2515,7 +2576,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 72
   },
@@ -2550,7 +2611,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 56
   },
@@ -2585,7 +2646,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 56
   },
@@ -2622,7 +2683,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 56
   },
@@ -2659,7 +2720,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 56
   },
@@ -3215,7 +3276,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 59
   },
@@ -3250,7 +3311,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 59
   },
@@ -3479,7 +3540,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 51
   },
@@ -3508,7 +3569,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 67
   },
@@ -3542,7 +3603,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 59
   },
@@ -3903,7 +3964,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-09-12",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 59
   },
@@ -3969,7 +4030,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 75
   },
@@ -4000,7 +4061,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 67
   },
@@ -4032,7 +4093,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 59
   },
@@ -4099,7 +4160,7 @@
       "IMVC"
     ],
     "first_seen": "2026-09-06",
-    "last_checked": "2026-09-06",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 59
   },
@@ -4287,7 +4348,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 59
   },
@@ -4643,7 +4704,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 59
   },
@@ -4938,7 +4999,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 59
   },
@@ -4970,7 +5031,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-09-30",
     "status": "new",
     "relevance_score": 67
   },
