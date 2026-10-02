@@ -1,20 +1,19 @@
 {
-  "date": "2026-10-01",
-  "existing_before": 167,
-  "fetched": 63,
-  "added": 1,
+  "date": "2026-10-02",
+  "existing_before": 168,
+  "fetched": 75,
+  "added": 0,
   "total_after": 168,
   "errors": [
     "semantic_scholar: multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: multiview clustering: HTTP Error 429: ",
     "semantic_scholar: incomplete multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: partial multi-view clustering: HTTP Error 429: ",
+    "semantic_scholar: incomplete multiview clustering: HTTP Error 429: ",
     "semantic_scholar: unaligned multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: contrastive multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: deep multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Xinwang Liu multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Changqing Zhang multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: Xi Peng multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Peng Hu multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Dezhong Peng multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Feiping Nie multi-view clustering: HTTP Error 429: ",
@@ -29,6 +28,6 @@
     "semantic_scholar: Jie Xu multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Yong Liu multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: Huayi Tang multi-view clustering: HTTP Error 429: ",
-    "semantic_scholar: Songcan Chen multi-view clustering: HTTP Error 429: "
+    "semantic_scholar: Lusi Li multi-view clustering: HTTP Error 429: "
   ]
 }
