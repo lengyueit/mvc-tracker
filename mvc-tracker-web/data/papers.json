@@ -1,5 +1,67 @@
 [
   {
+    "title": "Ultra-short-term solar irradiance forecasting for missing data: A multi-modal fusion-based incomplete multi-view clustering method",
+    "authors": [
+      "Jingxin Zhang",
+      "Xiaoqin Wang",
+      "Yiming Zhou"
+    ],
+    "year": 2026,
+    "venue": "Renewable Energy",
+    "doi": "10.1016/j.renene.2026.126477",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7214761715",
+    "pdf_url": "https://doi.org/10.1016/j.renene.2026.126477",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-ultra-short-term-solar-irradiance-forecasting-for-missing-data-a-multi-m-3b8e5e6fe3",
+    "team": "unknown",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-10-03",
+    "last_checked": "2026-10-03",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
+    "title": "Uncertainty-Aware Multi-View Graph Clustering",
+    "authors": [
+      "Bo Peng",
+      "Shao-Bo Bai",
+      "Jian-Jun Lei",
+      "Yuxuan Yao",
+      "Changqing Zhang",
+      "Nam Ling"
+    ],
+    "year": 2026,
+    "venue": "IEEE transactions on multimedia",
+    "doi": "10.1109/TMM.2026.3651061",
+    "arxiv_id": "",
+    "semantic_scholar_id": "1082db5dbfdb954343844e4dd73d47e24e1b6b5f",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/1082db5dbfdb954343844e4dd73d47e24e1b6b5f",
+    "code_url": "",
+    "abstract": "Multi-view clustering has achieved advanced progress over the years, which typically integrates multi-view information to learn discriminative common representations or a unified clustering distribution for clustering. However, existing methods either simply regard each view as equally important or assign fixed weights to each view, which are insufficient to dynamically assess the sample quality variations caused by noise in multi-view data. To address this issue, by effectively modeling the uncertainty of different samples across different views, this paper proposes a novel uncertainty-aware multi-view graph clustering network, termed UMGC-Net, which achieves trusted multi-view clustering in an unsupervised manner. Specifically, by measuring the clustering distribution entropy, an uncertainty-guided common feature learning mechanism is proposed to estimate the uncertainty for each sample of each view, thus learning multi-view features friendly to clustering. Besides, a cross-view trusted distribution fusion module is designed to obtain robust clustering distribution by exploring the trusted consistency among multi-view clustering distributions based on uncertainty. Finally, experimental results on four popular multi-view datasets validate the superior performance of the proposed UMGC-Net.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2026-uncertainty-aware-multi-view-graph-clustering-cbe240db4a",
+    "team": "zhang-changqing",
+    "topic": [
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-10-03",
+    "last_checked": "2026-10-03",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
     "title": "Beyond Missing Rates: Rethinking Incomplete Multi-View Clustering with Protocol Divergence",
     "authors": [
       "Haolu Liu",
@@ -221,7 +283,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -256,7 +318,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -288,7 +350,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -355,7 +417,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-02",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 64
   },
@@ -1151,6 +1213,70 @@
     "relevance_score": 56
   },
   {
+    "title": "Multi-View Clustering With Incremental Instances and Views",
+    "authors": [
+      "Chao Zhang",
+      "Zhi Wang",
+      "Xiuyi Jia",
+      "Ze-Chao Li",
+      "Chunlin Chen",
+      "Huaxiong Li"
+    ],
+    "year": 2025,
+    "venue": "IEEE Transactions on Image Processing",
+    "doi": "10.1109/TIP.2025.3583122",
+    "arxiv_id": "",
+    "semantic_scholar_id": "b6683aa7529489c1d1f26cf2cd4ac4f4abbc2770",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/b6683aa7529489c1d1f26cf2cd4ac4f4abbc2770",
+    "code_url": "",
+    "abstract": "Multi-view clustering (MVC) has attracted increasing attention with the emergence of various data collected from multiple sources. In real-world dynamic environment, instances are continually gathered, and the number of views expands as new data sources become available. Learning for such simultaneous increment of instances and views, particularly in unsupervised scenarios, is crucial yet underexplored. In this paper, we address this problem by proposing a novel MVC method with Incremental Instances and Views, MVC-IIV for short. MVC-IIV contains two stages, an initial stage and an incremental stage. In the initial stage, a basic latent multi-view subspace clustering model is constructed to handle existing data, which can be viewed as traditional static MVC. In the incremental stage, the previously trained model is reused to guide learning for newly arriving instances with new views, transferring historical knowledge while avoiding redundant computations. In specific, we design and reuse two modules, i.e., multi-view embedding module for low-dimensional representation learning, and consensus centroids module for cluster probability learning. By adding consistency regularization on the two modules, the knowledge acquired from previous data is used, which not only enhances the exploration within current data batch, but also extracts the between-batch data correlations. The proposed model can be efficiently solved with linear space and time complexity. Extensive experiments demonstrate the effectiveness and efficiency of our method compared with the state-of-the-art approaches.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-multi-view-clustering-with-incremental-instances-and-views-97511136a6",
+    "team": "unknown",
+    "topic": [
+      "continual MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-10-03",
+    "last_checked": "2026-10-03",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Efficient Multi-view Clustering via Reinforcement Contrastive Learning",
+    "authors": [
+      "Qianqian Wang",
+      "Haiming Xu",
+      "Zihao Zhang",
+      "Zhi-Qiang Tao",
+      "Quanxue Gao"
+    ],
+    "year": 2025,
+    "venue": "International Joint Conference on Artificial Intelligence",
+    "doi": "10.24963/ijcai.2025/708",
+    "arxiv_id": "",
+    "semantic_scholar_id": "5674f276a8a3c4cab4e0d28a4ed75f53203a64aa",
+    "openalex_id": "",
+    "pdf_url": "https://www.ijcai.org/proceedings/2025/0708.pdf",
+    "code_url": "",
+    "abstract": "Contrastive multi-view clustering has demonstrated remarkable potential in complex data analysis, yet existing approaches face two critical challenges: difficulty in constructing high-quality positive and negative pairs and high computational overhead due to static optimization strategies. To address these challenges, we propose an innovative efficient Multi-View Clustering framework with Reinforcement Contrastive Learning (EMVCRCL). Our key innovation is developing a reinforcement contrastive learning paradigm for dynamic clustering optimization. First, we leverage multi-view contrastive learning to obtain latent features, which are then sent to the reinforcement learning module to refine low-quality features. Specifically, it selects high-confident features to guide the positive/negative pair construction of contrastive learning. For the low-confident features, it utilizes the prior balanced distribution to adjust their assignment. Extensive experimental results showcase the effectiveness and superiority of our proposed method on multiple benchmark datasets.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-efficient-multi-view-clustering-via-reinforcement-contrastive-learning-8dd3a428d8",
+    "team": "xidian-gao-wang",
+    "topic": [
+      "contrastive MVC"
+    ],
+    "first_seen": "2026-10-03",
+    "last_checked": "2026-10-03",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
     "title": "Tensor-Based Late Fusion Incomplete Multiview Clustering",
     "authors": [
       "Xiaoxing Guo",
@@ -1270,7 +1396,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-03",
-    "last_checked": "2026-09-15",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -1331,7 +1457,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-02",
-    "last_checked": "2026-09-02",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -1423,7 +1549,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-23",
-    "last_checked": "2026-09-24",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -1616,7 +1742,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-09-24",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -1648,7 +1774,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-09-24",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -1677,7 +1803,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-09-24",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 64
   },
@@ -1708,7 +1834,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-09-24",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -1738,7 +1864,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-10-01",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 80
   },
@@ -2059,7 +2185,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 64
   },
@@ -2787,7 +2913,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 56
   },
@@ -2949,6 +3075,69 @@
     "last_checked": "2026-09-29",
     "status": "new",
     "relevance_score": 64
+  },
+  {
+    "title": "Federated Multi-View Clustering via Tensor Factorization",
+    "authors": [
+      "Wei Feng",
+      "Zhenwei Wu",
+      "Qianqian Wang",
+      "Bo Dong",
+      "Zhi-Qiang Tao",
+      "Quanxue Gao"
+    ],
+    "year": 2024,
+    "venue": "International Joint Conference on Artificial Intelligence",
+    "doi": "10.24963/ijcai.2024/438",
+    "arxiv_id": "",
+    "semantic_scholar_id": "dd0639b8ebf4dd1f8fe2185a4ba740f550fae446",
+    "openalex_id": "",
+    "pdf_url": "https://www.ijcai.org/proceedings/2024/0438.pdf",
+    "code_url": "",
+    "abstract": "Multi-view clustering is an effective method to process massive unlabeled multi-view data. Since data of different views may be collected and held by different parties, it becomes impractical to train a multi-view clustering model in a centralized way, for the sake of privacy. However, federated multi-view clustering is challenging because multi-view learning has to consider the complementary and consistent information between each view distributed across different clients. For another, efficiency is highly expected in federated scenarios. Therefore, we propose a novel federated multi-view clustering method with tensor factorization (TensorFMVC), which is built based on K-means and hence is more efficient. Besides, TensorFMVC avoids initializing centroids to address the performance degradation of K-means due to its sensitivity to centroid initialization. A three-order tensor stacked by cluster assignment matrices is introduced to exploit the complementary information and spatial structure of different views. Furthermore, we divide the optimization into several subproblems and develop a federated optimization approach to support cooperative model training. Extensive experiments on several datasets demonstrate that our proposed method exhibits superior performance in federated multi-view clustering.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-federated-multi-view-clustering-via-tensor-factorization-8886b4a848",
+    "team": "xidian-gao-wang",
+    "topic": [
+      "federated MVC"
+    ],
+    "first_seen": "2026-10-03",
+    "last_checked": "2026-10-03",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
+    "title": "Multi-View Clustering Based on Deep Non-negative Tensor Factorization",
+    "authors": [
+      "Wei Feng",
+      "Dongyuan Wei",
+      "Qianqian Wang",
+      "Bo Dong",
+      "Quanxue Gao"
+    ],
+    "year": 2024,
+    "venue": "ACM Multimedia",
+    "doi": "10.1145/3664647.3681417",
+    "arxiv_id": "",
+    "semantic_scholar_id": "4756804da90381e944e171f73320643c7d6e44f7",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/4756804da90381e944e171f73320643c7d6e44f7",
+    "code_url": "",
+    "abstract": "Multi-view clustering (MVC) methods based on non-negative matrix factorization (NMF) have gained popularity owing to their ability to provide interpretable clustering results. However, these NMF-based MVC methods generally process each view independently and thus ignore the potential relationship between views. Besides, they are limited in the ability to capture nonlinear data structures. To overcome these weaknesses and inspired by deep learning, we propose a multi-view clustering method based on deep non-negative tensor factorization (MVC-DNTF). With deep tensor factorization, our method can well exploit the spatial structure of the original data and is capable of extracting more deep and nonlinear features embedded in different views. To further extract the complementary information of different views, we adopt the weighted tensor Schatten p-norm regularization term. An optimization algorithm is developed to effectively solve the MVC-DNTF objective. Extensive experiments are performed to demonstrate the effectiveness and superiority of our method.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-multi-view-clustering-based-on-deep-non-negative-tensor-factorization-ede7e31bda",
+    "team": "xidian-gao-wang",
+    "topic": [
+      "deep MVC"
+    ],
+    "first_seen": "2026-10-03",
+    "last_checked": "2026-10-03",
+    "status": "new",
+    "relevance_score": 51
   },
   {
     "title": "Dynamic Weighted Graph Fusion for Deep Multi-View Clustering",
@@ -3175,7 +3364,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-19",
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 51
   },
@@ -3669,7 +3858,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-22",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 59
   },
@@ -3796,7 +3985,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-19",
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 51
   },
@@ -4160,7 +4349,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 59
   },
@@ -4415,7 +4604,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-20",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 59
   },
@@ -4769,7 +4958,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 59
   },
@@ -4802,7 +4991,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-29",
+    "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 51
   },
