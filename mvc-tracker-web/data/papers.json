@@ -25,7 +25,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-10-04",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -120,7 +120,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-10-01",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -150,7 +150,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-30",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -181,7 +181,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-29",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -225,7 +225,7 @@
       "Chang Tang"
     ],
     "year": 2026,
-    "venue": "",
+    "venue": "International Joint Conference on Artificial Intelligence",
     "doi": "10.24963/ijcai.2026/572",
     "arxiv_id": "",
     "semantic_scholar_id": "",
@@ -245,7 +245,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -261,7 +261,7 @@
       "Ce Zhu"
     ],
     "year": 2026,
-    "venue": "",
+    "venue": "International Joint Conference on Artificial Intelligence",
     "doi": "10.24963/ijcai.2026/547",
     "arxiv_id": "",
     "semantic_scholar_id": "",
@@ -279,7 +279,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -361,7 +361,7 @@
       "Yi Wang (32470)"
     ],
     "year": 2026,
-    "venue": "",
+    "venue": "International Joint Conference on Artificial Intelligence",
     "doi": "10.24963/ijcai.2026/557",
     "arxiv_id": "",
     "semantic_scholar_id": "",
@@ -380,7 +380,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -396,7 +396,7 @@
       "Xinwang Liu"
     ],
     "year": 2026,
-    "venue": "",
+    "venue": "International Joint Conference on Artificial Intelligence",
     "doi": "10.24963/ijcai.2026/319",
     "arxiv_id": "",
     "semantic_scholar_id": "",
@@ -414,7 +414,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -590,7 +590,7 @@
       "MVC"
     ],
     "first_seen": "2026-09-15",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -716,7 +716,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -811,7 +811,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 72
   },
@@ -875,7 +875,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -910,7 +910,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -1013,7 +1013,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -1047,7 +1047,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -1080,7 +1080,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -2473,7 +2473,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -2504,7 +2504,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -2535,7 +2535,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -2564,7 +2564,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -2596,7 +2596,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -2696,7 +2696,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -2733,7 +2733,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 64
   },
@@ -2765,7 +2765,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 72
   },
@@ -2800,7 +2800,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -2835,7 +2835,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -2872,7 +2872,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -2909,7 +2909,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 56
   },
@@ -3792,7 +3792,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 51
   },
@@ -3821,7 +3821,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 67
   },
@@ -3855,7 +3855,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -4282,7 +4282,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 75
   },
@@ -4313,7 +4313,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 67
   },
@@ -4345,7 +4345,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -4600,7 +4600,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -4956,7 +4956,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -5251,7 +5251,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 59
   },
@@ -5283,7 +5283,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-04",
+    "last_checked": "2026-10-06",
     "status": "new",
     "relevance_score": 67
   },
