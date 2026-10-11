@@ -25,7 +25,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-10-04",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -120,7 +120,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-10-01",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 64
   },
@@ -150,7 +150,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-30",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -181,7 +181,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-29",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -245,7 +245,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 64
   },
@@ -279,7 +279,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -380,7 +380,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -414,7 +414,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -590,7 +590,7 @@
       "MVC"
     ],
     "first_seen": "2026-09-15",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -716,7 +716,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 64
   },
@@ -811,7 +811,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 72
   },
@@ -875,7 +875,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 64
   },
@@ -910,7 +910,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 64
   },
@@ -1013,7 +1013,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 64
   },
@@ -1047,7 +1047,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 64
   },
@@ -1080,7 +1080,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -1241,6 +1241,68 @@
     "last_checked": "2026-08-20",
     "status": "new",
     "relevance_score": 56
+  },
+  {
+    "title": "Dual constraint based semi-supervised nonnegative matrix factorization for multi-view clustering",
+    "authors": [
+      "Siyuan Peng",
+      "Zimeng Huangfu",
+      "Wenyun Xie",
+      "Zhijing Yang",
+      "Feiping Nie"
+    ],
+    "year": 2025,
+    "venue": "Knowledge-Based Systems",
+    "doi": "10.1016/j.knosys.2025.114357",
+    "arxiv_id": "",
+    "semantic_scholar_id": "d3f64285cb0026e1c1d752a54fc4349184a224aa",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/d3f64285cb0026e1c1d752a54fc4349184a224aa",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-dual-constraint-based-semi-supervised-nonnegative-matrix-factorization-f-8e0ce3872d",
+    "team": "nwpu-nie",
+    "topic": [
+      "MVC"
+    ],
+    "first_seen": "2026-10-11",
+    "last_checked": "2026-10-11",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Capturing Individuality and Commonality Between Anchor Graphs for Multi-View Clustering",
+    "authors": [
+      "Zhoumin Lu",
+      "Yongbo Yu",
+      "Linru Ma",
+      "Feiping Nie",
+      "Rong Wang"
+    ],
+    "year": 2025,
+    "venue": "International Joint Conference on Artificial Intelligence",
+    "doi": "10.24963/ijcai.2025/652",
+    "arxiv_id": "",
+    "semantic_scholar_id": "e47a9431d4ff387d44219325bd612bdec4825873",
+    "openalex_id": "",
+    "pdf_url": "https://www.ijcai.org/proceedings/2025/0652.pdf",
+    "code_url": "",
+    "abstract": "The use of anchors often leads to better efficiency and scalability, making them highly favored. However, there is a challenge in anchor-based multi-view subspace learning. A unified anchor graph overly emphasize the commonality between views, failing to adequately capture the view-specific individuality. This has led some models to independently explore the individuality of each view before aligning and integrating them, often achieving better performance but making the process more cumbersome. Therefore, this paper proposes a new model, simultaneously capturing the individuality and commonality between anchor graphs for multi-view clustering. The model has three notable advantages: First, it allows view-specific anchor graphs to align in real-time with a common anchor graph as a reference, eliminating the need for post-alignment. Second, it enforces a cluster-wise structure among anchors and balances sample distribution among them, providing strong discriminative power. Lastly, it maintains linear complexity with respect to the numbers of samples and anchors, avoiding the significant time costs associated with their increase. Comprehensive experiments demonstrate the effectiveness and efficiency of our method compared to various state-of-the-art algorithms.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-capturing-individuality-and-commonality-between-anchor-graphs-for-multi-6f4ad75d2a",
+    "team": "nwpu-nie",
+    "topic": [
+      "anchor graph"
+    ],
+    "first_seen": "2026-10-11",
+    "last_checked": "2026-10-11",
+    "status": "new",
+    "relevance_score": 64
   },
   {
     "title": "Multi-View Clustering With Incremental Instances and Views",
@@ -2473,7 +2535,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -2504,7 +2566,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -2535,7 +2597,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 64
   },
@@ -2564,7 +2626,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -2596,7 +2658,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 64
   },
@@ -2696,7 +2758,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 64
   },
@@ -2733,7 +2795,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 64
   },
@@ -2765,7 +2827,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 72
   },
@@ -2800,7 +2862,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -2835,7 +2897,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -2872,7 +2934,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -2909,7 +2971,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 56
   },
@@ -3040,7 +3102,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 64
   },
@@ -3102,9 +3164,40 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-09",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 64
+  },
+  {
+    "title": "Scalable and parameter-free fusion graph learning for multi-view clustering",
+    "authors": [
+      "Yu Duan",
+      "Danyang Wu",
+      "Rong Wang",
+      "Xuelong Li",
+      "Feiping Nie"
+    ],
+    "year": 2024,
+    "venue": "Neurocomputing",
+    "doi": "10.1016/j.neucom.2024.128037",
+    "arxiv_id": "",
+    "semantic_scholar_id": "be189e16ecc1cd2c40946a4709d808e353907f96",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/be189e16ecc1cd2c40946a4709d808e353907f96",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2024-scalable-and-parameter-free-fusion-graph-learning-for-multi-view-cluster-6a21ff3359",
+    "team": "nwpu-nie",
+    "topic": [
+      "MVC"
+    ],
+    "first_seen": "2026-10-11",
+    "last_checked": "2026-10-11",
+    "status": "new",
+    "relevance_score": 51
   },
   {
     "title": "Federated Multi-View Clustering via Tensor Factorization",
@@ -3792,7 +3885,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 51
   },
@@ -3821,7 +3914,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 67
   },
@@ -3855,7 +3948,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 59
   },
@@ -3919,7 +4012,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-13",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 51
   },
@@ -4282,7 +4375,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 75
   },
@@ -4313,7 +4406,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 67
   },
@@ -4345,7 +4438,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 59
   },
@@ -4600,7 +4693,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 59
   },
@@ -4664,7 +4757,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-09",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 59
   },
@@ -4693,7 +4786,37 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-09",
+    "last_checked": "2026-10-11",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
+    "title": "Multi-View Clustering via Nonnegative and Orthogonal Graph Reconstruction",
+    "authors": [
+      "Shao-Jun Shi",
+      "F. Nie",
+      "Rong Wang",
+      "Xue-Long Li"
+    ],
+    "year": 2021,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "doi": "10.1109/TNNLS.2021.3093297",
+    "arxiv_id": "",
+    "semantic_scholar_id": "f81c51000f9ed22e3d3e7fdede04381694e86eb3",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/f81c51000f9ed22e3d3e7fdede04381694e86eb3",
+    "code_url": "",
+    "abstract": "The goal of multi-view clustering is to partition samples into different subsets according to their diverse features. Previous multi-view clustering methods mainly exist two forms: multi-view spectral clustering and multi-view matrix factorization. Although they have shown excellent performance in many occasions, there are still many disadvantages. For example, multi-view spectral clustering usually needs to perform postprocessing. Multi-view matrix factorization directly decomposes the original data features. When the size of features is large, it encounters the expensive time consumption to decompose these data features thoroughly. Therefore, we proposed a novel multi-view clustering approach. The main advantages include the following three aspects: 1) it searches for a common joint graph across multiple views, which fully explores the hidden structure information by utilizing the compatibility among views; 2) the introduced nonnegative constraint manipulates that the final clustering results can be directly obtained; and 3) straightforwardly decomposing the similarity matrix can transform the eigenvalue factorization in spectral clustering with computational complexity <inline-formula> <tex-math notation=\"LaTeX\">$O(n^{3})$ </tex-math></inline-formula> into the singular value decomposition (SVD) with <inline-formula> <tex-math notation=\"LaTeX\">$O({n}{c}^{2})$ </tex-math></inline-formula> time cost, where <inline-formula> <tex-math notation=\"LaTeX\">${n}$ </tex-math></inline-formula> and <inline-formula> <tex-math notation=\"LaTeX\">$c$ </tex-math></inline-formula>, respectively, denote the numbers of samples and classes. Thus, the computational efficiency can be improved. Moreover, in order to learn a better clustering model, we set that the constructed similarity graph approximates each view affinity graph as close as possible by adding the constraint as the initial affinity matrices own. Furthermore, substantial experiments are conducted, which verifies the superiority of the proposed two clustering methods comparing with single-view clustering approaches and state-of-the-art multi-view clustering methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2021-multi-view-clustering-via-nonnegative-and-orthogonal-graph-reconstructio-5323a28086",
+    "team": "nwpu-nie",
+    "topic": [
+      "MVC"
+    ],
+    "first_seen": "2026-10-11",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 51
   },
@@ -4956,7 +5079,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 59
   },
@@ -4988,7 +5111,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-09",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 59
   },
@@ -5021,7 +5144,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-09",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 51
   },
@@ -5054,7 +5177,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-09",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 51
   },
@@ -5251,7 +5374,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 59
   },
@@ -5283,7 +5406,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-10",
+    "last_checked": "2026-10-11",
     "status": "new",
     "relevance_score": 67
   },
