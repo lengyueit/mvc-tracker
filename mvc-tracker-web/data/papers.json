@@ -113,7 +113,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-10-04",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -208,7 +208,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-10-01",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -238,7 +238,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-30",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -269,7 +269,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-29",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -468,7 +468,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -502,7 +502,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -678,7 +678,7 @@
       "MVC"
     ],
     "first_seen": "2026-09-15",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -804,7 +804,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -899,7 +899,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 72
   },
@@ -963,7 +963,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -998,7 +998,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -1101,7 +1101,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -1135,7 +1135,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -1168,7 +1168,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -1331,6 +1331,109 @@
     "relevance_score": 56
   },
   {
+    "title": "Nonlinear multi-view clustering for non-negative matrix factorization",
+    "authors": [
+      "Jin-Rong Cui",
+      "Bang Liufu",
+      "Yulu Fu",
+      "Meihua Wang",
+      "Zhihui Lai"
+    ],
+    "year": 2025,
+    "venue": "Neural Networks",
+    "doi": "10.1016/j.neunet.2025.107744",
+    "arxiv_id": "",
+    "semantic_scholar_id": "c023f75af41f98f5b85ef2d8698bf4c9f88af31c",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/c023f75af41f98f5b85ef2d8698bf4c9f88af31c",
+    "code_url": "",
+    "abstract": "Deep multi-view clustering methods have made significant progress in recent years, benefiting from their wide parameter space and the ability to consider more details in the learning procedure. However, the existing methods suffer from the following problems: (1) Deep models based on data-driven learning often involve opaque update processes and struggle to maintain stability across varying data scales. (2) Non-negative Matrix Factorization (NMF)-based clustering methods generally exhibit limited robustness due to their restricted nonlinear fitting capabilities and narrow parameter spaces. To address these issues, we propose a nonlinear non-negative matrix factorization multi-view clustering framework. Our framework integrates traditional NMF optimization principles into a deep model to enhance interpretability and stability. In addition, it employs partially parameterized NMF iterations to improve nonlinear fitting ability, thereby expanding the parameter space and enhancing model robustness. We also introduce a cross-view contrastive loss to guide the model in learning inter-view diversity and cluster-friendly structural features. Experiments on multiple datasets show that our method outperforms state-of-the-art clustering methods.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-nonlinear-multi-view-clustering-for-non-negative-matrix-factorization-b50a945115",
+    "team": "unknown",
+    "topic": [
+      "IMVC",
+      "contrastive MVC",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-10-23",
+    "last_checked": "2026-10-23",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Dual-tensor collaborative facilitation for multi-view clustering",
+    "authors": [
+      "Jie Zhang",
+      "Xiao-Qian Zhang",
+      "Yong-Ying Yang",
+      "Jinghao Li",
+      "Zhenwen Ren",
+      "Rong Tang",
+      "Dong Wang"
+    ],
+    "year": 2025,
+    "venue": "Expert systems with applications",
+    "doi": "10.1016/j.eswa.2025.129883",
+    "arxiv_id": "",
+    "semantic_scholar_id": "c98348d882e66c8a1c9adf50a11f39bcc9639509",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/c98348d882e66c8a1c9adf50a11f39bcc9639509",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-dual-tensor-collaborative-facilitation-for-multi-view-clustering-2fe34065a6",
+    "team": "unknown",
+    "topic": [
+      "MVC"
+    ],
+    "first_seen": "2026-10-23",
+    "last_checked": "2026-10-23",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Cross representation subspace learning for multi-view clustering",
+    "authors": [
+      "Hong-Wei Jiang",
+      "Wen-Ming Ma",
+      "Jian Dai",
+      "Jianguo Ding",
+      "Xiang-Rong Tong",
+      "Yingjie Wang",
+      "Xiao-Lin Du",
+      "Dalong Jiang",
+      "Yixuan Luo",
+      "Jing-Hui Zhang"
+    ],
+    "year": 2025,
+    "venue": "Expert systems with applications",
+    "doi": "10.1016/j.eswa.2025.128007",
+    "arxiv_id": "",
+    "semantic_scholar_id": "c2123e4f035974ed97570942c3e584bfcf71ea95",
+    "openalex_id": "",
+    "pdf_url": "https://doi.org/10.2139/ssrn.5159268",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-cross-representation-subspace-learning-for-multi-view-clustering-558e976976",
+    "team": "unknown",
+    "topic": [
+      "deep MVC"
+    ],
+    "first_seen": "2026-10-23",
+    "last_checked": "2026-10-23",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
     "title": "Dual constraint based semi-supervised nonnegative matrix factorization for multi-view clustering",
     "authors": [
       "Siyuan Peng",
@@ -1388,7 +1491,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-10-11",
-    "last_checked": "2026-10-11",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -1853,7 +1956,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-22",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -2296,7 +2399,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 72
   },
@@ -2398,7 +2501,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -2594,7 +2697,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -2623,7 +2726,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -2654,7 +2757,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -2685,7 +2788,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -2714,7 +2817,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -2746,7 +2849,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -2846,7 +2949,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -2883,7 +2986,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 64
   },
@@ -2915,7 +3018,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 72
   },
@@ -2950,7 +3053,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -2985,7 +3088,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -3022,7 +3125,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -3059,7 +3162,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 56
   },
@@ -3543,7 +3646,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-10-14",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 51
   },
@@ -3642,7 +3745,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-10-14",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -3877,7 +3980,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 51
   },
@@ -3973,7 +4076,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 51
   },
@@ -4002,7 +4105,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 67
   },
@@ -4036,7 +4139,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -4069,7 +4172,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -4100,7 +4203,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-11",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 51
   },
@@ -4163,7 +4266,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-22",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 67
   },
@@ -4230,7 +4333,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-19",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -4263,7 +4366,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-19",
-    "last_checked": "2026-10-16",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -4463,7 +4566,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 75
   },
@@ -4494,7 +4597,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 67
   },
@@ -4526,7 +4629,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -4685,7 +4788,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 51
   },
@@ -4781,7 +4884,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -5065,7 +5168,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-10-14",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -5132,7 +5235,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-16",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -5167,7 +5270,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -5199,7 +5302,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -5270,6 +5373,38 @@
     "relevance_score": 51
   },
   {
+    "title": "Fast Multi-View Clustering via Nonnegative and Orthogonal Factorization",
+    "authors": [
+      "Ben Yang",
+      "Xuetao Zhang",
+      "F. Nie",
+      "Fei Wang",
+      "Weizhong Yu",
+      "Rong Wang"
+    ],
+    "year": 2020,
+    "venue": "IEEE Transactions on Image Processing",
+    "doi": "10.1109/TIP.2020.3045631",
+    "arxiv_id": "",
+    "semantic_scholar_id": "af2b03b4f38af9c29bee8c9720e5c310b5480be6",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/af2b03b4f38af9c29bee8c9720e5c310b5480be6",
+    "code_url": "",
+    "abstract": "The rapid growth of the number of data brings great challenges to clustering, especially the introduction of multi-view data, which collected from multiple sources or represented by multiple features, makes these challenges more arduous. How to clustering large-scale data efficiently has become the hottest topic of current large-scale clustering tasks. Although several accelerated multi-view methods have been proposed to improve the efficiency of clustering large-scale data, they still cannot be applied to some scenarios that require high efficiency because of the high computational complexity. To cope with the issue of high computational complexity of existing multi-view methods when dealing with large-scale data, a fast multi-view clustering model via nonnegative and orthogonal factorization (FMCNOF) is proposed in this paper. Instead of constraining the factor matrices to be nonnegative as traditional nonnegative and orthogonal factorization (NOF), we constrain a factor matrix of this model to be cluster indicator matrix which can assign cluster labels to data directly without extra post-processing step to extract cluster structures from the factor matrix. Meanwhile, the F-norm instead of the L2-norm is utilized on the FMCNOF model, which makes the model very easy to optimize. Furthermore, an efficient optimization algorithm is proposed to solve the FMCNOF model. Different from the traditional NOF optimization algorithm requiring dense matrix multiplications, our algorithm can divide the optimization problem into three decoupled small size subproblems that can be solved by much less matrix multiplications. Combined with the FMCNOF model and the corresponding fast optimization method, the efficiency of the clustering process can be significantly improved, and the computational complexity is nearly $O(n)$ . Extensive experiments on various benchmark data sets validate our approach can greatly improve the efficiency when achieve acceptable performance.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2020-fast-multi-view-clustering-via-nonnegative-and-orthogonal-factorization-1ddb21464f",
+    "team": "nwpu-nie",
+    "topic": [
+      "MVC"
+    ],
+    "first_seen": "2026-10-23",
+    "last_checked": "2026-10-23",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
     "title": "CDIMC-net: Cognitive Deep Incomplete Multi-view Clustering Network",
     "authors": [
       "Jie Wen",
@@ -5299,7 +5434,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-20",
-    "last_checked": "2026-10-14",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -5333,7 +5468,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-10-14",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -5462,7 +5597,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
@@ -5494,7 +5629,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 67
   },
@@ -5678,7 +5813,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 51
   },
@@ -5712,7 +5847,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-10-23",
     "status": "new",
     "relevance_score": 59
   },
