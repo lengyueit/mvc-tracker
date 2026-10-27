@@ -113,7 +113,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-10-04",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -208,7 +208,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-10-01",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 64
   },
@@ -238,7 +238,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-30",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -269,7 +269,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-29",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -468,7 +468,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -502,7 +502,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -678,7 +678,7 @@
       "MVC"
     ],
     "first_seen": "2026-09-15",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -804,7 +804,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 64
   },
@@ -899,7 +899,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 72
   },
@@ -963,7 +963,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 64
   },
@@ -998,7 +998,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 64
   },
@@ -1101,7 +1101,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 64
   },
@@ -1135,7 +1135,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 64
   },
@@ -1168,7 +1168,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -1390,11 +1390,11 @@
     "topic": [
       "IMVC",
       "contrastive MVC",
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-10-23",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -1427,7 +1427,7 @@
       "MVC"
     ],
     "first_seen": "2026-10-23",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -1463,7 +1463,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-10-23",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -1525,7 +1525,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-10-11",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 64
   },
@@ -2760,7 +2760,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -2791,7 +2791,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -2822,7 +2822,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 64
   },
@@ -2851,7 +2851,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -2883,7 +2883,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 64
   },
@@ -2983,7 +2983,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 64
   },
@@ -3020,7 +3020,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 64
   },
@@ -3052,7 +3052,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 72
   },
@@ -3087,7 +3087,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -3122,7 +3122,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -3159,7 +3159,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -3196,7 +3196,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 56
   },
@@ -4110,7 +4110,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 51
   },
@@ -4139,7 +4139,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 67
   },
@@ -4173,7 +4173,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 59
   },
@@ -4237,7 +4237,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 51
   },
@@ -4600,7 +4600,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 75
   },
@@ -4631,7 +4631,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 67
   },
@@ -4663,7 +4663,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 59
   },
@@ -4918,7 +4918,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 59
   },
@@ -5012,6 +5012,41 @@
     ],
     "first_seen": "2026-08-10",
     "last_checked": "2026-10-20",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
+    "title": "One Pass Late Fusion Multi-view Clustering",
+    "authors": [
+      "Xinwang Liu",
+      "Li Liu",
+      "Qing Liao",
+      "Si-Wei Wang",
+      "Yi Zhang",
+      "Wen-Xuan Tu",
+      "Chang Tang",
+      "Ji-Yuan Liu",
+      "En Zhu"
+    ],
+    "year": 2021,
+    "venue": "International Conference on Machine Learning",
+    "doi": "",
+    "arxiv_id": "",
+    "semantic_scholar_id": "6b6159d08aa5d285dcb598c313ee69a83c8e88a7",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/6b6159d08aa5d285dcb598c313ee69a83c8e88a7",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2021-one-pass-late-fusion-multi-view-clustering-c0e9d4c5fe",
+    "team": "liu-xinwang",
+    "topic": [
+      "MVC"
+    ],
+    "first_seen": "2026-10-27",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 51
   },
@@ -5138,7 +5173,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-10-07",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 51
   },
@@ -5304,7 +5339,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 59
   },
@@ -5407,6 +5442,41 @@
     "relevance_score": 51
   },
   {
+    "title": "Efficient and Effective Regularized Incomplete Multi-View Clustering",
+    "authors": [
+      "Xinwang Liu",
+      "Miao-Miao Li",
+      "Chang Tang",
+      "Jingyuan Xia",
+      "Jian Xiong",
+      "Li Liu",
+      "M. Kloft",
+      "En Zhu"
+    ],
+    "year": 2020,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "doi": "10.1109/tpami.2020.2974828",
+    "arxiv_id": "",
+    "semantic_scholar_id": "92cb12ee010983611620ee06fb265a1694c80466",
+    "openalex_id": "",
+    "pdf_url": "https://oulurepo.oulu.fi/bitstream/10024/29672/1/nbnfi-fe2021102752478.pdf",
+    "code_url": "",
+    "abstract": "Incomplete multi-view clustering (IMVC) optimally combines multiple pre-specified incomplete views to improve clustering performance. Among various excellent solutions, the recently proposed multiple kernel $k$k-means with incomplete kernels (MKKM-IK) forms a benchmark, which redefines IMVC as a joint optimization problem where the clustering and kernel matrix imputation tasks are alternately performed until convergence. Though demonstrating promising performance in various applications, we observe that the manner of kernel matrix imputation in MKKM-IK would incur intensive computational and storage complexities, over-complicated optimization and limitedly improved clustering performance. In this paper, we first propose an Efficient and Effective Incomplete Multi-view Clustering (EE-IMVC) algorithm to address these issues. Instead of completing the incomplete kernel matrices, EE-IMVC proposes to impute each incomplete base matrix generated by incomplete views with a learned consensus clustering matrix. Moreover, we further improve this algorithm by incorporating prior knowledge to regularize the learned consensus clustering matrix. Two three-step iterative algorithms are carefully developed to solve the resultant optimization problems with linear computational complexity, and their convergence is theoretically proven. After that, we theoretically study the generalization bound of the proposed algorithms. Furthermore, we conduct comprehensive experiments to study the proposed algorithms in terms of clustering accuracy, evolution of the learned consensus clustering matrix and the convergence. As indicated, our algorithms deliver their effectiveness by significantly and consistently outperforming some state-of-the-art ones.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2020-efficient-and-effective-regularized-incomplete-multi-view-clustering-2bac0b3d86",
+    "team": "liu-xinwang",
+    "topic": [
+      "IMVC",
+      "multiple kernel clustering"
+    ],
+    "first_seen": "2026-10-27",
+    "last_checked": "2026-10-27",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
     "title": "Fast Multi-View Clustering via Nonnegative and Orthogonal Factorization",
     "authors": [
       "Ben Yang",
@@ -5434,7 +5504,7 @@
       "MVC"
     ],
     "first_seen": "2026-10-23",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 51
   },
@@ -5631,7 +5701,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 59
   },
@@ -5663,9 +5733,77 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-25",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 67
+  },
+  {
+    "title": "Multi-view Clustering via Late Fusion Alignment Maximization",
+    "authors": [
+      "Siwei Wang",
+      "Xinwang Liu",
+      "En Zhu",
+      "Chang Tang",
+      "Jiyuan Liu",
+      "Jingtao Hu",
+      "Jingyuan Xia",
+      "Jian-Ping Yin"
+    ],
+    "year": 2019,
+    "venue": "International Joint Conference on Artificial Intelligence",
+    "doi": "10.24963/ijcai.2019/524",
+    "arxiv_id": "",
+    "semantic_scholar_id": "9bf8528ad8e852c9dd20397a4ed55062e27affa9",
+    "openalex_id": "",
+    "pdf_url": "https://www.ijcai.org/proceedings/2019/0524.pdf",
+    "code_url": "",
+    "abstract": "Multi-view clustering (MVC) optimally integrates complementary information from different views to improve clustering performance. Although demonstrating promising performance in many applications, we observe that most of existing methods directly combine multiple views to learn an optimal similarity for clustering. These methods would cause intensive computational complexity and over-complicated optimization. In this paper, we theoretically uncover the connection between existing k-means clustering and the alignment between base partitions and consensus partition. Based on this observation, we propose a simple but effective multi-view algorithm termed {Multi-view Clustering via Late Fusion Alignment Maximization (MVC-LFA)}. In specific, MVC-LFA proposes to maximally align the consensus partition with the weighted base partitions. Such a criterion is beneficial to significantly reduce the computational complexity and simplify the optimization procedure. Furthermore, we design a three-step iterative algorithm to solve the new resultant optimization problem with theoretically guaranteed convergence. Extensive experiments on five multi-view benchmark datasets demonstrate the effectiveness and efficiency of the proposed MVC-LFA.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2019-multi-view-clustering-via-late-fusion-alignment-maximization-a050972a37",
+    "team": "liu-xinwang",
+    "topic": [
+      "safe MVC"
+    ],
+    "first_seen": "2026-10-27",
+    "last_checked": "2026-10-27",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
+    "title": "Efficient and Effective Incomplete Multi-View Clustering",
+    "authors": [
+      "Xinwang Liu",
+      "Xinzhong Zhu",
+      "Miao-Miao Li",
+      "Chang Tang",
+      "En Zhu",
+      "Jian-Ping Yin",
+      "Wen Gao"
+    ],
+    "year": 2019,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/AAAI.V33I01.33014392",
+    "arxiv_id": "",
+    "semantic_scholar_id": "880d7821e340f0786bcfba3b36291db45d1ad9ab",
+    "openalex_id": "",
+    "pdf_url": "https://doi.org/10.1609/aaai.v33i01.33014392",
+    "code_url": "",
+    "abstract": "Incomplete multi-view clustering (IMVC) optimally fuses multiple pre-specified incomplete views to improve clustering performance. Among various excellent solutions, the recently proposed multiple kernel k-means with incomplete kernels (MKKM-IK) forms a benchmark, which redefines IMVC as a joint optimization problem where the clustering and kernel matrix imputation tasks are alternately performed until convergence. Though demonstrating promising performance in various applications, we observe that the manner of kernel matrix imputation in MKKM-IK would incur intensive computational and storage complexities, overcomplicated optimization and limitedly improved clustering performance. In this paper, we propose an Efficient and Effective Incomplete Multi-view Clustering (EE-IMVC) algorithm to address these issues. Instead of completing the incomplete kernel matrices, EE-IMVC proposes to impute each incomplete base matrix generated by incomplete views with a learned consensus clustering matrix. We carefully develop a three-step iterative algorithm to solve the resultant optimization problem with linear computational complexity and theoretically prove its convergence. Further, we conduct comprehensive experiments to study the proposed EE-IMVC in terms of clustering accuracy, running time, evolution of the learned consensus clustering matrix and the convergence. As indicated, our algorithm significantly and consistently outperforms some state-of-the-art algorithms with much less running time and memory.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2019-efficient-and-effective-incomplete-multi-view-clustering-7467b1b8df",
+    "team": "liu-xinwang",
+    "topic": [
+      "IMVC",
+      "multiple kernel clustering"
+    ],
+    "first_seen": "2026-10-27",
+    "last_checked": "2026-10-27",
+    "status": "new",
+    "relevance_score": 59
   },
   {
     "title": "Deep Adversarial Multi-view Clustering Network",
@@ -5882,6 +6020,42 @@
     ],
     "first_seen": "2026-08-11",
     "last_checked": "2026-10-25",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
+    "title": "Late Fusion Incomplete Multi-view Clustering",
+    "authors": [
+      "Xinwang Liu",
+      "Xinzhong Zhu",
+      "Miao-Miao Li",
+      "Lei Wang",
+      "Chang Tang",
+      "Jian-Ping Yin",
+      "D. Shen",
+      "Huai-Min Wang",
+      "Wen Gao"
+    ],
+    "year": 2018,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "doi": "10.1109/TPAMI.2018.2879108",
+    "arxiv_id": "",
+    "semantic_scholar_id": "44bbcf83bd8d3c44eafaa5d9831c51e2ab692ea7",
+    "openalex_id": "",
+    "pdf_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6494716",
+    "code_url": "",
+    "abstract": "Incomplete multi-view clustering optimally integrates a group of pre-specified incomplete views to improve clustering performance. Among various excellent solutions, multiple kernel $k$k-means with incomplete kernels forms a benchmark, which redefines the incomplete multi-view clustering as a joint optimization problem where the imputation and clustering are alternatively performed until convergence. However, the comparatively intensive computational and storage complexities preclude it from practical applications. To address these issues, we propose Late Fusion Incomplete Multi-view Clustering (LF-IMVC) which effectively and efficiently integrates the incomplete clustering matrices generated by incomplete views. Specifically, our algorithm jointly learns a consensus clustering matrix, imputes each incomplete base matrix, and optimizes the corresponding permutation matrices. We develop a three-step iterative algorithm to solve the resultant optimization problem with linear computational complexity and theoretically prove its convergence. Further, we conduct comprehensive experiments to study the proposed LF-IMVC in terms of clustering accuracy, running time, advantages of late fusion multi-view clustering, evolution of the learned consensus clustering matrix, parameter sensitivity and convergence. As indicated, our algorithm significantly and consistently outperforms some state-of-the-art algorithms with much less running time and memory.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2018-late-fusion-incomplete-multi-view-clustering-b592800ce0",
+    "team": "liu-xinwang",
+    "topic": [
+      "IMVC",
+      "multiple kernel clustering"
+    ],
+    "first_seen": "2026-10-27",
+    "last_checked": "2026-10-27",
     "status": "new",
     "relevance_score": 59
   },
