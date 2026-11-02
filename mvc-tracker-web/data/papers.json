@@ -1,5 +1,72 @@
 [
   {
+    "title": "Less Federation, More Personalization: One-Shot Multi-View Clustering for Federated Fall Detection",
+    "authors": [
+      "Donato Cerciello",
+      "Leonardo Schiavo",
+      "Ángel Panizo-LLedot",
+      "Javier Huertas‐Tato",
+      "Sara Amitrano",
+      "David Camacho",
+      "Junxin Chen",
+      "Francesco Piccialli"
+    ],
+    "year": 2026,
+    "venue": "ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc)",
+    "doi": "10.1145/3842721.3850110",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7224910133",
+    "pdf_url": "https://doi.org/10.1145/3842721.3850110",
+    "code_url": "",
+    "abstract": "Federated learning is a natural fit for sensor-based fall detection, where data are privacy-sensitive and highly non-IID across subjects. A two-stage framework is proposed in which each client first learns label-free representations using FMMVCC, a multi-view clustering encoder that combines reconstruction, cross-view consistency, contrastive learning, and prototype-based objectives. The resulting encoders are then aggregated via a single round of FedAvg into a shared frozen feature extractor, decoupling representation learning from downstream classification. Experiments are conducted on the FallTL dataset, a wearable sensing benchmark evaluated under both binary (Fall/ADL) and 16-class (activity × Fall/ADL) granularities. Results show that FMMVCC achieves strong representation quality, outperforming four self-supervised baselines in binary classification (84.15% ACC) and providing competitive performance in the fine-grained setting. On top of these representations, the personalized closed-form classifier consistently outperforms FedAvg, FedProx, and shared analytic baselines by 8-13pp, and matches or exceeds FedProto in the 16-class setting while requiring no communication during inference. Finally, cross-client alignment metrics are shown to be weak predictors of downstream performance, while class-separability measures correlate more reliably with accuracy.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-less-federation-more-personalization-one-shot-multi-view-clustering-for-9a6372e4e7",
+    "team": "unknown",
+    "topic": [
+      "contrastive MVC",
+      "federated MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-11-02",
+    "last_checked": "2026-11-02",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Binarized simplicial convolutional neural networks for secure and energy-efficient data aggregation in WSN",
+    "authors": [
+      "Allan J Wilson",
+      "Anoop Mohanakumar",
+      "Radhamani A. S",
+      "M. Leeban Moses"
+    ],
+    "year": 2026,
+    "venue": "Peer-to-Peer Networking and Applications",
+    "doi": "10.1007/s12083-026-02280-0",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7224210520",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s12083-026-02280-0.pdf",
+    "code_url": "",
+    "abstract": "In Wireless Sensor Networks (WSNs), secure and energy-efficient data aggregation has been challenging due to limited energy supply, dynamic nature of the network, and presence of malicious nodes. In this paper, a Binarized Simplicial Convolutional Neural Networks for Secure and Energy-Efficient Data Aggregation in WSN (CPGIMC-SEIDA-WSN) is proposed. Initially, WSN nodes are collected from real-time environmental data like humidity, temperature and motion. The Consensus Partition Guided Incomplete Multi-View Clustering (CPGIMC) used to format the clusters and selects the optimal CH through Parameter Adaptive Manta Ray Foraging Optimization (PAMRFO). Malicious nodes are identified and isolated using novel Binarized Simplicial Convolutional Neural Networks (BSCNN), which analyze the topological relationships among sensor nodes and detect abnormal communication patterns to ensure data integrity. The Superb Fairy-Wren Optimization Algorithm (SFOA) also optimizes the path of the data transmission through three parameters like trust, connectivity and quality of service (QoS). The simulation proves that the proposed approach has the capability to provide 23.55%, 15.31% and 45.33%higher Packet delivery Ratio; 43.36%, 41.36% and 23.44% higher Network lifetime; 22.24%, 34.11% and 16.14% lower delay than the existing methods such as AGNN-CHR-SDA-WSN, EDT-EEC-IDSR-WSN and WSNL-IC respectively.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-binarized-simplicial-convolutional-neural-networks-for-secure-and-energy-8cceb65689",
+    "team": "unknown",
+    "topic": [
+      "IMVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-11-02",
+    "last_checked": "2026-11-02",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
     "title": "Regime-aware congestion diagnosis and prediction using physics-informed tensor learning",
     "authors": [
       "Xiaoyu Li",
@@ -239,7 +306,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-10-01",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -269,7 +336,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-30",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -300,7 +367,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-29",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -499,7 +566,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -533,7 +600,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-10-31",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -709,7 +776,7 @@
       "MVC"
     ],
     "first_seen": "2026-09-15",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -835,7 +902,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -930,7 +997,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 72
   },
@@ -994,7 +1061,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -1029,7 +1096,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -1132,7 +1199,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -1166,7 +1233,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -1199,7 +1266,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -1358,6 +1425,106 @@
     ],
     "first_seen": "2026-08-10",
     "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Missing Pattern Tree based Decision Grouping and Ensemble for Enhancing Pair Utilization in Deep Incomplete Multi-View Clustering.",
+    "authors": [
+      "Jie Xu",
+      "Wenyuan Yang",
+      "Ya-Zhou Ren",
+      "Lifang He",
+      "Philip S. Yu",
+      "Xiaofeng Zhu"
+    ],
+    "year": 2025,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "doi": "10.1109/TPAMI.2026.3729698",
+    "arxiv_id": "2512.21510",
+    "semantic_scholar_id": "664fcc25d49e611e735618da0597f0d6af69b406",
+    "openalex_id": "",
+    "pdf_url": "https://arxiv.org/pdf/2512.21510",
+    "code_url": "",
+    "abstract": "Real-world multi-view data often exhibit highly inconsistent missing patterns, posing significant challenges for incomplete multi-view clustering (IMVC). Although existing IMVC methods have made progress along both imputation-based and imputation-free routes, they largely overlook the issue of pair underutilization. Specifically, inconsistent missing patterns prevent incomplete but available multi-view pairs from being fully exploited, thereby limiting the model performance. To address this limitation, we propose a novel missing-pattern tree based IMVC framework. Specifically, to fully leverage available multi-view pairs, we first introduce a missing-pattern tree model to group data into multiple decision sets according to their missing patterns, and then perform multi-view clustering within each set. Furthermore, a multi-view decision ensemble module is proposed to aggregate clustering results across all decision sets. This module infers uncertainty-based weights to suppress unreliable clustering decisions and produce robust outputs. Finally, we develop an ensemble-to-individual knowledge distillation module, which transfers ensemble knowledge to view-specific clustering models. This design enables mutual enhancement between ensemble and individual modules by optimizing cross-view consistency and inter-cluster discrimination losses. Extensive theoretical analysis supports our key designs, and empirical experiments on multiple benchmark datasets demonstrate that our method effectively mitigates the pair underutilization issue and achieves superior IMVC performance. Our code is available at https://github.com/SubmissionsIn/TreeEIC.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-missing-pattern-tree-based-decision-grouping-and-ensemble-for-enhancing-30fef17ada",
+    "team": "uestc-zhu-ren",
+    "topic": [
+      "IMVC",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-11-02",
+    "last_checked": "2026-11-02",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
+    "title": "Missing Pattern Tree based Decision Grouping and Ensemble for Deep Incomplete Multi-View Clustering",
+    "authors": [
+      "Wenyuan Yang",
+      "Jie Xu",
+      "Hongqing He",
+      "Jiang-Zhang Gan",
+      "Xiaofeng Zhu"
+    ],
+    "year": 2025,
+    "venue": "arXiv.org",
+    "doi": "10.48550/arXiv.2512.21510",
+    "arxiv_id": "",
+    "semantic_scholar_id": "ddca00b2374d36e18de35eaa302e9bceaee83f96",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/ddca00b2374d36e18de35eaa302e9bceaee83f96",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-missing-pattern-tree-based-decision-grouping-and-ensemble-for-deep-incom-218c538cbf",
+    "team": "uestc-zhu-ren",
+    "topic": [
+      "IMVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-11-02",
+    "last_checked": "2026-11-02",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
+    "title": "Global-Graph Guided and Local-Graph Weighted Contrastive Learning for Unified Clustering on Incomplete and Noise Multi-View Data",
+    "authors": [
+      "Hongqing He",
+      "Jie Xu",
+      "Wenyuan Yang",
+      "Yonghua Zhu",
+      "Guo-Qiu Wen",
+      "Xiaofeng Zhu"
+    ],
+    "year": 2025,
+    "venue": "arXiv.org",
+    "doi": "10.48550/arXiv.2512.21516",
+    "arxiv_id": "2512.21516",
+    "semantic_scholar_id": "08d3e7ccddbfdd76b87ba99fef5efab5dde4d437",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/08d3e7ccddbfdd76b87ba99fef5efab5dde4d437",
+    "code_url": "",
+    "abstract": "Recently, contrastive learning (CL) plays an important role in exploring complementary information for multi-view clustering (MVC) and has attracted increasing attention. Nevertheless, real-world multi-view data suffer from data incompleteness or noise, resulting in rare-paired samples or mis-paired samples which significantly challenges the effectiveness of CL-based MVC. That is, rare-paired issue prevents MVC from extracting sufficient multi-view complementary information, and mis-paired issue causes contrastive learning to optimize the model in the wrong direction. To address these issues, we propose a unified CL-based MVC framework for enhancing clustering effectiveness on incomplete and noise multi-view data. First, to overcome the rare-paired issue, we design a global-graph guided contrastive learning, where all view samples construct a global-view affinity graph to form new sample pairs for fully exploring complementary information. Second, to mitigate the mis-paired issue, we propose a local-graph weighted contrastive learning, which leverages local neighbors to generate pair-wise weights to adaptively strength or weaken the pair-wise contrastive learning. Our method is imputation-free and can be integrated into a unified global-local graph-guided contrastive learning framework. Extensive experiments on both incomplete and noise settings of multi-view data demonstrate that our method achieves superior performance compared with state-of-the-art approaches.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-global-graph-guided-and-local-graph-weighted-contrastive-learning-for-un-88b9c57484",
+    "team": "uestc-zhu-ren",
+    "topic": [
+      "IMVC",
+      "contrastive MVC",
+      "robust MVC"
+    ],
+    "first_seen": "2026-11-02",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -2533,7 +2700,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-10-24",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -2660,7 +2827,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-24",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -2694,7 +2861,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-16",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -2729,7 +2896,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-24",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -2762,7 +2929,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-24",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -2791,7 +2958,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -2822,7 +2989,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -2853,7 +3020,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -2882,7 +3049,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -2914,7 +3081,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -3014,7 +3181,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -3051,7 +3218,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -3083,7 +3250,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 72
   },
@@ -3118,7 +3285,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -3153,7 +3320,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -3190,7 +3357,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -3227,7 +3394,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -3261,7 +3428,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 56
   },
@@ -3420,7 +3587,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 64
   },
@@ -4141,7 +4308,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 51
   },
@@ -4170,7 +4337,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 67
   },
@@ -4204,7 +4371,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -4237,7 +4404,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -4631,7 +4798,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 75
   },
@@ -4662,7 +4829,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 67
   },
@@ -4694,7 +4861,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -4731,6 +4898,37 @@
     "last_checked": "2026-10-03",
     "status": "new",
     "relevance_score": 59
+  },
+  {
+    "title": "Robust self-tuning multi-view clustering",
+    "authors": [
+      "Chang-An Yuan",
+      "Yonghua Zhu",
+      "Zhi Zhong",
+      "Wei Zheng",
+      "Xiaofeng Zhu"
+    ],
+    "year": 2022,
+    "venue": "World wide web (Bussum)",
+    "doi": "10.1007/s11280-021-00945-9",
+    "arxiv_id": "",
+    "semantic_scholar_id": "e5422da5f785bc3ea08b0b7c878aca5760bc7fd6",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/e5422da5f785bc3ea08b0b7c878aca5760bc7fd6",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2022-robust-self-tuning-multi-view-clustering-0acba61ec3",
+    "team": "uestc-zhu-ren",
+    "topic": [
+      "robust MVC"
+    ],
+    "first_seen": "2026-11-02",
+    "last_checked": "2026-11-02",
+    "status": "new",
+    "relevance_score": 51
   },
   {
     "title": "A Survey on Incomplete Multiview Clustering",
@@ -4949,7 +5147,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -5013,7 +5211,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -5042,7 +5240,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 51
   },
@@ -5370,7 +5568,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -5402,7 +5600,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -5435,7 +5633,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 51
   },
@@ -5468,7 +5666,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-20",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 51
   },
@@ -5699,7 +5897,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-16",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 51
   },
@@ -5732,7 +5930,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 59
   },
@@ -5764,7 +5962,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-02",
     "status": "new",
     "relevance_score": 67
   },
