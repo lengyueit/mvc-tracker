@@ -273,7 +273,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-10-03",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -306,7 +306,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-10-01",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 64
   },
@@ -336,7 +336,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-30",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -367,7 +367,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-29",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -566,7 +566,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -776,7 +776,7 @@
       "MVC"
     ],
     "first_seen": "2026-09-15",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -902,7 +902,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 64
   },
@@ -997,7 +997,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 72
   },
@@ -1061,7 +1061,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 64
   },
@@ -1096,7 +1096,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 64
   },
@@ -1199,7 +1199,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 64
   },
@@ -1233,7 +1233,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 64
   },
@@ -1266,7 +1266,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -1425,6 +1425,41 @@
     ],
     "first_seen": "2026-08-10",
     "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Max-Mahalanobis Anchors Guidance for Multi-View Clustering",
+    "authors": [
+      "Pei Zhang",
+      "Yuan-Gang Pan",
+      "Si-Wei Wang",
+      "Sheng-Ju Yu",
+      "Hui-Ying Xu",
+      "En Zhu",
+      "Xin-Wang Liu",
+      "I. Tsang"
+    ],
+    "year": 2025,
+    "venue": "AAAI Conference on Artificial Intelligence",
+    "doi": "10.1609/aaai.v39i21.34406",
+    "arxiv_id": "",
+    "semantic_scholar_id": "6afbfc6db5fb022de1f9babccff87f4e4cff2fda",
+    "openalex_id": "",
+    "pdf_url": "https://doi.org/10.1609/aaai.v39i21.34406",
+    "code_url": "",
+    "abstract": "Anchor selection or learning has become a critical component in large-scale multi-view clustering. Existing anchor-based methods, which either select-then-fix or initialize-then-optimize with orthogonality, yield promising performance. However, these methods still suffer from instability of initialization or insufficient depiction of data distribution. Moreover, the desired properties of anchors in multi-view clustering remain unspecified. To address these issues, this paper first formalizes the desired characteristics of anchors, namely Diversity, Balance and Compactness. We then devise and mathematically validate anchors that satisfy these properties by maximizing the Mahalanobis distance between anchors. Furthermore, we introduce a novel method called Max-Mahalanobis Anchors Guidance for multi-view Clustering (MAGIC), which guides the cross-view representations to progressively align with our well-defined anchors. This process yields highly discriminative and compact representations, significantly enhancing the performance of multi-view clustering. Experimental results show that our meticulously designed strategy significantly outperforms existing anchor-based methods in enhancing anchor efficacy, leading to substantial improvement in multi-view clustering performance.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-max-mahalanobis-anchors-guidance-for-multi-view-clustering-1d8638e2d9",
+    "team": "unknown",
+    "topic": [
+      "anchor graph",
+      "deep MVC"
+    ],
+    "first_seen": "2026-11-05",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -1756,7 +1791,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-10-03",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -1972,7 +2007,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-02",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -2700,7 +2735,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-11-03",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 64
   },
@@ -2733,7 +2768,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -2929,7 +2964,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-02",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 64
   },
@@ -2958,7 +2993,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -2989,7 +3024,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -3020,7 +3055,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 64
   },
@@ -3049,7 +3084,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -3081,7 +3116,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 64
   },
@@ -3181,7 +3216,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 64
   },
@@ -3218,7 +3253,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 64
   },
@@ -3250,7 +3285,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 72
   },
@@ -3285,7 +3320,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -3320,7 +3355,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -3357,7 +3392,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -3394,7 +3429,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 56
   },
@@ -3910,7 +3945,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-19",
-    "last_checked": "2026-10-18",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 51
   },
@@ -4212,7 +4247,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 51
   },
@@ -4308,7 +4343,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 51
   },
@@ -4337,7 +4372,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 67
   },
@@ -4371,7 +4406,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 59
   },
@@ -4565,7 +4600,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-19",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 59
   },
@@ -4598,7 +4633,7 @@
       "contrastive MVC"
     ],
     "first_seen": "2026-08-19",
-    "last_checked": "2026-10-23",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 59
   },
@@ -4798,7 +4833,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 75
   },
@@ -4829,7 +4864,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 67
   },
@@ -4861,7 +4896,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 59
   },
@@ -5147,7 +5182,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 59
   },
@@ -5533,7 +5568,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-10-24",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 59
   },
@@ -5568,7 +5603,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 59
   },
@@ -5930,7 +5965,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 59
   },
@@ -5962,7 +5997,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-04",
+    "last_checked": "2026-11-05",
     "status": "new",
     "relevance_score": 67
   },
