@@ -1,5 +1,38 @@
 [
   {
+    "title": "Reliability-Gated Incomplete Multi-View Clustering with Entropy-Adaptive Prototypes",
+    "authors": [
+      "Fan Yang",
+      "Junjie Yuan",
+      "haikun xu",
+      "Tingting Wang",
+      "Haimei Zhao"
+    ],
+    "year": 2026,
+    "venue": "ACM International Conference on Multimedia (ACM MM)",
+    "doi": "10.1145/3767308.3835692",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7225403738",
+    "pdf_url": "https://doi.org/10.1145/3767308.3835692",
+    "code_url": "",
+    "abstract": "Incomplete multi-view clustering (IMVC) seeks to uncover coherent cluster structures from multi-view data in the presence of missing observations. A central challenge is that the available views are often unreliable: heterogeneous noise and view-specific distortions can render paired samples weakly informative, making conventional cross-view alignment and prototype transfer prone to negative transfer. To address this issue, we propose Reliability-Gated Incomplete Multi-View Clustering with Entropy-Adaptive Prototypes (RGEA-IMVC), a deep framework that jointly performs uncertainty-driven reliability estimation, reliability-weighted semantic regularization, and prototype-based completion. RGEA-IMVC leverages view-specific autoencoders with heteroscedastic reconstruction uncertainty to infer instance-level reliability from predicted precision, incorporates a reliability-weighted energy-based semantic alignment module that learns cluster-specific energy functions and suppresses intra-cluster energy dispersion to promote semantic compactness while attenuating unreliable instances, enforces cross-view consistency of instance-to-prototype assignment distributions via a reliability-gated constraint with a balancing regularizer, and imputes missing-view representations through a prototype-driven completion module with entropy-adaptive soft prototype mixing to remain effective under severe incompleteness. Experiments on six benchmarks across a range of missing rates demonstrate that RGEA-IMVC consistently outperforms recent IMVC methods and retains robust performance as missingness increases.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-reliability-gated-incomplete-multi-view-clustering-with-entropy-adaptive-207d766a1f",
+    "team": "unknown",
+    "topic": [
+      "IMVC",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-11-10",
+    "last_checked": "2026-11-10",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
     "title": "Prior guided multi view clustering characterizes smartphone use behavioral profiles from heterogeneous questionnaire data in adults aged 60 to 69 years",
     "authors": [
       "Kun Chen",
@@ -28,7 +61,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-11-09",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 56
   },
@@ -59,11 +92,11 @@
     "team": "uestc-zhu-ren",
     "topic": [
       "IMVC",
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-11-09",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 64
   },
@@ -96,7 +129,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-11-07",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 56
   },
@@ -537,7 +570,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-10-01",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 64
   },
@@ -567,7 +600,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-30",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 56
   },
@@ -598,7 +631,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-29",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 56
   },
@@ -831,7 +864,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-09-17",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 56
   },
@@ -1007,7 +1040,7 @@
       "MVC"
     ],
     "first_seen": "2026-09-15",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 56
   },
@@ -1133,7 +1166,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 64
   },
@@ -1228,7 +1261,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 72
   },
@@ -1292,7 +1325,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 64
   },
@@ -1327,7 +1360,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 64
   },
@@ -1430,7 +1463,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 64
   },
@@ -1464,7 +1497,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 64
   },
@@ -1497,7 +1530,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 56
   },
@@ -1656,6 +1689,35 @@
     ],
     "first_seen": "2026-08-10",
     "last_checked": "2026-08-20",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "RJD-BASE: Multi-Modal Spectral Clustering via Randomized Joint Diagonalization",
+    "authors": [
+      "Haoze He",
+      "Artemis Pados",
+      "Daniel Kressner"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "doi": "",
+    "arxiv_id": "2509.11981v3",
+    "semantic_scholar_id": "",
+    "openalex_id": "",
+    "pdf_url": "http://arxiv.org/pdf/2509.11981v3",
+    "code_url": "",
+    "abstract": "We revisit the problem of spectral clustering in multimodal settings, where each data modality is encoded as a graph Laplacian. While classical approaches--including joint diagonalization, spectral co-regularization, and multiview clustering--attempt to align embeddings across modalities, they often rely on costly iterative refinement and may fail to directly target the spectral subspace relevant for clustering. In this work, we introduce two key innovations. First, we bring the power of randomization to this setting by sampling random convex combinations of Laplacians as a simple and scalable alternative to explicit eigenspace alignment. Second, we propose a principled selection rule based on Bottom-$k$ Aggregated Spectral Energy (BASE)--a $k$-dimensional extension of the directional smoothness objective from recent minimax formulations--which we uniquely apply as a selection mechanism rather than an optimization target. The result is Randomized Joint Diagonalization with BASE Selection (RJD-BASE), a method that is easily implementable, computationally efficient, aligned with the clustering objective, and grounded in decades of progress in standard eigensolvers. Through experiments on synthetic and real-world datasets, we show that RJD-BASE reliably selects high-quality embeddings, outperforming classical multimodal clustering methods at low computational cost.",
+    "source": [
+      "arxiv"
+    ],
+    "id": "2025-rjd-base-multi-modal-spectral-clustering-via-randomized-joint-diagonaliz-45c836ddf2",
+    "team": "unknown",
+    "topic": [
+      "MVC"
+    ],
+    "first_seen": "2026-11-10",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 56
   },
@@ -3255,7 +3317,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 56
   },
@@ -3286,7 +3348,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 64
   },
@@ -3315,7 +3377,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 56
   },
@@ -3347,7 +3409,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 64
   },
@@ -3447,7 +3509,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 64
   },
@@ -3484,7 +3546,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 64
   },
@@ -3516,7 +3578,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 72
   },
@@ -3551,7 +3613,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 56
   },
@@ -3586,7 +3648,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 56
   },
@@ -3623,7 +3685,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 56
   },
@@ -3660,7 +3722,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 56
   },
@@ -4574,7 +4636,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 51
   },
@@ -4603,7 +4665,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 67
   },
@@ -4637,7 +4699,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 59
   },
@@ -5064,7 +5126,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 75
   },
@@ -5095,7 +5157,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 67
   },
@@ -5127,7 +5189,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 59
   },
@@ -5413,7 +5475,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 59
   },
@@ -5834,7 +5896,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 59
   },
@@ -6196,7 +6258,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 59
   },
@@ -6228,7 +6290,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-10",
     "status": "new",
     "relevance_score": 67
   },

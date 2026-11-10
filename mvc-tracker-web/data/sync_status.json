@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-09",
-  "existing_before": 205,
-  "fetched": 49,
+  "date": "2026-11-10",
+  "existing_before": 207,
+  "fetched": 43,
   "added": 2,
-  "total_after": 207,
+  "total_after": 209,
   "errors": [
     "semantic_scholar: multi-view clustering: HTTP Error 429: ",
     "semantic_scholar: multiview clustering: HTTP Error 429: ",
