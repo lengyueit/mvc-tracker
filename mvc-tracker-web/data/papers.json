@@ -1,5 +1,103 @@
 [
   {
+    "title": "ORCA:Orthogonal Residual Consensus Alignment for Multi-View Clustering",
+    "authors": [
+      "Xiaojian Ding",
+      "Xian Li",
+      "Xiaoying Zhu",
+      "Lin Zhao",
+      "Kaixiang Wang"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "doi": "",
+    "arxiv_id": "2611.16749v1",
+    "semantic_scholar_id": "",
+    "openalex_id": "",
+    "pdf_url": "http://arxiv.org/pdf/2611.16749v1",
+    "code_url": "",
+    "abstract": "Deep multi-view clustering often suffers from redundant information accumulation during fusion and indiscriminate alignment across representation levels. We propose Orthogonal Residual Consensus Alignment (ORCA) to address these challenges. Its semantic incremental recurrent fusion module extracts cross-view orthogonal residuals as non-redundant increments and adaptively weights recurrent states through divergence-guided gating. Its consensus-calibrated hierarchical contrastive alignment module uses the global consensus to weight contrastive alignment of view-level, pairwise, and recurrent representations. Together, these modules balance view-specific structure with cross-view consistency. Experiments on five benchmarks against fifteen competing methods demonstrate ORCA's effectiveness, including a 5.25 percent accuracy improvement over the strongest baseline on 100leaves. Ablation studies validate both modules. Code is available at https://github.com/XiaojianDing/2026-NeurIPS-ORCA.",
+    "source": [
+      "arxiv"
+    ],
+    "id": "2026-orca-orthogonal-residual-consensus-alignment-for-multi-view-clustering-611ee9389e",
+    "team": "unknown",
+    "topic": [
+      "continual MVC",
+      "contrastive MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-11-14",
+    "last_checked": "2026-11-14",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Communication-Efficient Federated Multi-View Clustering via View-Aware Quantization",
+    "authors": [
+      "Khadija Ardif",
+      "Meryeme Ayache",
+      "Nidal Nasser",
+      "Ouiame Marnissi"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "doi": "",
+    "arxiv_id": "2611.15270v1",
+    "semantic_scholar_id": "",
+    "openalex_id": "",
+    "pdf_url": "http://arxiv.org/pdf/2611.15270v1",
+    "code_url": "",
+    "abstract": "Federated multi-view clustering (FedMVC) has recently attracted increasing attention for its ability to exploit complementary clustering structures across multiple clients while preserving data privacy. However, existing FedMVC methods often suffer from high communication overhead due to the repeated transmission of high-dimensional representations, which limits their scalability in practical federated systems. Moreover, different views may contribute unequally to the clustering performance, calling for adaptive communication strategies. In this paper, we propose a view-aware quantization algorithm for communication-efficient FedMVC. By dynamically assigning quantization bits based on iteratively updated view importance scores, the proposed algorithm effectively balances clustering performance and communication efficiency under a global bit budget constraint. To validate its generality, we integrate our approach into four state-of-the-art FedMVC methods. Extensive experiments on multiple benchmark datasets demonstrate that view-aware quantization achieves up to 6.59x communication reduction while maintaining and in some cases surpassing baseline clustering performance, confirming the effectiveness and scalability of the proposed approach.",
+    "source": [
+      "arxiv"
+    ],
+    "id": "2026-communication-efficient-federated-multi-view-clustering-via-view-aware-q-26427246b8",
+    "team": "unknown",
+    "topic": [
+      "federated MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-11-14",
+    "last_checked": "2026-11-14",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "TRUST-FS: Tensorized Reliable Unsupervised Multi-View Feature Selection for Incomplete Data",
+    "authors": [
+      "Minghui Lu",
+      "Yanyong Huang",
+      "Minbo Ma",
+      "Jinyuan Chang",
+      "Dongjie Wang",
+      "Xiuwen Yi",
+      "Tianrui Li",
+      "Tianrui Li"
+    ],
+    "year": 2026,
+    "venue": "ACM International Conference on Multimedia (ACM MM)",
+    "doi": "10.1145/3767308.3835929",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W4415317655",
+    "pdf_url": "https://doi.org/10.1145/3767308.3835929",
+    "code_url": "",
+    "abstract": "Multi-view unsupervised feature selection (MUFS), which selects informative features from multi-view unlabeled data, has attracted increasing research interest in recent years. Although great efforts have been devoted to MUFS, several challenges remain: 1) existing methods for incomplete multi-view data are limited to handling missing views and are unable to address the more general scenario of missing variables, where some features have missing values in certain views; 2) most methods address incomplete data by first imputing missing values and then performing feature selection, treating these two processes independently and overlooking their interactions; 3) missing data can result in an inaccurate similarity graph, which reduces the performance of feature selection. To solve this dilemma, we propose a novel MUFS method for incomplete multi-view data with missing variables, termed Tensorized Reliable UnSupervised mulTi-view Feature Selection (TRUST-FS). TRUST-FS introduces a new adaptive-weighted CP decomposition that simultaneously performs feature selection, missing-variable imputation, and view weight learning within a unified tensor factorization framework. By utilizing Subjective Logic to acquire trustworthy cross-view similarity information, TRUST-FS facilitates learning a reliable similarity graph, which subsequently guides feature selection and imputation. Comprehensive experimental results demonstrate the effectiveness and superiority of our method over state-of-the-art methods.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-trust-fs-tensorized-reliable-unsupervised-multi-view-feature-selection-f-b1707e2b0f",
+    "team": "unknown",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-11-14",
+    "last_checked": "2026-11-14",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
     "title": "Robust incomplete multi-view clustering via dynamic compensation and adaptive weighting joint optimization with tanimoto similarity",
     "authors": [
       "Ning Pang",
@@ -24,7 +122,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-11-12",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -599,7 +697,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-10-01",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -629,7 +727,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-30",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -660,7 +758,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-29",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -1069,7 +1167,7 @@
       "MVC"
     ],
     "first_seen": "2026-09-15",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -1195,7 +1293,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -1290,7 +1388,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 72
   },
@@ -1354,7 +1452,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -1389,7 +1487,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -1492,7 +1590,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -1526,7 +1624,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -1559,7 +1657,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -1746,7 +1844,7 @@
       "MVC"
     ],
     "first_seen": "2026-11-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -3346,7 +3444,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -3377,7 +3475,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -3406,7 +3504,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -3438,7 +3536,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -3538,7 +3636,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -3575,7 +3673,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 64
   },
@@ -3607,7 +3705,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 72
   },
@@ -3642,7 +3740,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -3677,7 +3775,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -3714,7 +3812,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -3751,7 +3849,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 56
   },
@@ -4665,7 +4763,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 51
   },
@@ -4694,7 +4792,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 67
   },
@@ -4728,7 +4826,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 59
   },
@@ -5155,7 +5253,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 75
   },
@@ -5186,7 +5284,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 67
   },
@@ -5218,7 +5316,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 59
   },
@@ -5504,7 +5602,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 59
   },
@@ -5925,7 +6023,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 59
   },
@@ -6287,7 +6385,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 59
   },
@@ -6319,7 +6417,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-13",
+    "last_checked": "2026-11-14",
     "status": "new",
     "relevance_score": 67
   },
