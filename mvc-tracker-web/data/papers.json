@@ -1,5 +1,67 @@
 [
   {
+    "title": "Bidirectional High-Order Propagation on Bipartite Graphs for Multi-view Clustering",
+    "authors": [
+      "Hao-Ji Chen",
+      "Guang-Yu Zhang",
+      "Jinrong Cui",
+      "Hao Huang"
+    ],
+    "year": 2026,
+    "venue": "Lecture notes in networks and systems",
+    "doi": "10.1007/978-3-032-31995-1_46",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7225875140",
+    "pdf_url": "https://doi.org/10.1007/978-3-032-31995-1_46",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-bidirectional-high-order-propagation-on-bipartite-graphs-for-multi-view-c161265a2a",
+    "team": "unknown",
+    "topic": [
+      "anchor graph"
+    ],
+    "first_seen": "2026-11-15",
+    "last_checked": "2026-11-15",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
+    "title": "Triplet-Guided Dual-Domain Manifold Reshaping for Large-Scale Incomplete Multiview Clustering",
+    "authors": [
+      "Tianchuan Yang",
+      "Haiqiang Chen",
+      "Haoyan Yang",
+      "Youming Sun",
+      "Xiangcheng Li"
+    ],
+    "year": 2026,
+    "venue": "ACM International Conference on Multimedia (ACM MM)",
+    "doi": "10.1145/3767308.3835807",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7225898220",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3767308.3835807?download=true",
+    "code_url": "",
+    "abstract": "Large-scale incomplete multiview clustering (IMVC) is a fundamental yet challenging task in multimedia analysis. Existing methods often suffer from topological distortions caused by missing instances and are typically constrained by cubic computational complexity, rendering them inapplicable to massive datasets. To address these, we propose DTMC, a novel dual-domain optimization framework that emphasizes spatial-domain manifold reshaping. Rather than relying on isolated view-specific structures that are highly vulnerable to data incompleteness, DTMC designs an efficient cross-view voting strategy to mine static, reliable structural priors. By leveraging these mined triplet priors to guide the mean embedding of multiple views, our framework generates dynamic gradient forces that pull intra-cluster samples and push inter-cluster samples. This mechanism effectively rectifies topological distortions in corrupted views, coupled with a lightweight frequency-domain tensor filter to preserve global cross-view low-rankness. Furthermore, we devise a robust optimization strategy that circumvents the construction of memory-intensive quadratic global graphs. Benefiting from vectorized gradient accumulation and dimensionality reduction techniques, DTMC maintains near-linear time and linear space complexities. Extensive experiments on several large-scale incomplete datasets demonstrate that our method significantly outperforms state-of-the-art baselines in both clustering accuracy and computational efficiency.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-triplet-guided-dual-domain-manifold-reshaping-for-large-scale-incomplete-61b0fd28d7",
+    "team": "unknown",
+    "topic": [
+      "IMVC",
+      "robust MVC"
+    ],
+    "first_seen": "2026-11-15",
+    "last_checked": "2026-11-15",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
     "title": "ORCA:Orthogonal Residual Consensus Alignment for Multi-View Clustering",
     "authors": [
       "Xiaojian Ding",
@@ -28,7 +90,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-11-14",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -55,11 +117,11 @@
     "id": "2026-communication-efficient-federated-multi-view-clustering-via-view-aware-q-26427246b8",
     "team": "unknown",
     "topic": [
-      "federated MVC",
-      "deep MVC"
+      "deep MVC",
+      "federated MVC"
     ],
     "first_seen": "2026-11-14",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -93,7 +155,7 @@
       "IMVC"
     ],
     "first_seen": "2026-11-14",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -122,7 +184,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-11-12",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -697,7 +759,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-10-01",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -727,7 +789,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-30",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -758,7 +820,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-29",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -1167,7 +1229,7 @@
       "MVC"
     ],
     "first_seen": "2026-09-15",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -1293,7 +1355,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -1388,7 +1450,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 72
   },
@@ -1452,7 +1514,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -1487,7 +1549,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -1590,7 +1652,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -1624,7 +1686,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -1657,7 +1719,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -1693,7 +1755,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-09-16",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 72
   },
@@ -1820,6 +1882,41 @@
     "relevance_score": 56
   },
   {
+    "title": "Robust Multi-Graph Contrastive Network for Incomplete Multi-View Clustering",
+    "authors": [
+      "Zhe Xue",
+      "Ya-Wen Li",
+      "Zhongchao Guan",
+      "Wenling Li",
+      "Meiyu Liang",
+      "Hai Zhou"
+    ],
+    "year": 2025,
+    "venue": "IEEE transactions on multimedia",
+    "doi": "10.1109/TMM.2023.3347639",
+    "arxiv_id": "",
+    "semantic_scholar_id": "35f2751263215938cbed02d4aef8f2a1b8edb9df",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/35f2751263215938cbed02d4aef8f2a1b8edb9df",
+    "code_url": "",
+    "abstract": "Food categorization is pivotal in numerous aspects of everyday life, assisting in the selection of food, managing diets, and addressing essential survival requirements. By leveraging the complementary information of various views, multi-view learning usually achieves superior performance compared to the single-view learning methods. However, characterized by the unrestrained openness of internet platforms and potential inconsistencies in food data collection processes, multi-view features often suffer from data loss, resulting in incomplete multi-view food data. Conventional multi-view clustering methods often falter in effectively capitalizing on the diverse correlations contained in food data, and exhibit limitations in dealing with the noise and irregularities pervading different views. Addressing these challenges, this paper presents the Robust Multi-Graph Contrastive network (RMGC) for multi-view food clustering. RMGC artfully combines multi-view representation learning with multi-graph contrastive regularization, creating a cohesive framework to manage incomplete multi-view data. By developing a multi-view encoding network, RMGC seamlessly blends various views into a cohesive representation, astutely assessing the significance of each view. More importantly, the proposed robust multi-graph contrastive regularization enhances the precision of the learned representation and successfully counteracts the noise and unreliability in multi-view data. The experiments conducted across several multi-view datasets manifest the effectiveness of RMGC, showing its superiority over existing methods. Our method not only making an advancement in food categorization but also contributes to the broader field of multi-view learning, offering innovative solutions for handling incomplete and noisy multi-view data.",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2025-robust-multi-graph-contrastive-network-for-incomplete-multi-view-cluster-10d3def0d8",
+    "team": "unknown",
+    "topic": [
+      "IMVC",
+      "contrastive MVC",
+      "robust MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-11-15",
+    "last_checked": "2026-11-15",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
     "title": "RJD-BASE: Multi-Modal Spectral Clustering via Randomized Joint Diagonalization",
     "authors": [
       "Haoze He",
@@ -1844,7 +1941,7 @@
       "MVC"
     ],
     "first_seen": "2026-11-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -2678,7 +2775,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-21",
-    "last_checked": "2026-09-19",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -3155,7 +3252,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-11-05",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -3282,7 +3379,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -3316,7 +3413,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-02",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -3351,7 +3448,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-02",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -3384,7 +3481,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-09",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -3444,7 +3541,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -3475,7 +3572,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -3504,7 +3601,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -3536,7 +3633,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -3636,7 +3733,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -3673,7 +3770,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 64
   },
@@ -3705,7 +3802,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 72
   },
@@ -3740,7 +3837,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -3775,7 +3872,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -3812,7 +3909,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -3849,7 +3946,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 56
   },
@@ -4763,7 +4860,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 51
   },
@@ -4792,7 +4889,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 67
   },
@@ -4826,7 +4923,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -4891,6 +4988,66 @@
     ],
     "first_seen": "2026-08-10",
     "last_checked": "2026-10-27",
+    "status": "new",
+    "relevance_score": 51
+  },
+  {
+    "title": "Incomplete multi-view clustering via structure exploration and missing-view inference",
+    "authors": [
+      "Zi-Yu Wang",
+      "Lusi Li",
+      "Xin Ning",
+      "Wen-Kai Tan",
+      "Yong-Xin Liu",
+      "H. Song"
+    ],
+    "year": 2023,
+    "venue": "Information Fusion",
+    "doi": "10.1016/j.inffus.2023.102123",
+    "arxiv_id": "",
+    "semantic_scholar_id": "d85bb82f47c9cb1618a1d87accfb46b566910077",
+    "openalex_id": "",
+    "pdf_url": "https://www.sciencedirect.com/science/article/am/pii/S1566253523004396",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2023-incomplete-multi-view-clustering-via-structure-exploration-and-missing-v-5e7d990b91",
+    "team": "lusi-li",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-11-15",
+    "last_checked": "2026-11-15",
+    "status": "new",
+    "relevance_score": 59
+  },
+  {
+    "title": "Bipartite Graph based Multi-view Clustering (Extended Abstract)",
+    "authors": [
+      "Lusi Li",
+      "Haibo He"
+    ],
+    "year": 2023,
+    "venue": "IEEE International Conference on Data Engineering",
+    "doi": "10.1109/ICDE55515.2023.00371",
+    "arxiv_id": "",
+    "semantic_scholar_id": "ddc965ca674b3d68433918920184892f843c68ff",
+    "openalex_id": "",
+    "pdf_url": "https://www.semanticscholar.org/paper/ddc965ca674b3d68433918920184892f843c68ff",
+    "code_url": "",
+    "abstract": "In existing graph-based multi-view clustering algorithms, consensus cluster structures are explored by constructing similarity graphs of multiple views and then fusing them into a unified superior graph. However, they overlook consensus information when learning each graph independently, resulting in the undesirable unified graph with biases. To this end, we proposed a framework named bipartite graph based multi-view clustering (BIGMC) in [1] to tackle this challenge. To summarize, the key idea of BIGMC is to employ a small number of uniform anchors to represent the consensus information across views. In this way, BIGMC creates a bipartite graph between data points and anchors for each view, which are then fused to generate a unified bipartite graph. The unified graph would in turn improve each view bipartite graph and the anchor set. Finally, the clusters are formed directly using the unified graph. In this extended abstract, we also summarize the effectiveness of BIGMC as shown in experimental results originally presented in [1].",
+    "source": [
+      "semantic_scholar"
+    ],
+    "id": "2023-bipartite-graph-based-multi-view-clustering-extended-abstract-b64ae5286b",
+    "team": "lusi-li",
+    "topic": [
+      "anchor graph"
+    ],
+    "first_seen": "2026-11-15",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 51
   },
@@ -5121,7 +5278,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-10-09",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -5253,7 +5410,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 75
   },
@@ -5284,7 +5441,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 67
   },
@@ -5316,7 +5473,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -5472,7 +5629,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-10-09",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 51
   },
@@ -5602,7 +5759,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -5988,7 +6145,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-05",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -6023,7 +6180,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -6385,7 +6542,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 59
   },
@@ -6417,7 +6574,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-14",
+    "last_checked": "2026-11-15",
     "status": "new",
     "relevance_score": 67
   },
