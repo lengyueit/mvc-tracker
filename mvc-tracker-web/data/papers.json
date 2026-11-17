@@ -1,5 +1,98 @@
 [
   {
+    "title": "Granular-Ball Guided Decoupled Graph Evolution for Reliable Incomplete Multi-view Clustering",
+    "authors": [
+      "Xi Chen",
+      "Yonghao Wu",
+      "Li Yang",
+      "Shuping Zhao",
+      "Bob Zhang"
+    ],
+    "year": 2026,
+    "venue": "Lecture notes in computer science",
+    "doi": "10.1007/978-981-92-7198-6_10",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7226004186",
+    "pdf_url": "https://doi.org/10.1007/978-981-92-7198-6_10",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-granular-ball-guided-decoupled-graph-evolution-for-reliable-incomplete-m-39f0c938a8",
+    "team": "unknown",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-11-17",
+    "last_checked": "2026-11-17",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
+    "title": "Teacher-Guided Local Structure and Global Prototype Learning for Incomplete Multi-view Clustering",
+    "authors": [
+      "Yanping Li",
+      "Xi Chen",
+      "Shuping Zhao"
+    ],
+    "year": 2026,
+    "venue": "Lecture notes in computer science",
+    "doi": "10.1007/978-981-92-7198-6_5",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7226008346",
+    "pdf_url": "https://doi.org/10.1007/978-981-92-7198-6_5",
+    "code_url": "",
+    "abstract": "",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-teacher-guided-local-structure-and-global-prototype-learning-for-incompl-3c22880ffe",
+    "team": "unknown",
+    "topic": [
+      "IMVC"
+    ],
+    "first_seen": "2026-11-17",
+    "last_checked": "2026-11-17",
+    "status": "new",
+    "relevance_score": 64
+  },
+  {
+    "title": "ORCA:Orthogonal Residual Consensus Alignment for Multi-View Clustering",
+    "authors": [
+      "Xiaojian Ding",
+      "Xian Li",
+      "Xiaoying Zhu",
+      "Lin Zhao",
+      "Kaixiang Wang"
+    ],
+    "year": 2026,
+    "venue": "arXiv (Cornell University)",
+    "doi": "10.48550/arxiv.2611.16749",
+    "arxiv_id": "",
+    "semantic_scholar_id": "",
+    "openalex_id": "https://openalex.org/W7226008846",
+    "pdf_url": "https://arxiv.org/pdf/2611.16749",
+    "code_url": "",
+    "abstract": "Deep multi-view clustering often suffers from redundant information accumulation during fusion and indiscriminate alignment across representation levels. We propose Orthogonal Residual Consensus Alignment (ORCA) to address these challenges. Its semantic incremental recurrent fusion module extracts cross-view orthogonal residuals as non-redundant increments and adaptively weights recurrent states through divergence-guided gating. Its consensus-calibrated hierarchical contrastive alignment module uses the global consensus to weight contrastive alignment of view-level, pairwise, and recurrent representations. Together, these modules balance view-specific structure with cross-view consistency. Experiments on five benchmarks against fifteen competing methods demonstrate ORCA's effectiveness, including a 5.25 percent accuracy improvement over the strongest baseline on 100leaves. Ablation studies validate both modules. Code is available at https://github.com/XiaojianDing/2026-NeurIPS-ORCA.",
+    "source": [
+      "openalex"
+    ],
+    "id": "2026-orca-orthogonal-residual-consensus-alignment-for-multi-view-clustering-102c92dab4",
+    "team": "unknown",
+    "topic": [
+      "continual MVC",
+      "contrastive MVC",
+      "deep MVC"
+    ],
+    "first_seen": "2026-11-17",
+    "last_checked": "2026-11-17",
+    "status": "new",
+    "relevance_score": 56
+  },
+  {
     "title": "DvMF: Uncertainty-Aware Disentangled Representation Learning for Multi-View Clustering",
     "authors": [
       "Jingyi Chen",
@@ -31,7 +124,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-11-16",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -65,7 +158,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-11-16",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -127,7 +220,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-11-15",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -160,7 +253,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-11-14",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -191,7 +284,7 @@
       "federated MVC"
     ],
     "first_seen": "2026-11-14",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -225,7 +318,7 @@
       "IMVC"
     ],
     "first_seen": "2026-11-14",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -829,7 +922,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-10-01",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -859,7 +952,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-30",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -890,7 +983,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-09-29",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -1299,7 +1392,7 @@
       "MVC"
     ],
     "first_seen": "2026-09-15",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -1425,7 +1518,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-18",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -1520,7 +1613,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 72
   },
@@ -1584,7 +1677,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -1619,7 +1712,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -1722,7 +1815,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -1756,7 +1849,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -1789,7 +1882,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -1825,7 +1918,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 72
   },
@@ -2127,11 +2220,11 @@
     "topic": [
       "IMVC",
       "contrastive MVC",
-      "robust MVC",
-      "deep MVC"
+      "deep MVC",
+      "robust MVC"
     ],
     "first_seen": "2026-11-15",
-    "last_checked": "2026-11-15",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -2160,7 +2253,7 @@
       "MVC"
     ],
     "first_seen": "2026-11-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -2994,7 +3087,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-21",
-    "last_checked": "2026-11-15",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -3402,7 +3495,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-11-12",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 72
   },
@@ -3471,7 +3564,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-13",
-    "last_checked": "2026-11-15",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -3598,7 +3691,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-15",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -3632,7 +3725,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-15",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -3667,7 +3760,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-15",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -3700,7 +3793,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-15",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -3760,7 +3853,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -3791,7 +3884,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -3820,7 +3913,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -3852,7 +3945,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -3952,7 +4045,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -3989,7 +4082,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 64
   },
@@ -4021,7 +4114,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 72
   },
@@ -4056,7 +4149,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -4091,7 +4184,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -4128,7 +4221,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -4165,7 +4258,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 56
   },
@@ -4748,7 +4841,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-11-06",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -4781,7 +4874,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -5079,7 +5172,7 @@
       "MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 51
   },
@@ -5108,7 +5201,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 67
   },
@@ -5142,7 +5235,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -5238,7 +5331,7 @@
       "IMVC"
     ],
     "first_seen": "2026-11-15",
-    "last_checked": "2026-11-15",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -5266,7 +5359,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-11-15",
-    "last_checked": "2026-11-15",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 51
   },
@@ -5497,7 +5590,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-11-15",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -5530,7 +5623,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-11-01",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -5629,7 +5722,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 75
   },
@@ -5660,7 +5753,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 67
   },
@@ -5692,7 +5785,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -5848,7 +5941,7 @@
       "anchor graph"
     ],
     "first_seen": "2026-08-16",
-    "last_checked": "2026-11-15",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 51
   },
@@ -5978,7 +6071,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -6297,7 +6390,7 @@
       "IMVC"
     ],
     "first_seen": "2026-08-14",
-    "last_checked": "2026-11-06",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -6364,7 +6457,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-15",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -6399,7 +6492,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -6761,7 +6854,7 @@
       "robust MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 59
   },
@@ -6793,7 +6886,7 @@
       "deep MVC"
     ],
     "first_seen": "2026-08-10",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 67
   },
@@ -7079,7 +7172,7 @@
       "safe MVC"
     ],
     "first_seen": "2026-08-11",
-    "last_checked": "2026-11-16",
+    "last_checked": "2026-11-17",
     "status": "new",
     "relevance_score": 59
   },
